@@ -1,0 +1,1001 @@
+event_id,timestamp,user_id,session_id,region,category,event_type,device,amount_usd,latency_ms,hdfs_partition,risk_score,is_fraud_flagged
+EVT-100001,2026-10-25 10:00:03,USR-1303,SES-5432,North America,Electronics,page_view,Mobile,0.0,26,/hdfs/clickstream/region=North_America/date=2026-10-25,0.285,0
+EVT-100002,2026-10-25 10:00:04,USR-1082,SES-5432,India,Electronics,add_to_cart,Mobile,384.45,105,/hdfs/clickstream/region=India/date=2026-10-25,0.311,0
+EVT-100003,2026-10-25 10:00:24,USR-1041,SES-5565,India,Electronics,checkout,Mobile,625.3,93,/hdfs/clickstream/region=India/date=2026-10-25,0.185,0
+EVT-100004,2026-10-25 10:00:24,USR-1233,SES-5373,Europe,Fashion,checkout,Mobile,78.56,59,/hdfs/clickstream/region=Europe/date=2026-10-25,0.104,0
+EVT-100005,2026-10-25 10:00:20,USR-1274,SES-5250,India,Electronics,page_view,Tablet,0.0,59,/hdfs/clickstream/region=India/date=2026-10-25,0.253,0
+EVT-100006,2026-10-25 10:00:18,USR-1109,SES-5580,North America,Electronics,purchase,Desktop,412.09,201,/hdfs/clickstream/region=North_America/date=2026-10-25,0.31,0
+EVT-100007,2026-10-25 10:00:42,USR-1072,SES-5252,India,Fashion,page_view,Desktop,0.0,208,/hdfs/clickstream/region=India/date=2026-10-25,0.185,0
+EVT-100008,2026-10-25 10:00:24,USR-1079,SES-5163,North America,Electronics,add_to_cart,Desktop,651.2,220,/hdfs/clickstream/region=North_America/date=2026-10-25,0.037,0
+EVT-100009,2026-10-25 10:00:54,USR-1284,SES-5011,Europe,Fashion,page_view,Desktop,0.0,192,/hdfs/clickstream/region=Europe/date=2026-10-25,0.188,0
+EVT-100010,2026-10-25 10:01:00,USR-1257,SES-5182,Europe,Fashion,add_to_cart,Mobile,127.17,147,/hdfs/clickstream/region=Europe/date=2026-10-25,0.335,0
+EVT-100011,2026-10-25 10:00:44,USR-1192,SES-5165,Asia-Pacific,Home & Kitchen,page_view,Desktop,0.0,156,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.239,0
+EVT-100012,2026-10-25 10:00:36,USR-1044,SES-5497,Asia-Pacific,Digital Goods,purchase,Desktop,122.95,226,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.106,0
+EVT-100013,2026-10-25 10:01:05,USR-1160,SES-5408,India,Home & Kitchen,checkout,Mobile,371.52,189,/hdfs/clickstream/region=India/date=2026-10-25,0.096,0
+EVT-100014,2026-10-25 10:00:28,USR-1118,SES-5069,North America,Cloud Services,add_to_cart,Mobile,374.13,26,/hdfs/clickstream/region=North_America/date=2026-10-25,0.046,0
+EVT-100015,2026-10-25 10:01:00,USR-1293,SES-5590,Europe,Electronics,page_view,Desktop,0.0,139,/hdfs/clickstream/region=Europe/date=2026-10-25,0.097,0
+EVT-100016,2026-10-25 10:01:52,USR-1217,SES-5420,India,Cloud Services,page_view,Mobile,0.0,137,/hdfs/clickstream/region=India/date=2026-10-25,0.257,0
+EVT-100017,2026-10-25 10:01:08,USR-1217,SES-5187,Asia-Pacific,Electronics,add_to_cart,Desktop,200.61,89,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.213,0
+EVT-100018,2026-10-25 10:00:54,USR-1026,SES-5553,North America,Home & Kitchen,page_view,Desktop,0.0,232,/hdfs/clickstream/region=North_America/date=2026-10-25,0.328,0
+EVT-100019,2026-10-25 10:02:51,USR-1147,SES-5433,India,Electronics,checkout,Mobile,660.53,196,/hdfs/clickstream/region=India/date=2026-10-25,0.021,0
+EVT-100020,2026-10-25 10:00:40,USR-1026,SES-5598,Asia-Pacific,Digital Goods,add_to_cart,Desktop,85.91,140,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.289,0
+EVT-100021,2026-10-25 10:01:24,USR-1036,SES-5069,North America,Home & Kitchen,page_view,Tablet,0.0,190,/hdfs/clickstream/region=North_America/date=2026-10-25,0.049,0
+EVT-100022,2026-10-25 10:02:34,USR-1123,SES-5271,Asia-Pacific,Cloud Services,purchase,Mobile,114.58,119,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.134,0
+EVT-100023,2026-10-25 10:00:46,USR-1235,SES-5576,India,Fashion,page_view,Tablet,0.0,43,/hdfs/clickstream/region=India/date=2026-10-25,0.357,0
+EVT-100024,2026-10-25 10:02:00,USR-1190,SES-5291,India,Electronics,page_view,Tablet,0.0,58,/hdfs/clickstream/region=India/date=2026-10-25,0.337,0
+EVT-100025,2026-10-25 10:00:50,USR-1342,SES-5567,North America,Fashion,page_view,Tablet,0.0,94,/hdfs/clickstream/region=North_America/date=2026-10-25,0.311,0
+EVT-100026,2026-10-25 10:02:36,USR-1259,SES-5500,Asia-Pacific,Electronics,checkout,Mobile,1303.32,82,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.143,0
+EVT-100027,2026-10-25 10:00:54,USR-1171,SES-5133,Asia-Pacific,Home & Kitchen,page_view,Mobile,0.0,181,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.12,0
+EVT-100028,2026-10-25 10:01:24,USR-1039,SES-5152,Asia-Pacific,Electronics,page_view,Desktop,0.0,157,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.222,0
+EVT-100029,2026-10-25 10:02:25,USR-1342,SES-5105,India,Cloud Services,add_to_cart,Mobile,397.25,108,/hdfs/clickstream/region=India/date=2026-10-25,0.149,0
+EVT-100030,2026-10-25 10:02:30,USR-1084,SES-5181,Europe,Home & Kitchen,page_view,Desktop,0.0,123,/hdfs/clickstream/region=Europe/date=2026-10-25,0.076,0
+EVT-100031,2026-10-25 10:02:35,USR-1137,SES-5163,India,Fashion,page_view,Tablet,0.0,219,/hdfs/clickstream/region=India/date=2026-10-25,0.309,0
+EVT-100032,2026-10-25 10:04:48,USR-1180,SES-5312,Europe,Cloud Services,page_view,Mobile,0.0,228,/hdfs/clickstream/region=Europe/date=2026-10-25,0.092,0
+EVT-100033,2026-10-25 10:01:39,USR-1143,SES-5359,Europe,Electronics,page_view,Mobile,0.0,182,/hdfs/clickstream/region=Europe/date=2026-10-25,0.138,0
+EVT-100034,2026-10-25 10:03:58,USR-1161,SES-5446,North America,Fashion,checkout,Mobile,86.39,173,/hdfs/clickstream/region=North_America/date=2026-10-25,0.034,0
+EVT-100035,2026-10-25 10:02:55,USR-1187,SES-5441,Asia-Pacific,Electronics,purchase,Mobile,179.03,35,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.358,0
+EVT-100036,2026-10-25 10:02:24,USR-1099,SES-5430,Asia-Pacific,Digital Goods,add_to_cart,Desktop,55.67,188,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.271,0
+EVT-100037,2026-10-25 10:05:33,USR-1227,SES-5452,Asia-Pacific,Fashion,purchase,Desktop,25.1,190,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.229,0
+EVT-100038,2026-10-25 10:03:48,USR-1116,SES-5203,India,Cloud Services,purchase,Desktop,153.77,55,/hdfs/clickstream/region=India/date=2026-10-25,0.315,0
+EVT-100039,2026-10-25 10:05:12,USR-1323,SES-5589,India,Electronics,page_view,Desktop,0.0,67,/hdfs/clickstream/region=India/date=2026-10-25,0.046,0
+EVT-100040,2026-10-25 10:02:00,USR-1218,SES-5224,Europe,Cloud Services,page_view,Mobile,0.0,63,/hdfs/clickstream/region=Europe/date=2026-10-25,0.268,0
+EVT-100041,2026-10-25 10:02:03,USR-1234,SES-5136,Europe,Fashion,page_view,Mobile,0.0,223,/hdfs/clickstream/region=Europe/date=2026-10-25,0.35,0
+EVT-100042,2026-10-25 10:06:18,USR-1082,SES-5486,North America,Cloud Services,add_to_cart,Mobile,465.04,133,/hdfs/clickstream/region=North_America/date=2026-10-25,0.346,0
+EVT-100043,2026-10-25 10:05:01,USR-1277,SES-5082,India,Electronics,add_to_cart,Desktop,813.33,53,/hdfs/clickstream/region=India/date=2026-10-25,0.118,0
+EVT-100044,2026-10-25 10:05:08,USR-1278,SES-5477,India,Cloud Services,page_view,Mobile,0.0,124,/hdfs/clickstream/region=India/date=2026-10-25,0.169,0
+EVT-100045,2026-10-25 10:01:30,USR-1295,SES-5389,India,Home & Kitchen,page_view,Desktop,0.0,140,/hdfs/clickstream/region=India/date=2026-10-25,0.361,0
+EVT-100046,2026-10-25 10:06:08,USR-1249,SES-5029,India,Cloud Services,checkout,Desktop,444.55,117,/hdfs/clickstream/region=India/date=2026-10-25,0.099,0
+EVT-100047,2026-10-25 10:03:08,USR-1319,SES-5546,India,Fashion,page_view,Mobile,0.0,24,/hdfs/clickstream/region=India/date=2026-10-25,0.188,0
+EVT-100048,2026-10-25 10:05:36,USR-1195,SES-5284,Asia-Pacific,Fashion,add_to_cart,Mobile,67.71,210,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.184,0
+EVT-100049,2026-10-25 10:01:38,USR-1319,SES-5156,Asia-Pacific,Cloud Services,checkout,Mobile,360.21,332,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.832,1
+EVT-100050,2026-10-25 10:03:20,USR-1160,SES-5110,India,Fashion,add_to_cart,Mobile,64.43,166,/hdfs/clickstream/region=India/date=2026-10-25,0.061,0
+EVT-100051,2026-10-25 10:05:06,USR-1308,SES-5123,India,Electronics,add_to_cart,Tablet,647.55,221,/hdfs/clickstream/region=India/date=2026-10-25,0.057,0
+EVT-100052,2026-10-25 10:06:04,USR-1007,SES-5430,Asia-Pacific,Home & Kitchen,page_view,Mobile,0.0,228,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.153,0
+EVT-100053,2026-10-25 10:03:32,USR-1223,SES-5180,North America,Cloud Services,page_view,Desktop,0.0,205,/hdfs/clickstream/region=North_America/date=2026-10-25,0.186,0
+EVT-100054,2026-10-25 10:02:42,USR-1143,SES-5461,North America,Fashion,add_to_cart,Desktop,219.05,80,/hdfs/clickstream/region=North_America/date=2026-10-25,0.108,0
+EVT-100055,2026-10-25 10:05:30,USR-1285,SES-5010,Europe,Fashion,add_to_cart,Mobile,139.57,150,/hdfs/clickstream/region=Europe/date=2026-10-25,0.121,0
+EVT-100056,2026-10-25 10:04:40,USR-1208,SES-5249,Asia-Pacific,Electronics,add_to_cart,Mobile,1128.36,96,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.053,0
+EVT-100057,2026-10-25 10:04:45,USR-1162,SES-5122,Europe,Cloud Services,add_to_cart,Mobile,558.84,208,/hdfs/clickstream/region=Europe/date=2026-10-25,0.103,0
+EVT-100058,2026-10-25 10:05:48,USR-1052,SES-5198,North America,Home & Kitchen,page_view,Mobile,0.0,93,/hdfs/clickstream/region=North_America/date=2026-10-25,0.194,0
+EVT-100059,2026-10-25 10:01:58,USR-1284,SES-5299,India,Electronics,page_view,Mobile,0.0,196,/hdfs/clickstream/region=India/date=2026-10-25,0.119,0
+EVT-100060,2026-10-25 10:03:00,USR-1034,SES-5410,Asia-Pacific,Fashion,checkout,Mobile,137.5,143,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.111,0
+EVT-100061,2026-10-25 10:06:06,USR-1044,SES-5254,India,Fashion,page_view,Mobile,0.0,48,/hdfs/clickstream/region=India/date=2026-10-25,0.223,0
+EVT-100062,2026-10-25 10:02:04,USR-1313,SES-5101,North America,Cloud Services,add_to_cart,Desktop,410.93,213,/hdfs/clickstream/region=North_America/date=2026-10-25,0.174,0
+EVT-100063,2026-10-25 10:05:15,USR-1148,SES-5289,India,Electronics,add_to_cart,Mobile,351.17,197,/hdfs/clickstream/region=India/date=2026-10-25,0.125,0
+EVT-100064,2026-10-25 10:05:20,USR-1218,SES-5117,Europe,Electronics,page_view,Mobile,0.0,157,/hdfs/clickstream/region=Europe/date=2026-10-25,0.305,0
+EVT-100065,2026-10-25 10:06:30,USR-1305,SES-5582,India,Electronics,page_view,Mobile,0.0,91,/hdfs/clickstream/region=India/date=2026-10-25,0.041,0
+EVT-100066,2026-10-25 10:09:54,USR-1225,SES-5082,North America,Cloud Services,page_view,Mobile,0.0,171,/hdfs/clickstream/region=North_America/date=2026-10-25,0.118,0
+EVT-100067,2026-10-25 10:02:14,USR-1345,SES-5275,India,Cloud Services,page_view,Mobile,0.0,165,/hdfs/clickstream/region=India/date=2026-10-25,0.053,0
+EVT-100068,2026-10-25 10:04:32,USR-1300,SES-5446,India,Home & Kitchen,page_view,Desktop,0.0,180,/hdfs/clickstream/region=India/date=2026-10-25,0.35,0
+EVT-100069,2026-10-25 10:03:27,USR-1083,SES-5337,Europe,Digital Goods,page_view,Mobile,0.0,123,/hdfs/clickstream/region=Europe/date=2026-10-25,0.136,0
+EVT-100070,2026-10-25 10:02:20,USR-1337,SES-5555,Europe,Electronics,purchase,Desktop,851.63,136,/hdfs/clickstream/region=Europe/date=2026-10-25,0.166,0
+EVT-100071,2026-10-25 10:02:22,USR-1105,SES-5273,North America,Electronics,page_view,Desktop,0.0,158,/hdfs/clickstream/region=North_America/date=2026-10-25,0.245,0
+EVT-100072,2026-10-25 10:06:00,USR-1059,SES-5472,India,Electronics,purchase,Mobile,158.4,48,/hdfs/clickstream/region=India/date=2026-10-25,0.025,0
+EVT-100073,2026-10-25 10:04:52,USR-1036,SES-5282,North America,Electronics,purchase,Mobile,1058.2,215,/hdfs/clickstream/region=North_America/date=2026-10-25,0.072,0
+EVT-100074,2026-10-25 10:11:06,USR-1177,SES-5340,Europe,Cloud Services,purchase,Mobile,326.07,159,/hdfs/clickstream/region=Europe/date=2026-10-25,0.196,0
+EVT-100075,2026-10-25 10:10:00,USR-1198,SES-5155,Europe,Cloud Services,purchase,Desktop,287.76,144,/hdfs/clickstream/region=Europe/date=2026-10-25,0.135,0
+EVT-100076,2026-10-25 10:05:04,USR-1039,SES-5480,Asia-Pacific,Electronics,purchase,Mobile,253.48,218,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.072,0
+EVT-100077,2026-10-25 10:11:33,USR-1278,SES-5036,Asia-Pacific,Cloud Services,add_to_cart,Desktop,821.54,176,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.279,0
+EVT-100078,2026-10-25 10:02:36,USR-1024,SES-5332,India,Fashion,purchase,Tablet,48.13,221,/hdfs/clickstream/region=India/date=2026-10-25,0.18,0
+EVT-100079,2026-10-25 10:05:16,USR-1088,SES-5179,India,Cloud Services,page_view,Mobile,0.0,38,/hdfs/clickstream/region=India/date=2026-10-25,0.168,0
+EVT-100080,2026-10-25 10:12:00,USR-1148,SES-5559,North America,Cloud Services,add_to_cart,Mobile,282.0,58,/hdfs/clickstream/region=North_America/date=2026-10-25,0.344,0
+EVT-100081,2026-10-25 10:10:48,USR-1293,SES-5367,India,Digital Goods,purchase,Mobile,149.91,165,/hdfs/clickstream/region=India/date=2026-10-25,0.327,0
+EVT-100082,2026-10-25 10:02:44,USR-1290,SES-5050,India,Fashion,page_view,Desktop,0.0,173,/hdfs/clickstream/region=India/date=2026-10-25,0.162,0
+EVT-100083,2026-10-25 10:05:32,USR-1322,SES-5099,Europe,Home & Kitchen,purchase,Desktop,112.25,178,/hdfs/clickstream/region=Europe/date=2026-10-25,0.292,0
+EVT-100084,2026-10-25 10:04:12,USR-1152,SES-5334,North America,Electronics,page_view,Mobile,0.0,209,/hdfs/clickstream/region=North_America/date=2026-10-25,0.284,0
+EVT-100085,2026-10-25 10:08:30,USR-1174,SES-5117,North America,Electronics,checkout,Desktop,606.59,137,/hdfs/clickstream/region=North_America/date=2026-10-25,0.36,0
+EVT-100086,2026-10-25 10:08:36,USR-1300,SES-5390,Asia-Pacific,Electronics,purchase,Desktop,4427.91,631,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.876,1
+EVT-100087,2026-10-25 10:13:03,USR-1155,SES-5418,North America,Cloud Services,add_to_cart,Mobile,900.56,47,/hdfs/clickstream/region=North_America/date=2026-10-25,0.249,0
+EVT-100088,2026-10-25 10:05:52,USR-1199,SES-5464,India,Digital Goods,page_view,Mobile,0.0,112,/hdfs/clickstream/region=India/date=2026-10-25,0.055,0
+EVT-100089,2026-10-25 10:02:58,USR-1190,SES-5222,Europe,Home & Kitchen,purchase,Mobile,77.63,131,/hdfs/clickstream/region=Europe/date=2026-10-25,0.167,0
+EVT-100090,2026-10-25 10:10:30,USR-1032,SES-5407,North America,Electronics,page_view,Tablet,0.0,88,/hdfs/clickstream/region=North_America/date=2026-10-25,0.152,0
+EVT-100091,2026-10-25 10:07:35,USR-1036,SES-5567,India,Electronics,checkout,Mobile,1001.48,71,/hdfs/clickstream/region=India/date=2026-10-25,0.108,0
+EVT-100092,2026-10-25 10:03:04,USR-1142,SES-5148,North America,Home & Kitchen,page_view,Desktop,0.0,51,/hdfs/clickstream/region=North_America/date=2026-10-25,0.304,0
+EVT-100093,2026-10-25 10:10:51,USR-1122,SES-5331,North America,Home & Kitchen,page_view,Desktop,0.0,22,/hdfs/clickstream/region=North_America/date=2026-10-25,0.067,0
+EVT-100094,2026-10-25 10:03:08,USR-1338,SES-5533,India,Electronics,add_to_cart,Mobile,1111.73,95,/hdfs/clickstream/region=India/date=2026-10-25,0.201,0
+EVT-100095,2026-10-25 10:04:45,USR-1252,SES-5454,North America,Digital Goods,page_view,Mobile,0.0,36,/hdfs/clickstream/region=North_America/date=2026-10-25,0.165,0
+EVT-100096,2026-10-25 10:11:12,USR-1196,SES-5543,Asia-Pacific,Cloud Services,page_view,Mobile,0.0,93,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.245,0
+EVT-100097,2026-10-25 10:08:05,USR-1221,SES-5462,North America,Fashion,page_view,Desktop,0.0,76,/hdfs/clickstream/region=North_America/date=2026-10-25,0.327,0
+EVT-100098,2026-10-25 10:11:26,USR-1341,SES-5261,North America,Home & Kitchen,page_view,Desktop,0.0,113,/hdfs/clickstream/region=North_America/date=2026-10-25,0.133,0
+EVT-100099,2026-10-25 10:13:12,USR-1050,SES-5381,Asia-Pacific,Fashion,page_view,Mobile,0.0,225,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.051,0
+EVT-100100,2026-10-25 10:05:00,USR-1296,SES-5519,India,Electronics,purchase,Mobile,3529.11,318,/hdfs/clickstream/region=India/date=2026-10-25,0.846,1
+EVT-100101,2026-10-25 10:03:22,USR-1312,SES-5273,India,Cloud Services,checkout,Mobile,179.95,25,/hdfs/clickstream/region=India/date=2026-10-25,0.222,0
+EVT-100102,2026-10-25 10:06:48,USR-1290,SES-5410,India,Fashion,page_view,Mobile,0.0,35,/hdfs/clickstream/region=India/date=2026-10-25,0.022,0
+EVT-100103,2026-10-25 10:13:44,USR-1233,SES-5349,India,Fashion,page_view,Desktop,0.0,58,/hdfs/clickstream/region=India/date=2026-10-25,0.097,0
+EVT-100104,2026-10-25 10:15:36,USR-1311,SES-5452,India,Fashion,checkout,Mobile,61.99,124,/hdfs/clickstream/region=India/date=2026-10-25,0.118,0
+EVT-100105,2026-10-25 10:15:45,USR-1270,SES-5315,India,Home & Kitchen,page_view,Mobile,0.0,29,/hdfs/clickstream/region=India/date=2026-10-25,0.122,0
+EVT-100106,2026-10-25 10:07:04,USR-1131,SES-5296,India,Digital Goods,page_view,Mobile,0.0,101,/hdfs/clickstream/region=India/date=2026-10-25,0.36,0
+EVT-100107,2026-10-25 10:08:55,USR-1257,SES-5572,India,Cloud Services,page_view,Mobile,0.0,231,/hdfs/clickstream/region=India/date=2026-10-25,0.212,0
+EVT-100108,2026-10-25 10:16:12,USR-1040,SES-5320,Europe,Cloud Services,page_view,Desktop,0.0,165,/hdfs/clickstream/region=Europe/date=2026-10-25,0.177,0
+EVT-100109,2026-10-25 10:12:43,USR-1046,SES-5447,North America,Cloud Services,add_to_cart,Mobile,920.59,234,/hdfs/clickstream/region=North_America/date=2026-10-25,0.268,0
+EVT-100110,2026-10-25 10:12:50,USR-1114,SES-5341,India,Cloud Services,page_view,Mobile,0.0,217,/hdfs/clickstream/region=India/date=2026-10-25,0.333,0
+EVT-100111,2026-10-25 10:12:57,USR-1180,SES-5151,India,Cloud Services,page_view,Mobile,0.0,78,/hdfs/clickstream/region=India/date=2026-10-25,0.346,0
+EVT-100112,2026-10-25 10:05:36,USR-1091,SES-5505,India,Electronics,page_view,Mobile,0.0,136,/hdfs/clickstream/region=India/date=2026-10-25,0.293,0
+EVT-100113,2026-10-25 10:13:11,USR-1322,SES-5323,Europe,Home & Kitchen,page_view,Tablet,0.0,56,/hdfs/clickstream/region=Europe/date=2026-10-25,0.223,0
+EVT-100114,2026-10-25 10:11:24,USR-1040,SES-5092,North America,Cloud Services,add_to_cart,Desktop,386.19,175,/hdfs/clickstream/region=North_America/date=2026-10-25,0.153,0
+EVT-100115,2026-10-25 10:07:40,USR-1032,SES-5461,North America,Cloud Services,add_to_cart,Tablet,115.69,44,/hdfs/clickstream/region=North_America/date=2026-10-25,0.238,0
+EVT-100116,2026-10-25 10:11:36,USR-1199,SES-5418,Europe,Home & Kitchen,purchase,Mobile,416.57,216,/hdfs/clickstream/region=Europe/date=2026-10-25,0.24,0
+EVT-100117,2026-10-25 10:07:48,USR-1171,SES-5083,India,Fashion,checkout,Desktop,184.42,167,/hdfs/clickstream/region=India/date=2026-10-25,0.256,0
+EVT-100118,2026-10-25 10:07:52,USR-1305,SES-5086,Europe,Digital Goods,page_view,Desktop,0.0,97,/hdfs/clickstream/region=Europe/date=2026-10-25,0.258,0
+EVT-100119,2026-10-25 10:05:57,USR-1331,SES-5433,North America,Fashion,page_view,Mobile,0.0,148,/hdfs/clickstream/region=North_America/date=2026-10-25,0.273,0
+EVT-100120,2026-10-25 10:18:00,USR-1099,SES-5231,India,Cloud Services,page_view,Mobile,0.0,53,/hdfs/clickstream/region=India/date=2026-10-25,0.361,0
+EVT-100121,2026-10-25 10:08:04,USR-1084,SES-5185,India,Electronics,checkout,Mobile,837.9,230,/hdfs/clickstream/region=India/date=2026-10-25,0.242,0
+EVT-100122,2026-10-25 10:10:10,USR-1274,SES-5244,Europe,Fashion,purchase,Desktop,194.1,97,/hdfs/clickstream/region=Europe/date=2026-10-25,0.291,0
+EVT-100123,2026-10-25 10:08:12,USR-1103,SES-5141,Asia-Pacific,Home & Kitchen,purchase,Mobile,332.39,82,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.201,0
+EVT-100124,2026-10-25 10:06:12,USR-1146,SES-5085,India,Cloud Services,page_view,Tablet,0.0,213,/hdfs/clickstream/region=India/date=2026-10-25,0.276,0
+EVT-100125,2026-10-25 10:16:40,USR-1258,SES-5382,India,Cloud Services,add_to_cart,Desktop,872.14,78,/hdfs/clickstream/region=India/date=2026-10-25,0.169,0
+EVT-100126,2026-10-25 10:14:42,USR-1075,SES-5140,North America,Electronics,page_view,Mobile,0.0,27,/hdfs/clickstream/region=North_America/date=2026-10-25,0.056,0
+EVT-100127,2026-10-25 10:16:56,USR-1057,SES-5295,India,Home & Kitchen,add_to_cart,Mobile,70.11,78,/hdfs/clickstream/region=India/date=2026-10-25,0.321,0
+EVT-100128,2026-10-25 10:06:24,USR-1256,SES-5548,India,Electronics,page_view,Desktop,0.0,22,/hdfs/clickstream/region=India/date=2026-10-25,0.185,0
+EVT-100129,2026-10-25 10:15:03,USR-1035,SES-5538,North America,Fashion,add_to_cart,Mobile,159.11,157,/hdfs/clickstream/region=North_America/date=2026-10-25,0.208,0
+EVT-100130,2026-10-25 10:15:10,USR-1124,SES-5106,North America,Digital Goods,add_to_cart,Mobile,12.27,215,/hdfs/clickstream/region=North_America/date=2026-10-25,0.304,0
+EVT-100131,2026-10-25 10:08:44,USR-1238,SES-5490,North America,Home & Kitchen,page_view,Mobile,0.0,179,/hdfs/clickstream/region=North_America/date=2026-10-25,0.142,0
+EVT-100132,2026-10-25 10:17:36,USR-1279,SES-5484,India,Electronics,add_to_cart,Tablet,169.19,82,/hdfs/clickstream/region=India/date=2026-10-25,0.132,0
+EVT-100133,2026-10-25 10:15:31,USR-1140,SES-5127,India,Fashion,page_view,Desktop,0.0,222,/hdfs/clickstream/region=India/date=2026-10-25,0.037,0
+EVT-100134,2026-10-25 10:06:42,USR-1218,SES-5080,India,Home & Kitchen,add_to_cart,Desktop,229.06,128,/hdfs/clickstream/region=India/date=2026-10-25,0.207,0
+EVT-100135,2026-10-25 10:15:45,USR-1229,SES-5043,North America,Home & Kitchen,add_to_cart,Mobile,269.0,204,/hdfs/clickstream/region=North_America/date=2026-10-25,0.268,0
+EVT-100136,2026-10-25 10:04:32,USR-1074,SES-5448,Asia-Pacific,Cloud Services,purchase,Mobile,904.68,26,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.308,0
+EVT-100137,2026-10-25 10:06:51,USR-1294,SES-5140,India,Electronics,add_to_cart,Mobile,1382.79,153,/hdfs/clickstream/region=India/date=2026-10-25,0.18,0
+EVT-100138,2026-10-25 10:09:12,USR-1256,SES-5530,India,Electronics,page_view,Tablet,0.0,117,/hdfs/clickstream/region=India/date=2026-10-25,0.029,0
+EVT-100139,2026-10-25 10:09:16,USR-1228,SES-5089,Asia-Pacific,Electronics,checkout,Desktop,405.38,225,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.069,0
+EVT-100140,2026-10-25 10:14:00,USR-1154,SES-5161,Europe,Home & Kitchen,page_view,Mobile,0.0,200,/hdfs/clickstream/region=Europe/date=2026-10-25,0.043,0
+EVT-100141,2026-10-25 10:11:45,USR-1072,SES-5242,Europe,Fashion,page_view,Mobile,0.0,220,/hdfs/clickstream/region=Europe/date=2026-10-25,0.101,0
+EVT-100142,2026-10-25 10:21:18,USR-1270,SES-5420,North America,Cloud Services,add_to_cart,Mobile,192.9,214,/hdfs/clickstream/region=North_America/date=2026-10-25,0.278,0
+EVT-100143,2026-10-25 10:21:27,USR-1349,SES-5529,North America,Fashion,page_view,Mobile,0.0,106,/hdfs/clickstream/region=North_America/date=2026-10-25,0.047,0
+EVT-100144,2026-10-25 10:14:24,USR-1085,SES-5165,India,Home & Kitchen,add_to_cart,Desktop,369.92,100,/hdfs/clickstream/region=India/date=2026-10-25,0.207,0
+EVT-100145,2026-10-25 10:07:15,USR-1258,SES-5172,Asia-Pacific,Electronics,purchase,Mobile,497.78,169,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.245,0
+EVT-100146,2026-10-25 10:14:36,USR-1334,SES-5215,Asia-Pacific,Electronics,add_to_cart,Desktop,924.83,214,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.036,0
+EVT-100147,2026-10-25 10:14:42,USR-1248,SES-5250,North America,Fashion,page_view,Desktop,0.0,224,/hdfs/clickstream/region=North_America/date=2026-10-25,0.216,0
+EVT-100148,2026-10-25 10:19:44,USR-1248,SES-5475,Europe,Cloud Services,page_view,Desktop,0.0,70,/hdfs/clickstream/region=Europe/date=2026-10-25,0.077,0
+EVT-100149,2026-10-25 10:07:27,USR-1137,SES-5460,India,Electronics,checkout,Mobile,1434.07,81,/hdfs/clickstream/region=India/date=2026-10-25,0.058,0
+EVT-100150,2026-10-25 10:10:00,USR-1256,SES-5527,India,Electronics,purchase,Desktop,676.12,137,/hdfs/clickstream/region=India/date=2026-10-25,0.28,0
+EVT-100151,2026-10-25 10:12:35,USR-1111,SES-5597,North America,Electronics,page_view,Tablet,0.0,108,/hdfs/clickstream/region=North_America/date=2026-10-25,0.202,0
+EVT-100152,2026-10-25 10:17:44,USR-1207,SES-5374,India,Electronics,add_to_cart,Desktop,1014.45,29,/hdfs/clickstream/region=India/date=2026-10-25,0.115,0
+EVT-100153,2026-10-25 10:22:57,USR-1282,SES-5286,North America,Fashion,page_view,Mobile,0.0,229,/hdfs/clickstream/region=North_America/date=2026-10-25,0.046,0
+EVT-100154,2026-10-25 10:17:58,USR-1286,SES-5374,Asia-Pacific,Fashion,page_view,Tablet,0.0,211,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.162,0
+EVT-100155,2026-10-25 10:18:05,USR-1243,SES-5531,India,Fashion,page_view,Mobile,0.0,134,/hdfs/clickstream/region=India/date=2026-10-25,0.034,0
+EVT-100156,2026-10-25 10:20:48,USR-1316,SES-5306,India,Home & Kitchen,page_view,Tablet,0.0,169,/hdfs/clickstream/region=India/date=2026-10-25,0.135,0
+EVT-100157,2026-10-25 10:05:14,USR-1306,SES-5485,India,Home & Kitchen,add_to_cart,Desktop,296.05,85,/hdfs/clickstream/region=India/date=2026-10-25,0.23,0
+EVT-100158,2026-10-25 10:13:10,USR-1017,SES-5586,Asia-Pacific,Home & Kitchen,checkout,Mobile,279.03,197,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.323,0
+EVT-100159,2026-10-25 10:21:12,USR-1257,SES-5482,India,Electronics,page_view,Mobile,0.0,235,/hdfs/clickstream/region=India/date=2026-10-25,0.269,0
+EVT-100160,2026-10-25 10:24:00,USR-1270,SES-5385,Europe,Electronics,page_view,Mobile,0.0,98,/hdfs/clickstream/region=Europe/date=2026-10-25,0.137,0
+EVT-100161,2026-10-25 10:13:25,USR-1143,SES-5571,Asia-Pacific,Cloud Services,add_to_cart,Mobile,834.86,94,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.194,0
+EVT-100162,2026-10-25 10:24:18,USR-1163,SES-5491,India,Digital Goods,page_view,Mobile,0.0,107,/hdfs/clickstream/region=India/date=2026-10-25,0.095,0
+EVT-100163,2026-10-25 10:10:52,USR-1149,SES-5043,North America,Digital Goods,add_to_cart,Mobile,58.32,91,/hdfs/clickstream/region=North_America/date=2026-10-25,0.298,0
+EVT-100164,2026-10-25 10:13:40,USR-1125,SES-5051,Asia-Pacific,Electronics,purchase,Desktop,1113.96,189,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.118,0
+EVT-100165,2026-10-25 10:24:45,USR-1052,SES-5140,Asia-Pacific,Electronics,page_view,Mobile,0.0,19,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.139,0
+EVT-100166,2026-10-25 10:24:54,USR-1245,SES-5204,Asia-Pacific,Digital Goods,page_view,Desktop,0.0,211,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.337,0
+EVT-100167,2026-10-25 10:11:08,USR-1214,SES-5180,Asia-Pacific,Cloud Services,add_to_cart,Desktop,579.5,27,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.349,0
+EVT-100168,2026-10-25 10:16:48,USR-1020,SES-5009,Asia-Pacific,Cloud Services,page_view,Tablet,0.0,94,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.366,0
+EVT-100169,2026-10-25 10:08:27,USR-1170,SES-5166,North America,Electronics,purchase,Mobile,1435.5,205,/hdfs/clickstream/region=North_America/date=2026-10-25,0.188,0
+EVT-100170,2026-10-25 10:14:10,USR-1090,SES-5415,North America,Electronics,page_view,Desktop,0.0,229,/hdfs/clickstream/region=North_America/date=2026-10-25,0.305,0
+EVT-100171,2026-10-25 10:25:39,USR-1166,SES-5254,North America,Cloud Services,page_view,Mobile,0.0,19,/hdfs/clickstream/region=North_America/date=2026-10-25,0.373,0
+EVT-100172,2026-10-25 10:17:12,USR-1082,SES-5415,India,Electronics,checkout,Tablet,521.59,193,/hdfs/clickstream/region=India/date=2026-10-25,0.042,0
+EVT-100173,2026-10-25 10:11:32,USR-1233,SES-5382,North America,Home & Kitchen,add_to_cart,Mobile,273.56,124,/hdfs/clickstream/region=North_America/date=2026-10-25,0.068,0
+EVT-100174,2026-10-25 10:20:18,USR-1040,SES-5577,Europe,Digital Goods,checkout,Desktop,120.23,46,/hdfs/clickstream/region=Europe/date=2026-10-25,0.209,0
+EVT-100175,2026-10-25 10:08:45,USR-1262,SES-5456,India,Fashion,add_to_cart,Mobile,147.28,225,/hdfs/clickstream/region=India/date=2026-10-25,0.23,0
+EVT-100176,2026-10-25 10:17:36,USR-1012,SES-5405,India,Electronics,page_view,Mobile,0.0,83,/hdfs/clickstream/region=India/date=2026-10-25,0.221,0
+EVT-100177,2026-10-25 10:05:54,USR-1147,SES-5418,Europe,Home & Kitchen,add_to_cart,Mobile,395.14,64,/hdfs/clickstream/region=Europe/date=2026-10-25,0.356,0
+EVT-100178,2026-10-25 10:11:52,USR-1335,SES-5356,Europe,Home & Kitchen,purchase,Desktop,370.46,48,/hdfs/clickstream/region=Europe/date=2026-10-25,0.155,0
+EVT-100179,2026-10-25 10:23:52,USR-1118,SES-5253,India,Cloud Services,add_to_cart,Desktop,83.02,135,/hdfs/clickstream/region=India/date=2026-10-25,0.216,0
+EVT-100180,2026-10-25 10:09:00,USR-1305,SES-5034,India,Electronics,purchase,Desktop,270.08,132,/hdfs/clickstream/region=India/date=2026-10-25,0.026,0
+EVT-100181,2026-10-25 10:15:05,USR-1277,SES-5222,North America,Fashion,page_view,Desktop,0.0,211,/hdfs/clickstream/region=North_America/date=2026-10-25,0.165,0
+EVT-100182,2026-10-25 10:18:12,USR-1074,SES-5533,Asia-Pacific,Electronics,add_to_cart,Mobile,1205.0,74,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.135,0
+EVT-100183,2026-10-25 10:24:24,USR-1269,SES-5326,North America,Electronics,add_to_cart,Desktop,1097.83,196,/hdfs/clickstream/region=North_America/date=2026-10-25,0.144,0
+EVT-100184,2026-10-25 10:15:20,USR-1154,SES-5147,North America,Electronics,page_view,Desktop,0.0,224,/hdfs/clickstream/region=North_America/date=2026-10-25,0.19,0
+EVT-100185,2026-10-25 10:24:40,USR-1125,SES-5261,North America,Electronics,page_view,Mobile,0.0,70,/hdfs/clickstream/region=North_America/date=2026-10-25,0.211,0
+EVT-100186,2026-10-25 10:15:30,USR-1027,SES-5274,India,Electronics,page_view,Mobile,0.0,114,/hdfs/clickstream/region=India/date=2026-10-25,0.213,0
+EVT-100187,2026-10-25 10:06:14,USR-1109,SES-5194,Europe,Fashion,checkout,Mobile,156.33,207,/hdfs/clickstream/region=Europe/date=2026-10-25,0.14,0
+EVT-100188,2026-10-25 10:15:40,USR-1204,SES-5245,India,Digital Goods,page_view,Mobile,0.0,159,/hdfs/clickstream/region=India/date=2026-10-25,0.238,0
+EVT-100189,2026-10-25 10:22:03,USR-1263,SES-5509,India,Electronics,page_view,Desktop,0.0,137,/hdfs/clickstream/region=India/date=2026-10-25,0.131,0
+EVT-100190,2026-10-25 10:22:10,USR-1161,SES-5423,India,Digital Goods,page_view,Desktop,0.0,29,/hdfs/clickstream/region=India/date=2026-10-25,0.349,0
+EVT-100191,2026-10-25 10:25:28,USR-1152,SES-5156,North America,Electronics,page_view,Mobile,0.0,68,/hdfs/clickstream/region=North_America/date=2026-10-25,0.357,0
+EVT-100192,2026-10-25 10:12:48,USR-1181,SES-5173,India,Cloud Services,checkout,Mobile,675.82,53,/hdfs/clickstream/region=India/date=2026-10-25,0.251,0
+EVT-100193,2026-10-25 10:25:44,USR-1071,SES-5236,Europe,Cloud Services,purchase,Mobile,131.1,35,/hdfs/clickstream/region=Europe/date=2026-10-25,0.261,0
+EVT-100194,2026-10-25 10:25:52,USR-1007,SES-5017,Europe,Electronics,add_to_cart,Mobile,941.72,153,/hdfs/clickstream/region=Europe/date=2026-10-25,0.022,0
+EVT-100195,2026-10-25 10:26:00,USR-1092,SES-5109,Europe,Cloud Services,page_view,Mobile,0.0,42,/hdfs/clickstream/region=Europe/date=2026-10-25,0.271,0
+EVT-100196,2026-10-25 10:16:20,USR-1154,SES-5082,North America,Electronics,add_to_cart,Mobile,591.41,185,/hdfs/clickstream/region=North_America/date=2026-10-25,0.108,0
+EVT-100197,2026-10-25 10:29:33,USR-1029,SES-5009,Asia-Pacific,Fashion,page_view,Mobile,0.0,197,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.156,0
+EVT-100198,2026-10-25 10:09:54,USR-1271,SES-5043,India,Cloud Services,page_view,Desktop,0.0,76,/hdfs/clickstream/region=India/date=2026-10-25,0.224,0
+EVT-100199,2026-10-25 10:23:13,USR-1009,SES-5212,India,Home & Kitchen,purchase,Mobile,381.74,168,/hdfs/clickstream/region=India/date=2026-10-25,0.032,0
+EVT-100200,2026-10-25 10:13:20,USR-1041,SES-5512,India,Home & Kitchen,checkout,Tablet,362.79,208,/hdfs/clickstream/region=India/date=2026-10-25,0.215,0
+EVT-100201,2026-10-25 10:26:48,USR-1168,SES-5030,Asia-Pacific,Electronics,page_view,Desktop,0.0,180,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.143,0
+EVT-100202,2026-10-25 10:26:56,USR-1096,SES-5599,India,Digital Goods,page_view,Mobile,0.0,187,/hdfs/clickstream/region=India/date=2026-10-25,0.359,0
+EVT-100203,2026-10-25 10:20:18,USR-1079,SES-5389,North America,Home & Kitchen,page_view,Mobile,0.0,200,/hdfs/clickstream/region=North_America/date=2026-10-25,0.046,0
+EVT-100204,2026-10-25 10:20:24,USR-1228,SES-5368,Europe,Electronics,page_view,Mobile,0.0,212,/hdfs/clickstream/region=Europe/date=2026-10-25,0.053,0
+EVT-100205,2026-10-25 10:27:20,USR-1053,SES-5026,India,Electronics,page_view,Mobile,0.0,40,/hdfs/clickstream/region=India/date=2026-10-25,0.22,0
+EVT-100206,2026-10-25 10:17:10,USR-1293,SES-5533,India,Electronics,add_to_cart,Mobile,632.37,61,/hdfs/clickstream/region=India/date=2026-10-25,0.346,0
+EVT-100207,2026-10-25 10:13:48,USR-1223,SES-5282,Europe,Electronics,page_view,Mobile,0.0,125,/hdfs/clickstream/region=Europe/date=2026-10-25,0.073,0
+EVT-100208,2026-10-25 10:31:12,USR-1305,SES-5200,India,Home & Kitchen,page_view,Tablet,0.0,135,/hdfs/clickstream/region=India/date=2026-10-25,0.28,0
+EVT-100209,2026-10-25 10:13:56,USR-1154,SES-5328,India,Electronics,purchase,Mobile,944.86,172,/hdfs/clickstream/region=India/date=2026-10-25,0.329,0
+EVT-100210,2026-10-25 10:21:00,USR-1325,SES-5502,Asia-Pacific,Electronics,page_view,Tablet,0.0,165,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.369,0
+EVT-100211,2026-10-25 10:17:35,USR-1304,SES-5558,Europe,Cloud Services,page_view,Desktop,0.0,64,/hdfs/clickstream/region=Europe/date=2026-10-25,0.151,0
+EVT-100212,2026-10-25 10:31:48,USR-1072,SES-5310,Europe,Fashion,purchase,Mobile,93.46,79,/hdfs/clickstream/region=Europe/date=2026-10-25,0.306,0
+EVT-100213,2026-10-25 10:31:57,USR-1299,SES-5410,India,Electronics,page_view,Mobile,0.0,154,/hdfs/clickstream/region=India/date=2026-10-25,0.182,0
+EVT-100214,2026-10-25 10:17:50,USR-1337,SES-5363,North America,Digital Goods,add_to_cart,Mobile,99.35,60,/hdfs/clickstream/region=North_America/date=2026-10-25,0.051,0
+EVT-100215,2026-10-25 10:17:55,USR-1229,SES-5383,North America,Electronics,purchase,Desktop,651.49,118,/hdfs/clickstream/region=North_America/date=2026-10-25,0.113,0
+EVT-100216,2026-10-25 10:14:24,USR-1179,SES-5319,North America,Fashion,add_to_cart,Mobile,94.43,105,/hdfs/clickstream/region=North_America/date=2026-10-25,0.319,0
+EVT-100217,2026-10-25 10:32:33,USR-1164,SES-5068,North America,Electronics,page_view,Mobile,0.0,94,/hdfs/clickstream/region=North_America/date=2026-10-25,0.178,0
+EVT-100218,2026-10-25 10:14:32,USR-1125,SES-5528,India,Fashion,page_view,Mobile,0.0,62,/hdfs/clickstream/region=India/date=2026-10-25,0.059,0
+EVT-100219,2026-10-25 10:14:36,USR-1096,SES-5442,North America,Cloud Services,page_view,Mobile,0.0,119,/hdfs/clickstream/region=North_America/date=2026-10-25,0.307,0
+EVT-100220,2026-10-25 10:18:20,USR-1106,SES-5285,India,Fashion,page_view,Desktop,0.0,210,/hdfs/clickstream/region=India/date=2026-10-25,0.16,0
+EVT-100221,2026-10-25 10:25:47,USR-1306,SES-5397,Europe,Home & Kitchen,add_to_cart,Desktop,83.3,174,/hdfs/clickstream/region=Europe/date=2026-10-25,0.196,0
+EVT-100222,2026-10-25 10:22:12,USR-1315,SES-5086,North America,Electronics,page_view,Mobile,0.0,190,/hdfs/clickstream/region=North_America/date=2026-10-25,0.082,0
+EVT-100223,2026-10-25 10:29:44,USR-1215,SES-5141,India,Electronics,page_view,Mobile,0.0,165,/hdfs/clickstream/region=India/date=2026-10-25,0.27,0
+EVT-100224,2026-10-25 10:33:36,USR-1318,SES-5054,North America,Electronics,add_to_cart,Desktop,978.2,239,/hdfs/clickstream/region=North_America/date=2026-10-25,0.133,0
+EVT-100225,2026-10-25 10:33:45,USR-1210,SES-5503,India,Electronics,page_view,Desktop,0.0,124,/hdfs/clickstream/region=India/date=2026-10-25,0.367,0
+EVT-100226,2026-10-25 10:18:50,USR-1150,SES-5033,Europe,Cloud Services,page_view,Mobile,0.0,88,/hdfs/clickstream/region=Europe/date=2026-10-25,0.307,0
+EVT-100227,2026-10-25 10:07:34,USR-1226,SES-5559,India,Electronics,checkout,Mobile,1147.49,73,/hdfs/clickstream/region=India/date=2026-10-25,0.216,0
+EVT-100228,2026-10-25 10:19:00,USR-1108,SES-5359,Asia-Pacific,Electronics,checkout,Desktop,515.95,238,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.178,0
+EVT-100229,2026-10-25 10:19:05,USR-1031,SES-5583,Europe,Fashion,page_view,Mobile,0.0,107,/hdfs/clickstream/region=Europe/date=2026-10-25,0.094,0
+EVT-100230,2026-10-25 10:23:00,USR-1264,SES-5097,North America,Fashion,page_view,Tablet,0.0,52,/hdfs/clickstream/region=North_America/date=2026-10-25,0.125,0
+EVT-100231,2026-10-25 10:30:48,USR-1251,SES-5145,Asia-Pacific,Home & Kitchen,purchase,Tablet,134.88,165,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.318,0
+EVT-100232,2026-10-25 10:11:36,USR-1207,SES-5527,North America,Fashion,page_view,Mobile,0.0,209,/hdfs/clickstream/region=North_America/date=2026-10-25,0.306,0
+EVT-100233,2026-10-25 10:07:46,USR-1048,SES-5469,India,Digital Goods,page_view,Tablet,0.0,180,/hdfs/clickstream/region=India/date=2026-10-25,0.138,0
+EVT-100234,2026-10-25 10:31:12,USR-1109,SES-5506,Europe,Cloud Services,page_view,Mobile,0.0,86,/hdfs/clickstream/region=Europe/date=2026-10-25,0.098,0
+EVT-100235,2026-10-25 10:35:15,USR-1009,SES-5127,India,Electronics,add_to_cart,Mobile,1253.72,237,/hdfs/clickstream/region=India/date=2026-10-25,0.245,0
+EVT-100236,2026-10-25 10:27:32,USR-1129,SES-5084,India,Cloud Services,purchase,Mobile,871.18,113,/hdfs/clickstream/region=India/date=2026-10-25,0.336,0
+EVT-100237,2026-10-25 10:19:45,USR-1220,SES-5093,Europe,Fashion,page_view,Desktop,0.0,198,/hdfs/clickstream/region=Europe/date=2026-10-25,0.281,0
+EVT-100238,2026-10-25 10:35:42,USR-1005,SES-5008,India,Electronics,page_view,Desktop,0.0,196,/hdfs/clickstream/region=India/date=2026-10-25,0.207,0
+EVT-100239,2026-10-25 10:31:52,USR-1069,SES-5146,India,Electronics,checkout,Desktop,755.34,35,/hdfs/clickstream/region=India/date=2026-10-25,0.152,0
+EVT-100240,2026-10-25 10:12:00,USR-1052,SES-5143,North America,Electronics,add_to_cart,Mobile,1080.83,210,/hdfs/clickstream/region=North_America/date=2026-10-25,0.33,0
+EVT-100241,2026-10-25 10:20:05,USR-1142,SES-5086,India,Fashion,page_view,Mobile,0.0,81,/hdfs/clickstream/region=India/date=2026-10-25,0.305,0
+EVT-100242,2026-10-25 10:32:16,USR-1152,SES-5055,North America,Fashion,add_to_cart,Desktop,179.73,218,/hdfs/clickstream/region=North_America/date=2026-10-25,0.203,0
+EVT-100243,2026-10-25 10:12:09,USR-1271,SES-5012,Asia-Pacific,Digital Goods,page_view,Mobile,0.0,110,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.2,0
+EVT-100244,2026-10-25 10:24:24,USR-1111,SES-5040,Asia-Pacific,Electronics,checkout,Mobile,606.0,33,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.026,0
+EVT-100245,2026-10-25 10:32:40,USR-1206,SES-5084,Asia-Pacific,Cloud Services,page_view,Desktop,0.0,181,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.296,0
+EVT-100246,2026-10-25 10:20:30,USR-1080,SES-5549,North America,Fashion,page_view,Mobile,0.0,101,/hdfs/clickstream/region=North_America/date=2026-10-25,0.204,0
+EVT-100247,2026-10-25 10:37:03,USR-1314,SES-5056,North America,Fashion,checkout,Desktop,196.54,97,/hdfs/clickstream/region=North_America/date=2026-10-25,0.051,0
+EVT-100248,2026-10-25 10:08:16,USR-1084,SES-5508,Europe,Fashion,page_view,Mobile,0.0,106,/hdfs/clickstream/region=Europe/date=2026-10-25,0.069,0
+EVT-100249,2026-10-25 10:33:12,USR-1140,SES-5536,North America,Home & Kitchen,add_to_cart,Mobile,376.84,34,/hdfs/clickstream/region=North_America/date=2026-10-25,0.031,0
+EVT-100250,2026-10-25 10:12:30,USR-1117,SES-5521,India,Digital Goods,add_to_cart,Mobile,32.02,18,/hdfs/clickstream/region=India/date=2026-10-25,0.298,0
+EVT-100251,2026-10-25 10:16:44,USR-1092,SES-5036,India,Home & Kitchen,page_view,Mobile,0.0,159,/hdfs/clickstream/region=India/date=2026-10-25,0.158,0
+EVT-100252,2026-10-25 10:08:24,USR-1092,SES-5228,Europe,Fashion,add_to_cart,Mobile,100.18,223,/hdfs/clickstream/region=Europe/date=2026-10-25,0.063,0
+EVT-100253,2026-10-25 10:25:18,USR-1168,SES-5088,North America,Electronics,page_view,Desktop,0.0,159,/hdfs/clickstream/region=North_America/date=2026-10-25,0.332,0
+EVT-100254,2026-10-25 10:21:10,USR-1238,SES-5377,North America,Cloud Services,page_view,Desktop,0.0,169,/hdfs/clickstream/region=North_America/date=2026-10-25,0.286,0
+EVT-100255,2026-10-25 10:08:30,USR-1172,SES-5001,Asia-Pacific,Digital Goods,checkout,Desktop,13.35,212,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.215,0
+EVT-100256,2026-10-25 10:12:48,USR-1023,SES-5237,North America,Home & Kitchen,add_to_cart,Mobile,62.76,234,/hdfs/clickstream/region=North_America/date=2026-10-25,0.276,0
+EVT-100257,2026-10-25 10:12:51,USR-1259,SES-5136,North America,Fashion,page_view,Tablet,0.0,181,/hdfs/clickstream/region=North_America/date=2026-10-25,0.051,0
+EVT-100258,2026-10-25 10:30:06,USR-1163,SES-5463,Europe,Electronics,add_to_cart,Mobile,1402.41,87,/hdfs/clickstream/region=Europe/date=2026-10-25,0.272,0
+EVT-100259,2026-10-25 10:12:57,USR-1085,SES-5460,India,Digital Goods,page_view,Desktop,0.0,137,/hdfs/clickstream/region=India/date=2026-10-25,0.059,0
+EVT-100260,2026-10-25 10:39:00,USR-1136,SES-5122,India,Electronics,page_view,Desktop,0.0,41,/hdfs/clickstream/region=India/date=2026-10-25,0.183,0
+EVT-100261,2026-10-25 10:26:06,USR-1134,SES-5178,India,Fashion,checkout,Desktop,102.03,25,/hdfs/clickstream/region=India/date=2026-10-25,0.148,0
+EVT-100262,2026-10-25 10:21:50,USR-1067,SES-5202,Asia-Pacific,Home & Kitchen,add_to_cart,Mobile,86.15,228,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.301,0
+EVT-100263,2026-10-25 10:13:09,USR-1170,SES-5125,North America,Fashion,purchase,Mobile,42.62,28,/hdfs/clickstream/region=North_America/date=2026-10-25,0.253,0
+EVT-100264,2026-10-25 10:39:36,USR-1077,SES-5035,Asia-Pacific,Electronics,purchase,Mobile,1083.49,175,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.347,0
+EVT-100265,2026-10-25 10:08:50,USR-1045,SES-5286,North America,Electronics,page_view,Mobile,0.0,116,/hdfs/clickstream/region=North_America/date=2026-10-25,0.218,0
+EVT-100266,2026-10-25 10:39:54,USR-1177,SES-5579,India,Electronics,purchase,Mobile,958.9,146,/hdfs/clickstream/region=India/date=2026-10-25,0.149,0
+EVT-100267,2026-10-25 10:26:42,USR-1030,SES-5483,India,Electronics,page_view,Desktop,0.0,153,/hdfs/clickstream/region=India/date=2026-10-25,0.031,0
+EVT-100268,2026-10-25 10:22:20,USR-1137,SES-5546,India,Fashion,page_view,Mobile,0.0,226,/hdfs/clickstream/region=India/date=2026-10-25,0.109,0
+EVT-100269,2026-10-25 10:31:23,USR-1184,SES-5028,Europe,Fashion,checkout,Tablet,116.28,198,/hdfs/clickstream/region=Europe/date=2026-10-25,0.083,0
+EVT-100270,2026-10-25 10:13:30,USR-1029,SES-5238,Europe,Digital Goods,add_to_cart,Mobile,53.27,172,/hdfs/clickstream/region=Europe/date=2026-10-25,0.197,0
+EVT-100271,2026-10-25 10:18:04,USR-1175,SES-5181,India,Cloud Services,page_view,Desktop,0.0,223,/hdfs/clickstream/region=India/date=2026-10-25,0.093,0
+EVT-100272,2026-10-25 10:13:36,USR-1270,SES-5373,Europe,Cloud Services,page_view,Desktop,0.0,36,/hdfs/clickstream/region=Europe/date=2026-10-25,0.35,0
+EVT-100273,2026-10-25 10:18:12,USR-1081,SES-5447,India,Digital Goods,page_view,Mobile,0.0,220,/hdfs/clickstream/region=India/date=2026-10-25,0.129,0
+EVT-100274,2026-10-25 10:31:58,USR-1115,SES-5179,North America,Cloud Services,page_view,Desktop,0.0,114,/hdfs/clickstream/region=North_America/date=2026-10-25,0.222,0
+EVT-100275,2026-10-25 10:36:40,USR-1291,SES-5033,India,Fashion,page_view,Desktop,0.0,64,/hdfs/clickstream/region=India/date=2026-10-25,0.362,0
+EVT-100276,2026-10-25 10:13:48,USR-1344,SES-5343,North America,Digital Goods,purchase,Mobile,43.32,132,/hdfs/clickstream/region=North_America/date=2026-10-25,0.374,0
+EVT-100277,2026-10-25 10:36:56,USR-1253,SES-5387,India,Electronics,add_to_cart,Mobile,1166.74,107,/hdfs/clickstream/region=India/date=2026-10-25,0.08,0
+EVT-100278,2026-10-25 10:23:10,USR-1084,SES-5462,North America,Electronics,page_view,Desktop,0.0,36,/hdfs/clickstream/region=North_America/date=2026-10-25,0.254,0
+EVT-100279,2026-10-25 10:32:33,USR-1088,SES-5384,Europe,Electronics,page_view,Mobile,0.0,59,/hdfs/clickstream/region=Europe/date=2026-10-25,0.058,0
+EVT-100280,2026-10-25 10:18:40,USR-1028,SES-5103,Europe,Fashion,purchase,Mobile,138.44,102,/hdfs/clickstream/region=Europe/date=2026-10-25,0.079,0
+EVT-100281,2026-10-25 10:42:09,USR-1079,SES-5055,India,Electronics,add_to_cart,Desktop,1090.87,110,/hdfs/clickstream/region=India/date=2026-10-25,0.226,0
+EVT-100282,2026-10-25 10:37:36,USR-1242,SES-5500,India,Electronics,checkout,Desktop,758.84,187,/hdfs/clickstream/region=India/date=2026-10-25,0.19,0
+EVT-100283,2026-10-25 10:18:52,USR-1229,SES-5045,India,Fashion,page_view,Mobile,0.0,85,/hdfs/clickstream/region=India/date=2026-10-25,0.157,0
+EVT-100284,2026-10-25 10:23:40,USR-1284,SES-5062,North America,Electronics,checkout,Mobile,321.0,233,/hdfs/clickstream/region=North_America/date=2026-10-25,0.169,0
+EVT-100285,2026-10-25 10:19:00,USR-1062,SES-5459,North America,Cloud Services,purchase,Desktop,2411.89,298,/hdfs/clickstream/region=North_America/date=2026-10-25,0.889,1
+EVT-100286,2026-10-25 10:14:18,USR-1350,SES-5445,Asia-Pacific,Electronics,page_view,Mobile,0.0,69,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.035,0
+EVT-100287,2026-10-25 10:43:03,USR-1007,SES-5535,Asia-Pacific,Fashion,checkout,Mobile,40.75,218,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.137,0
+EVT-100288,2026-10-25 10:14:24,USR-1055,SES-5576,North America,Cloud Services,page_view,Desktop,0.0,217,/hdfs/clickstream/region=North_America/date=2026-10-25,0.293,0
+EVT-100289,2026-10-25 10:19:16,USR-1317,SES-5411,India,Electronics,add_to_cart,Mobile,666.48,27,/hdfs/clickstream/region=India/date=2026-10-25,0.119,0
+EVT-100290,2026-10-25 10:43:30,USR-1051,SES-5233,North America,Home & Kitchen,add_to_cart,Mobile,168.39,52,/hdfs/clickstream/region=North_America/date=2026-10-25,0.132,0
+EVT-100291,2026-10-25 10:33:57,USR-1029,SES-5527,India,Home & Kitchen,checkout,Mobile,207.85,220,/hdfs/clickstream/region=India/date=2026-10-25,0.167,0
+EVT-100292,2026-10-25 10:24:20,USR-1017,SES-5467,India,Electronics,add_to_cart,Mobile,1252.22,30,/hdfs/clickstream/region=India/date=2026-10-25,0.321,0
+EVT-100293,2026-10-25 10:14:39,USR-1349,SES-5031,Asia-Pacific,Fashion,page_view,Desktop,0.0,79,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.202,0
+EVT-100294,2026-10-25 10:34:18,USR-1177,SES-5167,India,Fashion,page_view,Desktop,0.0,232,/hdfs/clickstream/region=India/date=2026-10-25,0.231,0
+EVT-100295,2026-10-25 10:24:35,USR-1138,SES-5419,Asia-Pacific,Home & Kitchen,add_to_cart,Mobile,406.67,149,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.253,0
+EVT-100296,2026-10-25 10:29:36,USR-1217,SES-5385,India,Home & Kitchen,checkout,Mobile,43.22,236,/hdfs/clickstream/region=India/date=2026-10-25,0.31,0
+EVT-100297,2026-10-25 10:39:36,USR-1300,SES-5104,India,Electronics,page_view,Desktop,0.0,19,/hdfs/clickstream/region=India/date=2026-10-25,0.317,0
+EVT-100298,2026-10-25 10:29:48,USR-1134,SES-5305,North America,Fashion,checkout,Mobile,95.14,66,/hdfs/clickstream/region=North_America/date=2026-10-25,0.376,0
+EVT-100299,2026-10-25 10:29:54,USR-1215,SES-5414,India,Home & Kitchen,purchase,Desktop,298.69,117,/hdfs/clickstream/region=India/date=2026-10-25,0.256,0
+EVT-100300,2026-10-25 10:30:00,USR-1088,SES-5571,Europe,Fashion,purchase,Desktop,186.28,64,/hdfs/clickstream/region=Europe/date=2026-10-25,0.359,0
+EVT-100301,2026-10-25 10:25:05,USR-1158,SES-5430,India,Cloud Services,add_to_cart,Desktop,873.98,219,/hdfs/clickstream/region=India/date=2026-10-25,0.1,0
+EVT-100302,2026-10-25 10:25:10,USR-1257,SES-5122,Asia-Pacific,Cloud Services,add_to_cart,Mobile,126.7,240,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.19,0
+EVT-100303,2026-10-25 10:25:15,USR-1176,SES-5419,Europe,Cloud Services,page_view,Desktop,0.0,163,/hdfs/clickstream/region=Europe/date=2026-10-25,0.074,0
+EVT-100304,2026-10-25 10:15:12,USR-1250,SES-5340,Asia-Pacific,Digital Goods,page_view,Desktop,0.0,179,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.085,0
+EVT-100305,2026-10-25 10:20:20,USR-1296,SES-5162,Asia-Pacific,Electronics,page_view,Mobile,0.0,143,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.095,0
+EVT-100306,2026-10-25 10:40:48,USR-1245,SES-5392,Europe,Home & Kitchen,page_view,Mobile,0.0,19,/hdfs/clickstream/region=Europe/date=2026-10-25,0.175,0
+EVT-100307,2026-10-25 10:25:35,USR-1010,SES-5004,India,Electronics,page_view,Mobile,0.0,178,/hdfs/clickstream/region=India/date=2026-10-25,0.136,0
+EVT-100308,2026-10-25 10:35:56,USR-1223,SES-5137,Europe,Electronics,checkout,Mobile,256.6,105,/hdfs/clickstream/region=Europe/date=2026-10-25,0.361,0
+EVT-100309,2026-10-25 10:10:18,USR-1193,SES-5261,Asia-Pacific,Cloud Services,checkout,Mobile,3154.53,604,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.806,1
+EVT-100310,2026-10-25 10:20:40,USR-1106,SES-5009,North America,Electronics,purchase,Desktop,989.24,95,/hdfs/clickstream/region=North_America/date=2026-10-25,0.217,0
+EVT-100311,2026-10-25 10:15:33,USR-1255,SES-5203,North America,Electronics,add_to_cart,Desktop,1051.97,173,/hdfs/clickstream/region=North_America/date=2026-10-25,0.122,0
+EVT-100312,2026-10-25 10:36:24,USR-1121,SES-5002,India,Electronics,add_to_cart,Mobile,1055.57,21,/hdfs/clickstream/region=India/date=2026-10-25,0.356,0
+EVT-100313,2026-10-25 10:31:18,USR-1136,SES-5475,Europe,Digital Goods,checkout,Desktop,24.18,30,/hdfs/clickstream/region=Europe/date=2026-10-25,0.112,0
+EVT-100314,2026-10-25 10:36:38,USR-1219,SES-5118,India,Electronics,page_view,Mobile,0.0,42,/hdfs/clickstream/region=India/date=2026-10-25,0.309,0
+EVT-100315,2026-10-25 10:36:45,USR-1184,SES-5448,Europe,Home & Kitchen,page_view,Mobile,0.0,177,/hdfs/clickstream/region=Europe/date=2026-10-25,0.253,0
+EVT-100316,2026-10-25 10:42:08,USR-1234,SES-5278,India,Fashion,page_view,Mobile,0.0,231,/hdfs/clickstream/region=India/date=2026-10-25,0.061,0
+EVT-100317,2026-10-25 10:47:33,USR-1292,SES-5448,North America,Home & Kitchen,checkout,Desktop,62.29,64,/hdfs/clickstream/region=North_America/date=2026-10-25,0.077,0
+EVT-100318,2026-10-25 10:47:42,USR-1024,SES-5064,North America,Home & Kitchen,add_to_cart,Desktop,223.57,84,/hdfs/clickstream/region=North_America/date=2026-10-25,0.34,0
+EVT-100319,2026-10-25 10:15:57,USR-1222,SES-5254,North America,Electronics,checkout,Mobile,1109.02,141,/hdfs/clickstream/region=North_America/date=2026-10-25,0.207,0
+EVT-100320,2026-10-25 10:10:40,USR-1006,SES-5160,India,Fashion,page_view,Desktop,0.0,147,/hdfs/clickstream/region=India/date=2026-10-25,0.221,0
+EVT-100321,2026-10-25 10:26:45,USR-1041,SES-5470,Europe,Home & Kitchen,checkout,Mobile,59.13,131,/hdfs/clickstream/region=Europe/date=2026-10-25,0.252,0
+EVT-100322,2026-10-25 10:32:12,USR-1261,SES-5575,Europe,Cloud Services,checkout,Mobile,1547.45,315,/hdfs/clickstream/region=Europe/date=2026-10-25,0.907,1
+EVT-100323,2026-10-25 10:48:27,USR-1170,SES-5573,North America,Cloud Services,page_view,Desktop,0.0,214,/hdfs/clickstream/region=North_America/date=2026-10-25,0.314,0
+EVT-100324,2026-10-25 10:32:24,USR-1281,SES-5534,North America,Cloud Services,add_to_cart,Desktop,740.61,113,/hdfs/clickstream/region=North_America/date=2026-10-25,0.367,0
+EVT-100325,2026-10-25 10:43:20,USR-1055,SES-5260,Europe,Electronics,page_view,Mobile,0.0,174,/hdfs/clickstream/region=Europe/date=2026-10-25,0.278,0
+EVT-100326,2026-10-25 10:16:18,USR-1231,SES-5468,India,Electronics,checkout,Mobile,1216.66,186,/hdfs/clickstream/region=India/date=2026-10-25,0.248,0
+EVT-100327,2026-10-25 10:21:48,USR-1066,SES-5106,North America,Cloud Services,purchase,Mobile,561.31,117,/hdfs/clickstream/region=North_America/date=2026-10-25,0.301,0
+EVT-100328,2026-10-25 10:27:20,USR-1141,SES-5407,North America,Fashion,page_view,Desktop,0.0,105,/hdfs/clickstream/region=North_America/date=2026-10-25,0.171,0
+EVT-100329,2026-10-25 10:32:54,USR-1281,SES-5321,Asia-Pacific,Cloud Services,page_view,Mobile,0.0,200,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.272,0
+EVT-100330,2026-10-25 10:38:30,USR-1345,SES-5135,Europe,Fashion,page_view,Mobile,0.0,199,/hdfs/clickstream/region=Europe/date=2026-10-25,0.277,0
+EVT-100331,2026-10-25 10:44:08,USR-1346,SES-5546,North America,Digital Goods,add_to_cart,Desktop,89.89,91,/hdfs/clickstream/region=North_America/date=2026-10-25,0.26,0
+EVT-100332,2026-10-25 10:11:04,USR-1344,SES-5057,Asia-Pacific,Cloud Services,page_view,Mobile,0.0,69,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.157,0
+EVT-100333,2026-10-25 10:27:45,USR-1332,SES-5574,India,Home & Kitchen,purchase,Desktop,117.52,117,/hdfs/clickstream/region=India/date=2026-10-25,0.149,0
+EVT-100334,2026-10-25 10:11:08,USR-1129,SES-5207,India,Home & Kitchen,checkout,Mobile,403.55,176,/hdfs/clickstream/region=India/date=2026-10-25,0.133,0
+EVT-100335,2026-10-25 10:39:05,USR-1302,SES-5559,Asia-Pacific,Home & Kitchen,page_view,Mobile,0.0,207,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.248,0
+EVT-100336,2026-10-25 10:33:36,USR-1067,SES-5164,North America,Home & Kitchen,purchase,Mobile,106.04,167,/hdfs/clickstream/region=North_America/date=2026-10-25,0.156,0
+EVT-100337,2026-10-25 10:39:19,USR-1306,SES-5052,Europe,Electronics,page_view,Tablet,0.0,216,/hdfs/clickstream/region=Europe/date=2026-10-25,0.034,0
+EVT-100338,2026-10-25 10:16:54,USR-1259,SES-5163,Asia-Pacific,Fashion,add_to_cart,Mobile,209.25,124,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.086,0
+EVT-100339,2026-10-25 10:39:33,USR-1185,SES-5300,North America,Cloud Services,page_view,Desktop,0.0,73,/hdfs/clickstream/region=North_America/date=2026-10-25,0.259,0
+EVT-100340,2026-10-25 10:11:20,USR-1059,SES-5354,Asia-Pacific,Fashion,page_view,Mobile,0.0,132,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.291,0
+EVT-100341,2026-10-25 10:11:22,USR-1265,SES-5383,India,Fashion,purchase,Mobile,114.62,149,/hdfs/clickstream/region=India/date=2026-10-25,0.112,0
+EVT-100342,2026-10-25 10:17:06,USR-1050,SES-5171,Europe,Cloud Services,page_view,Desktop,0.0,215,/hdfs/clickstream/region=Europe/date=2026-10-25,0.089,0
+EVT-100343,2026-10-25 10:45:44,USR-1054,SES-5210,North America,Electronics,page_view,Desktop,0.0,155,/hdfs/clickstream/region=North_America/date=2026-10-25,0.298,0
+EVT-100344,2026-10-25 10:17:12,USR-1028,SES-5182,Europe,Home & Kitchen,add_to_cart,Mobile,49.03,221,/hdfs/clickstream/region=Europe/date=2026-10-25,0.034,0
+EVT-100345,2026-10-25 10:11:30,USR-1038,SES-5366,India,Electronics,checkout,Desktop,2998.68,467,/hdfs/clickstream/region=India/date=2026-10-25,0.793,1
+EVT-100346,2026-10-25 10:51:54,USR-1196,SES-5404,India,Home & Kitchen,page_view,Mobile,0.0,228,/hdfs/clickstream/region=India/date=2026-10-25,0.295,0
+EVT-100347,2026-10-25 10:40:29,USR-1006,SES-5566,Europe,Cloud Services,add_to_cart,Mobile,773.81,160,/hdfs/clickstream/region=Europe/date=2026-10-25,0.264,0
+EVT-100348,2026-10-25 10:23:12,USR-1083,SES-5188,India,Electronics,add_to_cart,Mobile,848.21,74,/hdfs/clickstream/region=India/date=2026-10-25,0.096,0
+EVT-100349,2026-10-25 10:11:38,USR-1282,SES-5472,North America,Electronics,page_view,Desktop,0.0,183,/hdfs/clickstream/region=North_America/date=2026-10-25,0.224,0
+EVT-100350,2026-10-25 10:52:30,USR-1170,SES-5365,North America,Electronics,page_view,Mobile,0.0,50,/hdfs/clickstream/region=North_America/date=2026-10-25,0.281,0
+EVT-100351,2026-10-25 10:52:39,USR-1231,SES-5336,Europe,Electronics,page_view,Mobile,0.0,175,/hdfs/clickstream/region=Europe/date=2026-10-25,0.09,0
+EVT-100352,2026-10-25 10:46:56,USR-1087,SES-5004,North America,Fashion,page_view,Mobile,0.0,98,/hdfs/clickstream/region=North_America/date=2026-10-25,0.311,0
+EVT-100353,2026-10-25 10:35:18,USR-1250,SES-5564,India,Electronics,add_to_cart,Mobile,1237.35,45,/hdfs/clickstream/region=India/date=2026-10-25,0.149,0
+EVT-100354,2026-10-25 10:47:12,USR-1303,SES-5217,India,Fashion,checkout,Desktop,348.94,674,/hdfs/clickstream/region=India/date=2026-10-25,0.787,1
+EVT-100355,2026-10-25 10:17:45,USR-1204,SES-5372,India,Electronics,purchase,Mobile,989.7,146,/hdfs/clickstream/region=India/date=2026-10-25,0.329,0
+EVT-100356,2026-10-25 10:23:44,USR-1248,SES-5367,India,Electronics,purchase,Tablet,1029.94,28,/hdfs/clickstream/region=India/date=2026-10-25,0.224,0
+EVT-100357,2026-10-25 10:29:45,USR-1266,SES-5369,India,Cloud Services,page_view,Mobile,0.0,117,/hdfs/clickstream/region=India/date=2026-10-25,0.035,0
+EVT-100358,2026-10-25 10:35:48,USR-1135,SES-5592,North America,Cloud Services,page_view,Tablet,0.0,157,/hdfs/clickstream/region=North_America/date=2026-10-25,0.137,0
+EVT-100359,2026-10-25 10:17:57,USR-1265,SES-5257,North America,Cloud Services,page_view,Desktop,0.0,114,/hdfs/clickstream/region=North_America/date=2026-10-25,0.343,0
+EVT-100360,2026-10-25 10:54:00,USR-1310,SES-5006,Asia-Pacific,Electronics,page_view,Desktop,0.0,146,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.144,0
+EVT-100361,2026-10-25 10:24:04,USR-1096,SES-5161,Asia-Pacific,Cloud Services,page_view,Mobile,0.0,110,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.121,0
+EVT-100362,2026-10-25 10:48:16,USR-1012,SES-5249,North America,Home & Kitchen,add_to_cart,Mobile,222.03,29,/hdfs/clickstream/region=North_America/date=2026-10-25,0.253,0
+EVT-100363,2026-10-25 10:24:12,USR-1029,SES-5170,India,Fashion,page_view,Mobile,0.0,84,/hdfs/clickstream/region=India/date=2026-10-25,0.341,0
+EVT-100364,2026-10-25 10:36:24,USR-1044,SES-5221,Asia-Pacific,Cloud Services,page_view,Tablet,0.0,132,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.25,0
+EVT-100365,2026-10-25 10:24:20,USR-1299,SES-5186,North America,Cloud Services,page_view,Mobile,0.0,177,/hdfs/clickstream/region=North_America/date=2026-10-25,0.168,0
+EVT-100366,2026-10-25 10:48:48,USR-1077,SES-5098,North America,Electronics,add_to_cart,Mobile,723.12,63,/hdfs/clickstream/region=North_America/date=2026-10-25,0.093,0
+EVT-100367,2026-10-25 10:18:21,USR-1048,SES-5493,North America,Fashion,page_view,Desktop,0.0,186,/hdfs/clickstream/region=North_America/date=2026-10-25,0.201,0
+EVT-100368,2026-10-25 10:55:12,USR-1196,SES-5358,India,Fashion,checkout,Desktop,147.68,168,/hdfs/clickstream/region=India/date=2026-10-25,0.211,0
+EVT-100369,2026-10-25 10:36:54,USR-1097,SES-5005,Europe,Digital Goods,checkout,Mobile,21.73,199,/hdfs/clickstream/region=Europe/date=2026-10-25,0.235,0
+EVT-100370,2026-10-25 10:37:00,USR-1134,SES-5548,Europe,Electronics,add_to_cart,Mobile,618.79,126,/hdfs/clickstream/region=Europe/date=2026-10-25,0.173,0
+EVT-100371,2026-10-25 10:43:17,USR-1204,SES-5141,North America,Fashion,purchase,Mobile,156.03,236,/hdfs/clickstream/region=North_America/date=2026-10-25,0.194,0
+EVT-100372,2026-10-25 10:18:36,USR-1110,SES-5520,Asia-Pacific,Electronics,page_view,Desktop,0.0,120,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.362,0
+EVT-100373,2026-10-25 10:49:44,USR-1046,SES-5065,Europe,Home & Kitchen,add_to_cart,Desktop,345.66,85,/hdfs/clickstream/region=Europe/date=2026-10-25,0.19,0
+EVT-100374,2026-10-25 10:37:24,USR-1306,SES-5058,India,Electronics,page_view,Mobile,0.0,216,/hdfs/clickstream/region=India/date=2026-10-25,0.374,0
+EVT-100375,2026-10-25 10:37:30,USR-1100,SES-5034,Europe,Fashion,page_view,Mobile,0.0,218,/hdfs/clickstream/region=Europe/date=2026-10-25,0.256,0
+EVT-100376,2026-10-25 10:31:20,USR-1336,SES-5000,North America,Cloud Services,page_view,Mobile,0.0,58,/hdfs/clickstream/region=North_America/date=2026-10-25,0.033,0
+EVT-100377,2026-10-25 10:31:25,USR-1266,SES-5015,India,Electronics,page_view,Desktop,0.0,206,/hdfs/clickstream/region=India/date=2026-10-25,0.166,0
+EVT-100378,2026-10-25 10:56:42,USR-1207,SES-5588,Europe,Digital Goods,add_to_cart,Desktop,41.68,19,/hdfs/clickstream/region=Europe/date=2026-10-25,0.367,0
+EVT-100379,2026-10-25 10:18:57,USR-1263,SES-5263,India,Cloud Services,page_view,Mobile,0.0,155,/hdfs/clickstream/region=India/date=2026-10-25,0.126,0
+EVT-100380,2026-10-25 10:12:40,USR-1247,SES-5119,Europe,Fashion,add_to_cart,Tablet,203.01,84,/hdfs/clickstream/region=Europe/date=2026-10-25,0.186,0
+EVT-100381,2026-10-25 10:19:03,USR-1205,SES-5350,India,Fashion,purchase,Desktop,249.53,37,/hdfs/clickstream/region=India/date=2026-10-25,0.32,0
+EVT-100382,2026-10-25 10:25:28,USR-1350,SES-5194,North America,Electronics,page_view,Mobile,0.0,145,/hdfs/clickstream/region=North_America/date=2026-10-25,0.227,0
+EVT-100383,2026-10-25 10:31:55,USR-1317,SES-5364,Europe,Electronics,page_view,Mobile,0.0,57,/hdfs/clickstream/region=Europe/date=2026-10-25,0.103,0
+EVT-100384,2026-10-25 10:12:48,USR-1278,SES-5043,Europe,Electronics,page_view,Tablet,0.0,235,/hdfs/clickstream/region=Europe/date=2026-10-25,0.197,0
+EVT-100385,2026-10-25 10:38:30,USR-1252,SES-5187,North America,Fashion,page_view,Tablet,0.0,213,/hdfs/clickstream/region=North_America/date=2026-10-25,0.343,0
+EVT-100386,2026-10-25 10:51:28,USR-1245,SES-5553,Asia-Pacific,Electronics,page_view,Mobile,0.0,26,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.039,0
+EVT-100387,2026-10-25 10:19:21,USR-1167,SES-5370,North America,Cloud Services,add_to_cart,Mobile,687.47,174,/hdfs/clickstream/region=North_America/date=2026-10-25,0.096,0
+EVT-100388,2026-10-25 10:45:16,USR-1188,SES-5188,Asia-Pacific,Electronics,page_view,Mobile,0.0,145,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.365,0
+EVT-100389,2026-10-25 10:32:25,USR-1285,SES-5442,North America,Cloud Services,checkout,Mobile,472.13,237,/hdfs/clickstream/region=North_America/date=2026-10-25,0.313,0
+EVT-100390,2026-10-25 10:58:30,USR-1154,SES-5256,North America,Electronics,purchase,Mobile,1191.54,161,/hdfs/clickstream/region=North_America/date=2026-10-25,0.206,0
+EVT-100391,2026-10-25 10:39:06,USR-1244,SES-5098,Europe,Electronics,page_view,Mobile,0.0,133,/hdfs/clickstream/region=Europe/date=2026-10-25,0.098,0
+EVT-100392,2026-10-25 10:45:44,USR-1011,SES-5421,Europe,Electronics,page_view,Mobile,0.0,49,/hdfs/clickstream/region=Europe/date=2026-10-25,0.312,0
+EVT-100393,2026-10-25 10:58:57,USR-1041,SES-5390,India,Fashion,add_to_cart,Mobile,255.15,175,/hdfs/clickstream/region=India/date=2026-10-25,0.204,0
+EVT-100394,2026-10-25 10:45:58,USR-1216,SES-5585,India,Fashion,page_view,Mobile,0.0,121,/hdfs/clickstream/region=India/date=2026-10-25,0.311,0
+EVT-100395,2026-10-25 10:39:30,USR-1137,SES-5404,Europe,Electronics,page_view,Mobile,0.0,87,/hdfs/clickstream/region=Europe/date=2026-10-25,0.134,0
+EVT-100396,2026-10-25 10:19:48,USR-1108,SES-5170,Asia-Pacific,Home & Kitchen,purchase,Desktop,364.6,119,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.104,0
+EVT-100397,2026-10-25 10:52:56,USR-1159,SES-5234,India,Electronics,checkout,Mobile,155.07,81,/hdfs/clickstream/region=India/date=2026-10-25,0.076,0
+EVT-100398,2026-10-25 10:13:16,USR-1340,SES-5365,Europe,Cloud Services,page_view,Mobile,0.0,238,/hdfs/clickstream/region=Europe/date=2026-10-25,0.081,0
+EVT-100399,2026-10-25 10:59:51,USR-1070,SES-5552,Asia-Pacific,Home & Kitchen,page_view,Desktop,0.0,63,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.357,0
+EVT-100400,2026-10-25 10:20:00,USR-1227,SES-5315,North America,Cloud Services,add_to_cart,Desktop,636.61,111,/hdfs/clickstream/region=North_America/date=2026-10-25,0.102,0
+EVT-100401,2026-10-25 10:26:44,USR-1177,SES-5293,North America,Electronics,page_view,Mobile,0.0,138,/hdfs/clickstream/region=North_America/date=2026-10-25,0.293,0
+EVT-100402,2026-10-25 10:53:36,USR-1150,SES-5236,North America,Fashion,page_view,Desktop,0.0,221,/hdfs/clickstream/region=North_America/date=2026-10-25,0.128,0
+EVT-100403,2026-10-25 10:26:52,USR-1331,SES-5399,India,Cloud Services,page_view,Mobile,0.0,230,/hdfs/clickstream/region=India/date=2026-10-25,0.162,0
+EVT-100404,2026-10-25 10:40:24,USR-1146,SES-5544,India,Electronics,page_view,Mobile,0.0,225,/hdfs/clickstream/region=India/date=2026-10-25,0.295,0
+EVT-100405,2026-10-25 11:00:45,USR-1317,SES-5463,India,Electronics,page_view,Mobile,0.0,87,/hdfs/clickstream/region=India/date=2026-10-25,0.06,0
+EVT-100406,2026-10-25 10:13:32,USR-1096,SES-5104,Europe,Cloud Services,page_view,Mobile,0.0,90,/hdfs/clickstream/region=Europe/date=2026-10-25,0.369,0
+EVT-100407,2026-10-25 11:01:03,USR-1017,SES-5338,India,Fashion,add_to_cart,Mobile,105.35,38,/hdfs/clickstream/region=India/date=2026-10-25,0.379,0
+EVT-100408,2026-10-25 11:01:12,USR-1093,SES-5196,Europe,Digital Goods,page_view,Desktop,0.0,233,/hdfs/clickstream/region=Europe/date=2026-10-25,0.046,0
+EVT-100409,2026-10-25 10:54:32,USR-1227,SES-5253,India,Cloud Services,page_view,Tablet,0.0,206,/hdfs/clickstream/region=India/date=2026-10-25,0.277,0
+EVT-100410,2026-10-25 10:13:40,USR-1282,SES-5533,Asia-Pacific,Electronics,add_to_cart,Mobile,1005.79,49,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.077,0
+EVT-100411,2026-10-25 10:34:15,USR-1058,SES-5241,India,Fashion,page_view,Desktop,0.0,180,/hdfs/clickstream/region=India/date=2026-10-25,0.331,0
+EVT-100412,2026-10-25 10:20:36,USR-1128,SES-5161,North America,Electronics,checkout,Desktop,646.43,145,/hdfs/clickstream/region=North_America/date=2026-10-25,0.268,0
+EVT-100413,2026-10-25 10:48:11,USR-1225,SES-5197,India,Fashion,purchase,Tablet,176.48,23,/hdfs/clickstream/region=India/date=2026-10-25,0.065,0
+EVT-100414,2026-10-25 11:02:06,USR-1287,SES-5301,Europe,Cloud Services,page_view,Desktop,0.0,156,/hdfs/clickstream/region=Europe/date=2026-10-25,0.195,0
+EVT-100415,2026-10-25 10:41:30,USR-1307,SES-5567,Europe,Electronics,page_view,Mobile,0.0,59,/hdfs/clickstream/region=Europe/date=2026-10-25,0.284,0
+EVT-100416,2026-10-25 10:13:52,USR-1327,SES-5518,India,Electronics,page_view,Mobile,0.0,115,/hdfs/clickstream/region=India/date=2026-10-25,0.152,0
+EVT-100417,2026-10-25 11:02:33,USR-1283,SES-5157,Europe,Home & Kitchen,add_to_cart,Mobile,407.52,174,/hdfs/clickstream/region=Europe/date=2026-10-25,0.088,0
+EVT-100418,2026-10-25 10:13:56,USR-1067,SES-5182,India,Cloud Services,page_view,Mobile,0.0,26,/hdfs/clickstream/region=India/date=2026-10-25,0.257,0
+EVT-100419,2026-10-25 11:02:51,USR-1270,SES-5262,India,Cloud Services,page_view,Mobile,0.0,30,/hdfs/clickstream/region=India/date=2026-10-25,0.321,0
+EVT-100420,2026-10-25 11:03:00,USR-1041,SES-5479,India,Fashion,page_view,Tablet,0.0,223,/hdfs/clickstream/region=India/date=2026-10-25,0.095,0
+EVT-100421,2026-10-25 10:42:06,USR-1040,SES-5221,North America,Cloud Services,add_to_cart,Desktop,771.0,150,/hdfs/clickstream/region=North_America/date=2026-10-25,0.284,0
+EVT-100422,2026-10-25 10:21:06,USR-1327,SES-5590,India,Fashion,add_to_cart,Mobile,171.95,109,/hdfs/clickstream/region=India/date=2026-10-25,0.169,0
+EVT-100423,2026-10-25 10:56:24,USR-1259,SES-5345,Europe,Fashion,page_view,Mobile,0.0,186,/hdfs/clickstream/region=Europe/date=2026-10-25,0.305,0
+EVT-100424,2026-10-25 10:49:28,USR-1191,SES-5422,India,Digital Goods,page_view,Mobile,0.0,213,/hdfs/clickstream/region=India/date=2026-10-25,0.133,0
+EVT-100425,2026-10-25 10:56:40,USR-1282,SES-5260,North America,Home & Kitchen,page_view,Mobile,0.0,110,/hdfs/clickstream/region=North_America/date=2026-10-25,0.216,0
+EVT-100426,2026-10-25 10:14:12,USR-1266,SES-5138,Asia-Pacific,Cloud Services,page_view,Desktop,0.0,95,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.374,0
+EVT-100427,2026-10-25 10:42:42,USR-1284,SES-5523,India,Digital Goods,page_view,Mobile,0.0,160,/hdfs/clickstream/region=India/date=2026-10-25,0.298,0
+EVT-100428,2026-10-25 10:42:48,USR-1188,SES-5596,North America,Fashion,page_view,Mobile,0.0,81,/hdfs/clickstream/region=North_America/date=2026-10-25,0.076,0
+EVT-100429,2026-10-25 10:21:27,USR-1167,SES-5494,India,Home & Kitchen,page_view,Mobile,0.0,62,/hdfs/clickstream/region=India/date=2026-10-25,0.35,0
+EVT-100430,2026-10-25 10:50:10,USR-1179,SES-5444,North America,Home & Kitchen,add_to_cart,Desktop,347.17,124,/hdfs/clickstream/region=North_America/date=2026-10-25,0.301,0
+EVT-100431,2026-10-25 10:28:44,USR-1168,SES-5514,Asia-Pacific,Electronics,checkout,Desktop,1249.81,196,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.209,0
+EVT-100432,2026-10-25 10:28:48,USR-1173,SES-5084,India,Electronics,add_to_cart,Mobile,712.67,139,/hdfs/clickstream/region=India/date=2026-10-25,0.162,0
+EVT-100433,2026-10-25 10:28:52,USR-1070,SES-5492,North America,Electronics,page_view,Mobile,0.0,161,/hdfs/clickstream/region=North_America/date=2026-10-25,0.201,0
+EVT-100434,2026-10-25 10:21:42,USR-1058,SES-5423,India,Cloud Services,add_to_cart,Mobile,536.1,126,/hdfs/clickstream/region=India/date=2026-10-25,0.267,0
+EVT-100435,2026-10-25 10:29:00,USR-1180,SES-5452,India,Electronics,page_view,Desktop,0.0,177,/hdfs/clickstream/region=India/date=2026-10-25,0.297,0
+EVT-100436,2026-10-25 10:43:36,USR-1008,SES-5351,India,Electronics,checkout,Mobile,617.18,195,/hdfs/clickstream/region=India/date=2026-10-25,0.362,0
+EVT-100437,2026-10-25 10:36:25,USR-1105,SES-5559,Europe,Electronics,page_view,Mobile,0.0,151,/hdfs/clickstream/region=Europe/date=2026-10-25,0.286,0
+EVT-100438,2026-10-25 10:14:36,USR-1146,SES-5205,Europe,Fashion,add_to_cart,Tablet,113.5,220,/hdfs/clickstream/region=Europe/date=2026-10-25,0.112,0
+EVT-100439,2026-10-25 10:43:54,USR-1340,SES-5368,Europe,Electronics,page_view,Tablet,0.0,239,/hdfs/clickstream/region=Europe/date=2026-10-25,0.044,0
+EVT-100440,2026-10-25 10:36:40,USR-1257,SES-5468,India,Electronics,purchase,Mobile,1423.12,161,/hdfs/clickstream/region=India/date=2026-10-25,0.235,0
+EVT-100441,2026-10-25 10:58:48,USR-1081,SES-5018,Asia-Pacific,Electronics,page_view,Mobile,0.0,106,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.14,0
+EVT-100442,2026-10-25 10:44:12,USR-1032,SES-5263,Europe,Cloud Services,page_view,Tablet,0.0,117,/hdfs/clickstream/region=Europe/date=2026-10-25,0.372,0
+EVT-100443,2026-10-25 10:29:32,USR-1175,SES-5402,Asia-Pacific,Home & Kitchen,page_view,Mobile,0.0,186,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.121,0
+EVT-100444,2026-10-25 10:51:48,USR-1230,SES-5555,India,Fashion,add_to_cart,Desktop,123.07,51,/hdfs/clickstream/region=India/date=2026-10-25,0.132,0
+EVT-100445,2026-10-25 10:29:40,USR-1336,SES-5578,India,Electronics,add_to_cart,Desktop,1267.24,58,/hdfs/clickstream/region=India/date=2026-10-25,0.378,0
+EVT-100446,2026-10-25 11:06:54,USR-1327,SES-5280,India,Fashion,purchase,Mobile,195.86,56,/hdfs/clickstream/region=India/date=2026-10-25,0.169,0
+EVT-100447,2026-10-25 10:44:42,USR-1311,SES-5580,Europe,Electronics,page_view,Desktop,0.0,174,/hdfs/clickstream/region=Europe/date=2026-10-25,0.24,0
+EVT-100448,2026-10-25 10:59:44,USR-1252,SES-5485,India,Electronics,add_to_cart,Mobile,1035.23,53,/hdfs/clickstream/region=India/date=2026-10-25,0.155,0
+EVT-100449,2026-10-25 10:59:52,USR-1114,SES-5207,India,Electronics,page_view,Tablet,0.0,211,/hdfs/clickstream/region=India/date=2026-10-25,0.353,0
+EVT-100450,2026-10-25 11:00:00,USR-1161,SES-5403,India,Electronics,purchase,Mobile,940.69,174,/hdfs/clickstream/region=India/date=2026-10-25,0.299,0
+EVT-100451,2026-10-25 10:37:35,USR-1266,SES-5550,Asia-Pacific,Fashion,add_to_cart,Desktop,50.69,119,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.336,0
+EVT-100452,2026-10-25 10:37:40,USR-1150,SES-5450,Asia-Pacific,Electronics,page_view,Desktop,0.0,119,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.367,0
+EVT-100453,2026-10-25 10:15:06,USR-1265,SES-5145,Asia-Pacific,Home & Kitchen,page_view,Mobile,0.0,136,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.126,0
+EVT-100454,2026-10-25 10:30:16,USR-1233,SES-5206,Europe,Cloud Services,add_to_cart,Mobile,895.92,134,/hdfs/clickstream/region=Europe/date=2026-10-25,0.182,0
+EVT-100455,2026-10-25 11:00:40,USR-1262,SES-5163,India,Cloud Services,add_to_cart,Desktop,717.94,114,/hdfs/clickstream/region=India/date=2026-10-25,0.051,0
+EVT-100456,2026-10-25 10:30:24,USR-1084,SES-5148,North America,Electronics,page_view,Mobile,0.0,63,/hdfs/clickstream/region=North_America/date=2026-10-25,0.334,0
+EVT-100457,2026-10-25 10:45:42,USR-1321,SES-5185,Europe,Electronics,page_view,Desktop,0.0,48,/hdfs/clickstream/region=Europe/date=2026-10-25,0.366,0
+EVT-100458,2026-10-25 11:08:42,USR-1256,SES-5556,Asia-Pacific,Digital Goods,page_view,Desktop,0.0,224,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.024,0
+EVT-100459,2026-10-25 11:01:12,USR-1227,SES-5081,India,Home & Kitchen,page_view,Desktop,0.0,171,/hdfs/clickstream/region=India/date=2026-10-25,0.191,0
+EVT-100460,2026-10-25 10:15:20,USR-1342,SES-5591,North America,Electronics,add_to_cart,Desktop,861.54,232,/hdfs/clickstream/region=North_America/date=2026-10-25,0.033,0
+EVT-100461,2026-10-25 10:30:44,USR-1345,SES-5291,North America,Cloud Services,page_view,Mobile,0.0,174,/hdfs/clickstream/region=North_America/date=2026-10-25,0.378,0
+EVT-100462,2026-10-25 11:01:36,USR-1035,SES-5437,Europe,Fashion,add_to_cart,Mobile,109.64,233,/hdfs/clickstream/region=Europe/date=2026-10-25,0.136,0
+EVT-100463,2026-10-25 11:01:44,USR-1269,SES-5214,North America,Electronics,page_view,Desktop,0.0,196,/hdfs/clickstream/region=North_America/date=2026-10-25,0.119,0
+EVT-100464,2026-10-25 11:01:52,USR-1312,SES-5324,India,Electronics,add_to_cart,Tablet,823.5,84,/hdfs/clickstream/region=India/date=2026-10-25,0.274,0
+EVT-100465,2026-10-25 11:09:45,USR-1253,SES-5184,North America,Digital Goods,page_view,Mobile,0.0,174,/hdfs/clickstream/region=North_America/date=2026-10-25,0.223,0
+EVT-100466,2026-10-25 10:23:18,USR-1107,SES-5424,India,Electronics,page_view,Mobile,0.0,123,/hdfs/clickstream/region=India/date=2026-10-25,0.187,0
+EVT-100467,2026-10-25 10:23:21,USR-1171,SES-5349,India,Cloud Services,checkout,Mobile,680.31,119,/hdfs/clickstream/region=India/date=2026-10-25,0.218,0
+EVT-100468,2026-10-25 10:54:36,USR-1345,SES-5490,Europe,Fashion,page_view,Mobile,0.0,139,/hdfs/clickstream/region=Europe/date=2026-10-25,0.139,0
+EVT-100469,2026-10-25 10:54:43,USR-1237,SES-5423,Europe,Fashion,page_view,Desktop,0.0,208,/hdfs/clickstream/region=Europe/date=2026-10-25,0.341,0
+EVT-100470,2026-10-25 10:23:30,USR-1077,SES-5287,India,Cloud Services,add_to_cart,Desktop,96.29,233,/hdfs/clickstream/region=India/date=2026-10-25,0.306,0
+EVT-100471,2026-10-25 10:54:57,USR-1017,SES-5278,India,Digital Goods,add_to_cart,Desktop,115.22,123,/hdfs/clickstream/region=India/date=2026-10-25,0.274,0
+EVT-100472,2026-10-25 10:47:12,USR-1090,SES-5114,India,Home & Kitchen,page_view,Desktop,0.0,113,/hdfs/clickstream/region=India/date=2026-10-25,0.129,0
+EVT-100473,2026-10-25 10:55:11,USR-1074,SES-5100,Europe,Home & Kitchen,purchase,Mobile,112.28,228,/hdfs/clickstream/region=Europe/date=2026-10-25,0.284,0
+EVT-100474,2026-10-25 10:23:42,USR-1171,SES-5478,Asia-Pacific,Cloud Services,purchase,Mobile,417.2,29,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.036,0
+EVT-100475,2026-10-25 11:11:15,USR-1344,SES-5120,India,Home & Kitchen,add_to_cart,Mobile,116.21,87,/hdfs/clickstream/region=India/date=2026-10-25,0.212,0
+EVT-100476,2026-10-25 10:39:40,USR-1278,SES-5358,India,Electronics,page_view,Desktop,0.0,158,/hdfs/clickstream/region=India/date=2026-10-25,0.205,0
+EVT-100477,2026-10-25 11:11:33,USR-1346,SES-5051,India,Electronics,add_to_cart,Mobile,445.62,45,/hdfs/clickstream/region=India/date=2026-10-25,0.067,0
+EVT-100478,2026-10-25 11:11:42,USR-1316,SES-5364,North America,Electronics,page_view,Desktop,0.0,97,/hdfs/clickstream/region=North_America/date=2026-10-25,0.341,0
+EVT-100479,2026-10-25 10:23:57,USR-1234,SES-5317,India,Electronics,checkout,Desktop,224.47,193,/hdfs/clickstream/region=India/date=2026-10-25,0.309,0
+EVT-100480,2026-10-25 10:48:00,USR-1187,SES-5401,North America,Home & Kitchen,page_view,Tablet,0.0,64,/hdfs/clickstream/region=North_America/date=2026-10-25,0.072,0
+EVT-100481,2026-10-25 10:32:04,USR-1261,SES-5105,Europe,Fashion,checkout,Desktop,136.7,121,/hdfs/clickstream/region=Europe/date=2026-10-25,0.081,0
+EVT-100482,2026-10-25 11:12:18,USR-1206,SES-5423,Europe,Home & Kitchen,page_view,Desktop,0.0,79,/hdfs/clickstream/region=Europe/date=2026-10-25,0.305,0
+EVT-100483,2026-10-25 10:40:15,USR-1089,SES-5079,North America,Fashion,purchase,Mobile,163.88,207,/hdfs/clickstream/region=North_America/date=2026-10-25,0.303,0
+EVT-100484,2026-10-25 10:24:12,USR-1228,SES-5180,Asia-Pacific,Fashion,page_view,Desktop,0.0,96,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.187,0
+EVT-100485,2026-10-25 11:04:40,USR-1168,SES-5506,Asia-Pacific,Electronics,page_view,Desktop,0.0,183,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.298,0
+EVT-100486,2026-10-25 11:12:54,USR-1101,SES-5210,Europe,Electronics,checkout,Desktop,1321.33,192,/hdfs/clickstream/region=Europe/date=2026-10-25,0.211,0
+EVT-100487,2026-10-25 11:04:56,USR-1066,SES-5301,Asia-Pacific,Electronics,checkout,Desktop,1341.61,33,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.23,0
+EVT-100488,2026-10-25 10:56:56,USR-1057,SES-5288,India,Fashion,page_view,Desktop,0.0,239,/hdfs/clickstream/region=India/date=2026-10-25,0.315,0
+EVT-100489,2026-10-25 11:05:12,USR-1185,SES-5427,India,Cloud Services,add_to_cart,Desktop,433.25,57,/hdfs/clickstream/region=India/date=2026-10-25,0.07,0
+EVT-100490,2026-10-25 10:32:40,USR-1250,SES-5447,India,Home & Kitchen,page_view,Mobile,0.0,52,/hdfs/clickstream/region=India/date=2026-10-25,0.253,0
+EVT-100491,2026-10-25 11:05:28,USR-1320,SES-5184,India,Fashion,page_view,Mobile,0.0,134,/hdfs/clickstream/region=India/date=2026-10-25,0.304,0
+EVT-100492,2026-10-25 10:16:24,USR-1296,SES-5510,North America,Fashion,page_view,Mobile,0.0,234,/hdfs/clickstream/region=North_America/date=2026-10-25,0.087,0
+EVT-100493,2026-10-25 10:16:26,USR-1020,SES-5581,Europe,Fashion,page_view,Tablet,0.0,141,/hdfs/clickstream/region=Europe/date=2026-10-25,0.227,0
+EVT-100494,2026-10-25 10:49:24,USR-1239,SES-5529,Europe,Electronics,page_view,Desktop,0.0,38,/hdfs/clickstream/region=Europe/date=2026-10-25,0.071,0
+EVT-100495,2026-10-25 10:24:45,USR-1325,SES-5552,North America,Fashion,page_view,Desktop,0.0,222,/hdfs/clickstream/region=North_America/date=2026-10-25,0.259,0
+EVT-100496,2026-10-25 10:49:36,USR-1149,SES-5171,North America,Fashion,purchase,Mobile,237.92,27,/hdfs/clickstream/region=North_America/date=2026-10-25,0.147,0
+EVT-100497,2026-10-25 11:14:33,USR-1297,SES-5173,Europe,Fashion,page_view,Desktop,0.0,164,/hdfs/clickstream/region=Europe/date=2026-10-25,0.114,0
+EVT-100498,2026-10-25 10:49:48,USR-1008,SES-5114,India,Digital Goods,checkout,Desktop,48.9,172,/hdfs/clickstream/region=India/date=2026-10-25,0.068,0
+EVT-100499,2026-10-25 10:49:54,USR-1121,SES-5496,India,Fashion,page_view,Mobile,0.0,64,/hdfs/clickstream/region=India/date=2026-10-25,0.311,0
+EVT-100500,2026-10-25 10:33:20,USR-1254,SES-5422,Europe,Home & Kitchen,page_view,Mobile,0.0,215,/hdfs/clickstream/region=Europe/date=2026-10-25,0.072,0
+EVT-100501,2026-10-25 11:15:09,USR-1205,SES-5487,North America,Fashion,add_to_cart,Mobile,37.77,95,/hdfs/clickstream/region=North_America/date=2026-10-25,0.039,0
+EVT-100502,2026-10-25 11:06:56,USR-1348,SES-5323,North America,Digital Goods,purchase,Mobile,70.86,153,/hdfs/clickstream/region=North_America/date=2026-10-25,0.124,0
+EVT-100503,2026-10-25 11:07:04,USR-1237,SES-5247,Europe,Electronics,purchase,Desktop,1391.72,205,/hdfs/clickstream/region=Europe/date=2026-10-25,0.116,0
+EVT-100504,2026-10-25 10:25:12,USR-1229,SES-5359,Europe,Home & Kitchen,add_to_cart,Desktop,43.22,74,/hdfs/clickstream/region=Europe/date=2026-10-25,0.168,0
+EVT-100505,2026-10-25 10:42:05,USR-1307,SES-5124,Europe,Electronics,page_view,Desktop,0.0,199,/hdfs/clickstream/region=Europe/date=2026-10-25,0.04,0
+EVT-100506,2026-10-25 10:50:36,USR-1240,SES-5077,Asia-Pacific,Electronics,add_to_cart,Mobile,1135.93,181,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.086,0
+EVT-100507,2026-10-25 10:16:54,USR-1133,SES-5271,North America,Digital Goods,checkout,Desktop,48.82,63,/hdfs/clickstream/region=North_America/date=2026-10-25,0.042,0
+EVT-100508,2026-10-25 10:50:48,USR-1053,SES-5035,North America,Cloud Services,purchase,Desktop,508.09,36,/hdfs/clickstream/region=North_America/date=2026-10-25,0.252,0
+EVT-100509,2026-10-25 11:07:52,USR-1295,SES-5003,India,Fashion,checkout,Mobile,25.2,149,/hdfs/clickstream/region=India/date=2026-10-25,0.075,0
+EVT-100510,2026-10-25 10:25:30,USR-1277,SES-5231,Europe,Home & Kitchen,page_view,Mobile,0.0,18,/hdfs/clickstream/region=Europe/date=2026-10-25,0.282,0
+EVT-100511,2026-10-25 10:59:37,USR-1274,SES-5348,North America,Fashion,checkout,Mobile,103.36,38,/hdfs/clickstream/region=North_America/date=2026-10-25,0.379,0
+EVT-100512,2026-10-25 11:08:16,USR-1339,SES-5195,Europe,Home & Kitchen,page_view,Mobile,0.0,94,/hdfs/clickstream/region=Europe/date=2026-10-25,0.22,0
+EVT-100513,2026-10-25 10:42:45,USR-1251,SES-5398,Europe,Home & Kitchen,add_to_cart,Mobile,93.18,34,/hdfs/clickstream/region=Europe/date=2026-10-25,0.279,0
+EVT-100514,2026-10-25 10:17:08,USR-1019,SES-5347,Europe,Fashion,page_view,Tablet,0.0,32,/hdfs/clickstream/region=Europe/date=2026-10-25,0.312,0
+EVT-100515,2026-10-25 11:17:15,USR-1348,SES-5549,India,Fashion,page_view,Mobile,0.0,56,/hdfs/clickstream/region=India/date=2026-10-25,0.255,0
+EVT-100516,2026-10-25 10:17:12,USR-1242,SES-5046,Europe,Electronics,page_view,Desktop,0.0,80,/hdfs/clickstream/region=Europe/date=2026-10-25,0.196,0
+EVT-100517,2026-10-25 10:25:51,USR-1234,SES-5174,Europe,Electronics,page_view,Mobile,0.0,231,/hdfs/clickstream/region=Europe/date=2026-10-25,0.131,0
+EVT-100518,2026-10-25 10:43:10,USR-1033,SES-5207,North America,Home & Kitchen,page_view,Mobile,0.0,127,/hdfs/clickstream/region=North_America/date=2026-10-25,0.308,0
+EVT-100519,2026-10-25 10:17:18,USR-1304,SES-5177,India,Home & Kitchen,add_to_cart,Mobile,162.2,103,/hdfs/clickstream/region=India/date=2026-10-25,0.097,0
+EVT-100520,2026-10-25 11:09:20,USR-1081,SES-5016,India,Electronics,checkout,Mobile,612.0,142,/hdfs/clickstream/region=India/date=2026-10-25,0.305,0
+EVT-100521,2026-10-25 10:52:06,USR-1268,SES-5461,India,Electronics,purchase,Desktop,909.66,123,/hdfs/clickstream/region=India/date=2026-10-25,0.066,0
+EVT-100522,2026-10-25 10:43:30,USR-1099,SES-5120,India,Electronics,add_to_cart,Desktop,1073.87,153,/hdfs/clickstream/region=India/date=2026-10-25,0.171,0
+EVT-100523,2026-10-25 11:18:27,USR-1255,SES-5180,Asia-Pacific,Fashion,checkout,Tablet,172.22,58,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.061,0
+EVT-100524,2026-10-25 10:34:56,USR-1081,SES-5029,Europe,Electronics,add_to_cart,Mobile,698.11,142,/hdfs/clickstream/region=Europe/date=2026-10-25,0.287,0
+EVT-100525,2026-10-25 11:10:00,USR-1102,SES-5333,North America,Electronics,page_view,Mobile,0.0,76,/hdfs/clickstream/region=North_America/date=2026-10-25,0.229,0
+EVT-100526,2026-10-25 11:10:08,USR-1113,SES-5075,Europe,Cloud Services,page_view,Desktop,0.0,138,/hdfs/clickstream/region=Europe/date=2026-10-25,0.333,0
+EVT-100527,2026-10-25 10:35:08,USR-1199,SES-5382,North America,Electronics,page_view,Mobile,0.0,52,/hdfs/clickstream/region=North_America/date=2026-10-25,0.239,0
+EVT-100528,2026-10-25 10:17:36,USR-1292,SES-5061,North America,Electronics,page_view,Mobile,0.0,89,/hdfs/clickstream/region=North_America/date=2026-10-25,0.141,0
+EVT-100529,2026-10-25 10:52:54,USR-1310,SES-5160,India,Home & Kitchen,page_view,Mobile,0.0,220,/hdfs/clickstream/region=India/date=2026-10-25,0.144,0
+EVT-100530,2026-10-25 11:19:30,USR-1143,SES-5014,Europe,Digital Goods,purchase,Mobile,130.71,204,/hdfs/clickstream/region=Europe/date=2026-10-25,0.098,0
+EVT-100531,2026-10-25 10:35:24,USR-1294,SES-5005,North America,Home & Kitchen,page_view,Mobile,0.0,124,/hdfs/clickstream/region=North_America/date=2026-10-25,0.1,0
+EVT-100532,2026-10-25 11:10:56,USR-1246,SES-5100,Asia-Pacific,Electronics,page_view,Desktop,0.0,133,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.032,0
+EVT-100533,2026-10-25 10:35:32,USR-1236,SES-5584,North America,Electronics,checkout,Desktop,660.8,209,/hdfs/clickstream/region=North_America/date=2026-10-25,0.026,0
+EVT-100534,2026-10-25 10:35:36,USR-1190,SES-5475,North America,Digital Goods,page_view,Mobile,0.0,198,/hdfs/clickstream/region=North_America/date=2026-10-25,0.273,0
+EVT-100535,2026-10-25 10:17:50,USR-1152,SES-5436,North America,Home & Kitchen,page_view,Desktop,0.0,210,/hdfs/clickstream/region=North_America/date=2026-10-25,0.14,0
+EVT-100536,2026-10-25 11:02:32,USR-1027,SES-5113,India,Digital Goods,add_to_cart,Desktop,17.67,116,/hdfs/clickstream/region=India/date=2026-10-25,0.36,0
+EVT-100537,2026-10-25 10:26:51,USR-1288,SES-5209,India,Fashion,page_view,Mobile,0.0,53,/hdfs/clickstream/region=India/date=2026-10-25,0.221,0
+EVT-100538,2026-10-25 10:44:50,USR-1116,SES-5328,Asia-Pacific,Electronics,page_view,Mobile,0.0,108,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.358,0
+EVT-100539,2026-10-25 11:20:51,USR-1249,SES-5513,Asia-Pacific,Cloud Services,page_view,Mobile,0.0,152,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.154,0
+EVT-100540,2026-10-25 10:27:00,USR-1097,SES-5468,Europe,Cloud Services,add_to_cart,Desktop,473.22,40,/hdfs/clickstream/region=Europe/date=2026-10-25,0.372,0
+EVT-100541,2026-10-25 10:54:06,USR-1058,SES-5151,India,Home & Kitchen,page_view,Tablet,0.0,145,/hdfs/clickstream/region=India/date=2026-10-25,0.059,0
+EVT-100542,2026-10-25 10:45:10,USR-1267,SES-5343,India,Electronics,purchase,Mobile,2193.0,420,/hdfs/clickstream/region=India/date=2026-10-25,0.785,1
+EVT-100543,2026-10-25 10:54:18,USR-1117,SES-5495,North America,Fashion,checkout,Mobile,153.89,113,/hdfs/clickstream/region=North_America/date=2026-10-25,0.343,0
+EVT-100544,2026-10-25 10:36:16,USR-1317,SES-5164,Asia-Pacific,Home & Kitchen,page_view,Mobile,0.0,200,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.184,0
+EVT-100545,2026-10-25 10:36:20,USR-1083,SES-5243,North America,Electronics,page_view,Desktop,0.0,47,/hdfs/clickstream/region=North_America/date=2026-10-25,0.346,0
+EVT-100546,2026-10-25 10:18:12,USR-1341,SES-5324,India,Electronics,page_view,Mobile,0.0,106,/hdfs/clickstream/region=India/date=2026-10-25,0.086,0
+EVT-100547,2026-10-25 11:03:49,USR-1332,SES-5302,India,Cloud Services,purchase,Mobile,101.68,139,/hdfs/clickstream/region=India/date=2026-10-25,0.354,0
+EVT-100548,2026-10-25 10:18:16,USR-1072,SES-5564,Asia-Pacific,Digital Goods,checkout,Tablet,57.42,47,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.06,0
+EVT-100549,2026-10-25 10:18:18,USR-1043,SES-5551,India,Cloud Services,checkout,Mobile,127.88,235,/hdfs/clickstream/region=India/date=2026-10-25,0.357,0
+EVT-100550,2026-10-25 11:04:10,USR-1309,SES-5523,North America,Fashion,page_view,Mobile,0.0,32,/hdfs/clickstream/region=North_America/date=2026-10-25,0.09,0
+EVT-100551,2026-10-25 11:04:17,USR-1007,SES-5291,Asia-Pacific,Cloud Services,page_view,Desktop,0.0,106,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.153,0
+EVT-100552,2026-10-25 11:13:36,USR-1213,SES-5142,India,Digital Goods,checkout,Mobile,50.41,231,/hdfs/clickstream/region=India/date=2026-10-25,0.31,0
+EVT-100553,2026-10-25 11:04:31,USR-1034,SES-5384,North America,Electronics,page_view,Mobile,0.0,40,/hdfs/clickstream/region=North_America/date=2026-10-25,0.332,0
+EVT-100554,2026-10-25 10:36:56,USR-1103,SES-5190,India,Fashion,page_view,Mobile,0.0,231,/hdfs/clickstream/region=India/date=2026-10-25,0.186,0
+EVT-100555,2026-10-25 10:55:30,USR-1253,SES-5572,North America,Fashion,page_view,Desktop,0.0,207,/hdfs/clickstream/region=North_America/date=2026-10-25,0.32,0
+EVT-100556,2026-10-25 11:23:24,USR-1064,SES-5294,North America,Electronics,page_view,Mobile,0.0,124,/hdfs/clickstream/region=North_America/date=2026-10-25,0.364,0
+EVT-100557,2026-10-25 11:14:16,USR-1133,SES-5487,India,Digital Goods,add_to_cart,Mobile,60.65,195,/hdfs/clickstream/region=India/date=2026-10-25,0.193,0
+EVT-100558,2026-10-25 10:18:36,USR-1140,SES-5369,Europe,Cloud Services,add_to_cart,Mobile,586.04,125,/hdfs/clickstream/region=Europe/date=2026-10-25,0.149,0
+EVT-100559,2026-10-25 10:27:57,USR-1264,SES-5198,North America,Digital Goods,page_view,Mobile,0.0,214,/hdfs/clickstream/region=North_America/date=2026-10-25,0.25,0
+EVT-100560,2026-10-25 11:05:20,USR-1050,SES-5547,North America,Home & Kitchen,add_to_cart,Mobile,343.95,166,/hdfs/clickstream/region=North_America/date=2026-10-25,0.271,0
+EVT-100561,2026-10-25 11:14:48,USR-1175,SES-5166,India,Electronics,page_view,Mobile,0.0,44,/hdfs/clickstream/region=India/date=2026-10-25,0.3,0
+EVT-100562,2026-10-25 11:14:56,USR-1236,SES-5078,India,Cloud Services,checkout,Desktop,680.0,47,/hdfs/clickstream/region=India/date=2026-10-25,0.273,0
+EVT-100563,2026-10-25 11:24:27,USR-1306,SES-5535,Europe,Digital Goods,page_view,Mobile,0.0,213,/hdfs/clickstream/region=Europe/date=2026-10-25,0.151,0
+EVT-100564,2026-10-25 10:37:36,USR-1073,SES-5232,Asia-Pacific,Electronics,page_view,Desktop,0.0,96,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.063,0
+EVT-100565,2026-10-25 10:28:15,USR-1010,SES-5495,India,Electronics,page_view,Desktop,0.0,211,/hdfs/clickstream/region=India/date=2026-10-25,0.302,0
+EVT-100566,2026-10-25 11:24:54,USR-1061,SES-5259,North America,Electronics,page_view,Desktop,0.0,29,/hdfs/clickstream/region=North_America/date=2026-10-25,0.234,0
+EVT-100567,2026-10-25 10:56:42,USR-1297,SES-5356,India,Fashion,checkout,Desktop,236.78,108,/hdfs/clickstream/region=India/date=2026-10-25,0.053,0
+EVT-100568,2026-10-25 10:56:48,USR-1088,SES-5550,India,Cloud Services,add_to_cart,Mobile,166.22,19,/hdfs/clickstream/region=India/date=2026-10-25,0.089,0
+EVT-100569,2026-10-25 11:06:23,USR-1302,SES-5189,Asia-Pacific,Electronics,page_view,Mobile,0.0,130,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.275,0
+EVT-100570,2026-10-25 11:25:30,USR-1185,SES-5295,Europe,Electronics,checkout,Tablet,684.04,160,/hdfs/clickstream/region=Europe/date=2026-10-25,0.188,0
+EVT-100571,2026-10-25 10:57:06,USR-1228,SES-5231,Europe,Electronics,page_view,Mobile,0.0,159,/hdfs/clickstream/region=Europe/date=2026-10-25,0.185,0
+EVT-100572,2026-10-25 11:25:48,USR-1348,SES-5376,North America,Digital Goods,page_view,Desktop,0.0,63,/hdfs/clickstream/region=North_America/date=2026-10-25,0.342,0
+EVT-100573,2026-10-25 10:38:12,USR-1034,SES-5372,India,Fashion,add_to_cart,Mobile,53.02,68,/hdfs/clickstream/region=India/date=2026-10-25,0.372,0
+EVT-100574,2026-10-25 11:16:32,USR-1183,SES-5487,India,Fashion,purchase,Mobile,90.45,188,/hdfs/clickstream/region=India/date=2026-10-25,0.118,0
+EVT-100575,2026-10-25 10:28:45,USR-1063,SES-5256,North America,Cloud Services,page_view,Mobile,0.0,143,/hdfs/clickstream/region=North_America/date=2026-10-25,0.296,0
+EVT-100576,2026-10-25 10:28:48,USR-1256,SES-5027,North America,Fashion,page_view,Mobile,0.0,63,/hdfs/clickstream/region=North_America/date=2026-10-25,0.039,0
+EVT-100577,2026-10-25 10:28:51,USR-1339,SES-5532,North America,Fashion,page_view,Desktop,0.0,214,/hdfs/clickstream/region=North_America/date=2026-10-25,0.055,0
+EVT-100578,2026-10-25 11:07:26,USR-1277,SES-5559,North America,Cloud Services,page_view,Mobile,0.0,22,/hdfs/clickstream/region=North_America/date=2026-10-25,0.202,0
+EVT-100579,2026-10-25 11:07:33,USR-1193,SES-5453,Asia-Pacific,Electronics,page_view,Desktop,0.0,135,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.158,0
+EVT-100580,2026-10-25 11:27:00,USR-1338,SES-5567,India,Electronics,add_to_cart,Desktop,1296.65,193,/hdfs/clickstream/region=India/date=2026-10-25,0.295,0
+EVT-100581,2026-10-25 10:58:06,USR-1165,SES-5062,North America,Cloud Services,add_to_cart,Mobile,309.15,25,/hdfs/clickstream/region=North_America/date=2026-10-25,0.296,0
+EVT-100582,2026-10-25 11:07:54,USR-1195,SES-5099,North America,Electronics,page_view,Desktop,0.0,127,/hdfs/clickstream/region=North_America/date=2026-10-25,0.23,0
+EVT-100583,2026-10-25 10:58:18,USR-1304,SES-5086,India,Cloud Services,page_view,Desktop,0.0,194,/hdfs/clickstream/region=India/date=2026-10-25,0.109,0
+EVT-100584,2026-10-25 11:27:36,USR-1337,SES-5432,India,Electronics,page_view,Mobile,0.0,163,/hdfs/clickstream/region=India/date=2026-10-25,0.137,0
+EVT-100585,2026-10-25 11:08:15,USR-1194,SES-5584,North America,Cloud Services,page_view,Mobile,0.0,117,/hdfs/clickstream/region=North_America/date=2026-10-25,0.028,0
+EVT-100586,2026-10-25 11:27:54,USR-1258,SES-5347,India,Electronics,page_view,Desktop,0.0,60,/hdfs/clickstream/region=India/date=2026-10-25,0.094,0
+EVT-100587,2026-10-25 10:29:21,USR-1275,SES-5219,North America,Cloud Services,page_view,Mobile,0.0,91,/hdfs/clickstream/region=North_America/date=2026-10-25,0.325,0
+EVT-100588,2026-10-25 11:28:12,USR-1219,SES-5214,India,Electronics,add_to_cart,Desktop,950.68,106,/hdfs/clickstream/region=India/date=2026-10-25,0.118,0
+EVT-100589,2026-10-25 11:08:43,USR-1103,SES-5424,Europe,Fashion,page_view,Desktop,0.0,120,/hdfs/clickstream/region=Europe/date=2026-10-25,0.176,0
+EVT-100590,2026-10-25 11:28:30,USR-1138,SES-5545,India,Cloud Services,add_to_cart,Mobile,626.22,225,/hdfs/clickstream/region=India/date=2026-10-25,0.258,0
+EVT-100591,2026-10-25 10:49:15,USR-1187,SES-5473,North America,Home & Kitchen,page_view,Mobile,0.0,55,/hdfs/clickstream/region=North_America/date=2026-10-25,0.246,0
+EVT-100592,2026-10-25 10:39:28,USR-1132,SES-5241,India,Home & Kitchen,checkout,Desktop,280.89,121,/hdfs/clickstream/region=India/date=2026-10-25,0.116,0
+EVT-100593,2026-10-25 11:28:57,USR-1287,SES-5446,India,Electronics,page_view,Desktop,0.0,126,/hdfs/clickstream/region=India/date=2026-10-25,0.132,0
+EVT-100594,2026-10-25 10:59:24,USR-1338,SES-5563,North America,Electronics,page_view,Mobile,0.0,63,/hdfs/clickstream/region=North_America/date=2026-10-25,0.113,0
+EVT-100595,2026-10-25 11:09:25,USR-1344,SES-5092,North America,Electronics,add_to_cart,Desktop,193.59,119,/hdfs/clickstream/region=North_America/date=2026-10-25,0.364,0
+EVT-100596,2026-10-25 10:29:48,USR-1268,SES-5594,Asia-Pacific,Fashion,page_view,Mobile,0.0,216,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.284,0
+EVT-100597,2026-10-25 11:19:36,USR-1112,SES-5147,Asia-Pacific,Electronics,purchase,Mobile,282.63,45,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.289,0
+EVT-100598,2026-10-25 11:29:42,USR-1274,SES-5383,India,Digital Goods,page_view,Mobile,0.0,197,/hdfs/clickstream/region=India/date=2026-10-25,0.232,0
+EVT-100599,2026-10-25 10:39:56,USR-1186,SES-5486,Asia-Pacific,Electronics,page_view,Desktop,0.0,201,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.367,0
+EVT-100600,2026-10-25 11:00:00,USR-1283,SES-5393,India,Electronics,add_to_cart,Desktop,166.3,97,/hdfs/clickstream/region=India/date=2026-10-25,0.262,0
+EVT-100601,2026-10-25 11:00:06,USR-1047,SES-5241,North America,Fashion,purchase,Desktop,128.96,94,/hdfs/clickstream/region=North_America/date=2026-10-25,0.354,0
+EVT-100602,2026-10-25 11:30:18,USR-1212,SES-5340,India,Home & Kitchen,purchase,Desktop,52.88,201,/hdfs/clickstream/region=India/date=2026-10-25,0.316,0
+EVT-100603,2026-10-25 10:30:09,USR-1181,SES-5430,North America,Digital Goods,page_view,Mobile,0.0,172,/hdfs/clickstream/region=North_America/date=2026-10-25,0.114,0
+EVT-100604,2026-10-25 10:40:16,USR-1323,SES-5454,Europe,Fashion,page_view,Desktop,0.0,220,/hdfs/clickstream/region=Europe/date=2026-10-25,0.294,0
+EVT-100605,2026-10-25 10:30:15,USR-1081,SES-5255,North America,Electronics,page_view,Mobile,0.0,150,/hdfs/clickstream/region=North_America/date=2026-10-25,0.227,0
+EVT-100606,2026-10-25 10:40:24,USR-1304,SES-5335,Europe,Home & Kitchen,add_to_cart,Mobile,211.57,222,/hdfs/clickstream/region=Europe/date=2026-10-25,0.068,0
+EVT-100607,2026-10-25 10:50:35,USR-1011,SES-5023,India,Electronics,page_view,Mobile,0.0,160,/hdfs/clickstream/region=India/date=2026-10-25,0.156,0
+EVT-100608,2026-10-25 11:10:56,USR-1088,SES-5580,North America,Fashion,purchase,Tablet,64.66,48,/hdfs/clickstream/region=North_America/date=2026-10-25,0.114,0
+EVT-100609,2026-10-25 11:31:21,USR-1196,SES-5133,India,Cloud Services,checkout,Tablet,509.91,128,/hdfs/clickstream/region=India/date=2026-10-25,0.313,0
+EVT-100610,2026-10-25 10:50:50,USR-1190,SES-5596,Europe,Fashion,purchase,Mobile,121.0,193,/hdfs/clickstream/region=Europe/date=2026-10-25,0.114,0
+EVT-100611,2026-10-25 11:21:28,USR-1109,SES-5392,North America,Electronics,page_view,Desktop,0.0,199,/hdfs/clickstream/region=North_America/date=2026-10-25,0.371,0
+EVT-100612,2026-10-25 10:51:00,USR-1242,SES-5362,North America,Fashion,page_view,Mobile,0.0,173,/hdfs/clickstream/region=North_America/date=2026-10-25,0.039,0
+EVT-100613,2026-10-25 10:20:26,USR-1298,SES-5183,Asia-Pacific,Digital Goods,add_to_cart,Desktop,65.26,84,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.154,0
+EVT-100614,2026-10-25 11:21:52,USR-1073,SES-5266,India,Cloud Services,page_view,Mobile,0.0,47,/hdfs/clickstream/region=India/date=2026-10-25,0.052,0
+EVT-100615,2026-10-25 11:11:45,USR-1221,SES-5289,India,Digital Goods,page_view,Tablet,0.0,85,/hdfs/clickstream/region=India/date=2026-10-25,0.121,0
+EVT-100616,2026-10-25 11:11:52,USR-1252,SES-5154,North America,Home & Kitchen,page_view,Mobile,0.0,160,/hdfs/clickstream/region=North_America/date=2026-10-25,0.341,0
+EVT-100617,2026-10-25 11:32:33,USR-1021,SES-5452,Europe,Fashion,checkout,Mobile,33.43,109,/hdfs/clickstream/region=Europe/date=2026-10-25,0.177,0
+EVT-100618,2026-10-25 10:41:12,USR-1064,SES-5357,Asia-Pacific,Fashion,page_view,Mobile,0.0,41,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.279,0
+EVT-100619,2026-10-25 10:41:16,USR-1214,SES-5078,India,Electronics,checkout,Desktop,1214.02,81,/hdfs/clickstream/region=India/date=2026-10-25,0.021,0
+EVT-100620,2026-10-25 10:31:00,USR-1236,SES-5491,Europe,Fashion,purchase,Mobile,117.63,134,/hdfs/clickstream/region=Europe/date=2026-10-25,0.321,0
+EVT-100621,2026-10-25 10:41:24,USR-1109,SES-5049,North America,Electronics,add_to_cart,Mobile,178.32,223,/hdfs/clickstream/region=North_America/date=2026-10-25,0.346,0
+EVT-100622,2026-10-25 11:22:56,USR-1048,SES-5408,North America,Cloud Services,page_view,Mobile,0.0,83,/hdfs/clickstream/region=North_America/date=2026-10-25,0.363,0
+EVT-100623,2026-10-25 11:33:27,USR-1222,SES-5317,India,Digital Goods,checkout,Mobile,115.36,193,/hdfs/clickstream/region=India/date=2026-10-25,0.255,0
+EVT-100624,2026-10-25 11:33:36,USR-1199,SES-5487,North America,Cloud Services,page_view,Mobile,0.0,86,/hdfs/clickstream/region=North_America/date=2026-10-25,0.092,0
+EVT-100625,2026-10-25 10:41:40,USR-1254,SES-5539,North America,Cloud Services,checkout,Desktop,457.67,179,/hdfs/clickstream/region=North_America/date=2026-10-25,0.187,0
+EVT-100626,2026-10-25 11:02:36,USR-1077,SES-5130,North America,Electronics,page_view,Mobile,0.0,193,/hdfs/clickstream/region=North_America/date=2026-10-25,0.309,0
+EVT-100627,2026-10-25 11:02:42,USR-1182,SES-5260,Asia-Pacific,Home & Kitchen,add_to_cart,Mobile,80.9,167,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.054,0
+EVT-100628,2026-10-25 10:41:52,USR-1202,SES-5046,India,Cloud Services,page_view,Desktop,0.0,39,/hdfs/clickstream/region=India/date=2026-10-25,0.085,0
+EVT-100629,2026-10-25 11:34:21,USR-1320,SES-5271,North America,Fashion,page_view,Desktop,0.0,105,/hdfs/clickstream/region=North_America/date=2026-10-25,0.293,0
+EVT-100630,2026-10-25 11:03:00,USR-1345,SES-5108,Asia-Pacific,Home & Kitchen,page_view,Mobile,0.0,129,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.289,0
+EVT-100631,2026-10-25 11:24:08,USR-1337,SES-5498,North America,Electronics,page_view,Mobile,0.0,95,/hdfs/clickstream/region=North_America/date=2026-10-25,0.192,0
+EVT-100632,2026-10-25 11:24:16,USR-1155,SES-5089,North America,Digital Goods,page_view,Desktop,0.0,50,/hdfs/clickstream/region=North_America/date=2026-10-25,0.269,0
+EVT-100633,2026-10-25 10:52:45,USR-1045,SES-5308,India,Electronics,checkout,Desktop,370.33,215,/hdfs/clickstream/region=India/date=2026-10-25,0.323,0
+EVT-100634,2026-10-25 11:35:06,USR-1249,SES-5482,North America,Cloud Services,page_view,Mobile,0.0,23,/hdfs/clickstream/region=North_America/date=2026-10-25,0.075,0
+EVT-100635,2026-10-25 10:21:10,USR-1171,SES-5008,Europe,Fashion,page_view,Mobile,0.0,44,/hdfs/clickstream/region=Europe/date=2026-10-25,0.32,0
+EVT-100636,2026-10-25 11:35:24,USR-1119,SES-5062,North America,Fashion,purchase,Desktop,155.26,153,/hdfs/clickstream/region=North_America/date=2026-10-25,0.195,0
+EVT-100637,2026-10-25 11:24:56,USR-1011,SES-5165,India,Fashion,add_to_cart,Mobile,52.48,91,/hdfs/clickstream/region=India/date=2026-10-25,0.181,0
+EVT-100638,2026-10-25 11:14:26,USR-1309,SES-5479,Europe,Cloud Services,page_view,Mobile,0.0,51,/hdfs/clickstream/region=Europe/date=2026-10-25,0.232,0
+EVT-100639,2026-10-25 11:14:33,USR-1242,SES-5165,Asia-Pacific,Fashion,page_view,Mobile,0.0,177,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.359,0
+EVT-100640,2026-10-25 10:42:40,USR-1311,SES-5503,India,Fashion,page_view,Mobile,0.0,43,/hdfs/clickstream/region=India/date=2026-10-25,0.082,0
+EVT-100641,2026-10-25 10:21:22,USR-1184,SES-5267,Europe,Digital Goods,page_view,Mobile,0.0,109,/hdfs/clickstream/region=Europe/date=2026-10-25,0.22,0
+EVT-100642,2026-10-25 11:14:54,USR-1024,SES-5570,Europe,Electronics,checkout,Mobile,1193.06,86,/hdfs/clickstream/region=Europe/date=2026-10-25,0.195,0
+EVT-100643,2026-10-25 10:32:09,USR-1288,SES-5042,Asia-Pacific,Home & Kitchen,checkout,Desktop,343.62,147,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.292,0
+EVT-100644,2026-10-25 11:15:08,USR-1071,SES-5125,India,Fashion,checkout,Desktop,128.76,235,/hdfs/clickstream/region=India/date=2026-10-25,0.056,0
+EVT-100645,2026-10-25 10:53:45,USR-1078,SES-5542,India,Digital Goods,checkout,Mobile,47.24,125,/hdfs/clickstream/region=India/date=2026-10-25,0.277,0
+EVT-100646,2026-10-25 11:15:22,USR-1016,SES-5453,Europe,Electronics,page_view,Desktop,0.0,55,/hdfs/clickstream/region=Europe/date=2026-10-25,0.343,0
+EVT-100647,2026-10-25 10:43:08,USR-1295,SES-5059,Europe,Fashion,add_to_cart,Mobile,206.51,179,/hdfs/clickstream/region=Europe/date=2026-10-25,0.033,0
+EVT-100648,2026-10-25 11:04:48,USR-1271,SES-5150,Asia-Pacific,Home & Kitchen,checkout,Tablet,371.95,197,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.133,0
+EVT-100649,2026-10-25 10:32:27,USR-1019,SES-5550,North America,Fashion,purchase,Desktop,106.13,103,/hdfs/clickstream/region=North_America/date=2026-10-25,0.299,0
+EVT-100650,2026-10-25 11:05:00,USR-1124,SES-5311,North America,Fashion,checkout,Mobile,717.03,581,/hdfs/clickstream/region=North_America/date=2026-10-25,0.893,1
+EVT-100651,2026-10-25 10:21:42,USR-1233,SES-5347,North America,Cloud Services,add_to_cart,Desktop,521.52,78,/hdfs/clickstream/region=North_America/date=2026-10-25,0.182,0
+EVT-100652,2026-10-25 10:43:28,USR-1194,SES-5532,Europe,Digital Goods,add_to_cart,Desktop,49.83,206,/hdfs/clickstream/region=Europe/date=2026-10-25,0.303,0
+EVT-100653,2026-10-25 10:43:32,USR-1244,SES-5219,India,Cloud Services,add_to_cart,Desktop,165.25,132,/hdfs/clickstream/region=India/date=2026-10-25,0.042,0
+EVT-100654,2026-10-25 11:05:24,USR-1300,SES-5510,India,Fashion,page_view,Mobile,0.0,180,/hdfs/clickstream/region=India/date=2026-10-25,0.3,0
+EVT-100655,2026-10-25 10:32:45,USR-1109,SES-5466,North America,Cloud Services,purchase,Mobile,796.72,139,/hdfs/clickstream/region=North_America/date=2026-10-25,0.067,0
+EVT-100656,2026-10-25 10:32:48,USR-1191,SES-5312,India,Electronics,add_to_cart,Tablet,277.96,113,/hdfs/clickstream/region=India/date=2026-10-25,0.208,0
+EVT-100657,2026-10-25 10:32:51,USR-1281,SES-5357,India,Cloud Services,checkout,Mobile,122.33,35,/hdfs/clickstream/region=India/date=2026-10-25,0.315,0
+EVT-100658,2026-10-25 11:38:42,USR-1231,SES-5459,Asia-Pacific,Cloud Services,add_to_cart,Mobile,759.77,56,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.294,0
+EVT-100659,2026-10-25 10:32:57,USR-1085,SES-5025,Asia-Pacific,Cloud Services,checkout,Desktop,282.56,164,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.34,0
+EVT-100660,2026-10-25 10:33:00,USR-1099,SES-5554,North America,Home & Kitchen,page_view,Desktop,0.0,165,/hdfs/clickstream/region=North_America/date=2026-10-25,0.252,0
+EVT-100661,2026-10-25 10:55:05,USR-1126,SES-5593,Europe,Digital Goods,add_to_cart,Desktop,144.73,131,/hdfs/clickstream/region=Europe/date=2026-10-25,0.119,0
+EVT-100662,2026-10-25 10:22:04,USR-1175,SES-5447,India,Cloud Services,page_view,Desktop,0.0,64,/hdfs/clickstream/region=India/date=2026-10-25,0.197,0
+EVT-100663,2026-10-25 10:33:09,USR-1278,SES-5172,North America,Home & Kitchen,page_view,Mobile,0.0,91,/hdfs/clickstream/region=North_America/date=2026-10-25,0.061,0
+EVT-100664,2026-10-25 10:44:16,USR-1031,SES-5333,India,Electronics,page_view,Mobile,0.0,64,/hdfs/clickstream/region=India/date=2026-10-25,0.167,0
+EVT-100665,2026-10-25 11:17:35,USR-1133,SES-5384,India,Electronics,page_view,Mobile,0.0,229,/hdfs/clickstream/region=India/date=2026-10-25,0.169,0
+EVT-100666,2026-10-25 11:28:48,USR-1059,SES-5275,Asia-Pacific,Electronics,page_view,Desktop,0.0,33,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.105,0
+EVT-100667,2026-10-25 10:22:14,USR-1138,SES-5567,India,Fashion,page_view,Mobile,0.0,168,/hdfs/clickstream/region=India/date=2026-10-25,0.248,0
+EVT-100668,2026-10-25 11:17:56,USR-1277,SES-5172,Europe,Electronics,add_to_cart,Desktop,525.14,218,/hdfs/clickstream/region=Europe/date=2026-10-25,0.368,0
+EVT-100669,2026-10-25 11:40:21,USR-1140,SES-5256,India,Digital Goods,purchase,Mobile,101.43,232,/hdfs/clickstream/region=India/date=2026-10-25,0.08,0
+EVT-100670,2026-10-25 10:44:40,USR-1285,SES-5286,Europe,Digital Goods,checkout,Mobile,19.79,128,/hdfs/clickstream/region=Europe/date=2026-10-25,0.052,0
+EVT-100671,2026-10-25 10:55:55,USR-1236,SES-5336,India,Cloud Services,checkout,Desktop,632.6,22,/hdfs/clickstream/region=India/date=2026-10-25,0.258,0
+EVT-100672,2026-10-25 10:33:36,USR-1333,SES-5079,Asia-Pacific,Electronics,purchase,Desktop,125.69,155,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.196,0
+EVT-100673,2026-10-25 10:22:26,USR-1064,SES-5473,India,Home & Kitchen,add_to_cart,Desktop,176.03,112,/hdfs/clickstream/region=India/date=2026-10-25,0.296,0
+EVT-100674,2026-10-25 11:18:38,USR-1099,SES-5092,Asia-Pacific,Cloud Services,page_view,Mobile,0.0,226,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.121,0
+EVT-100675,2026-10-25 10:56:15,USR-1327,SES-5405,North America,Electronics,add_to_cart,Mobile,776.77,46,/hdfs/clickstream/region=North_America/date=2026-10-25,0.095,0
+EVT-100676,2026-10-25 10:45:04,USR-1034,SES-5131,Asia-Pacific,Fashion,page_view,Mobile,0.0,208,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.258,0
+EVT-100677,2026-10-25 11:07:42,USR-1349,SES-5573,India,Electronics,add_to_cart,Mobile,815.7,134,/hdfs/clickstream/region=India/date=2026-10-25,0.269,0
+EVT-100678,2026-10-25 11:41:42,USR-1186,SES-5529,India,Cloud Services,add_to_cart,Desktop,361.01,212,/hdfs/clickstream/region=India/date=2026-10-25,0.207,0
+EVT-100679,2026-10-25 11:19:13,USR-1003,SES-5401,India,Fashion,page_view,Desktop,0.0,67,/hdfs/clickstream/region=India/date=2026-10-25,0.212,0
+EVT-100680,2026-10-25 10:34:00,USR-1015,SES-5491,India,Home & Kitchen,checkout,Tablet,388.46,128,/hdfs/clickstream/region=India/date=2026-10-25,0.139,0
+EVT-100681,2026-10-25 10:56:45,USR-1038,SES-5449,Europe,Fashion,add_to_cart,Mobile,81.01,213,/hdfs/clickstream/region=Europe/date=2026-10-25,0.14,0
+EVT-100682,2026-10-25 11:30:56,USR-1161,SES-5066,India,Cloud Services,page_view,Tablet,0.0,218,/hdfs/clickstream/region=India/date=2026-10-25,0.35,0
+EVT-100683,2026-10-25 10:34:09,USR-1053,SES-5057,India,Digital Goods,page_view,Mobile,0.0,161,/hdfs/clickstream/region=India/date=2026-10-25,0.245,0
+EVT-100684,2026-10-25 10:22:48,USR-1233,SES-5393,India,Home & Kitchen,page_view,Desktop,0.0,136,/hdfs/clickstream/region=India/date=2026-10-25,0.168,0
+EVT-100685,2026-10-25 10:34:15,USR-1304,SES-5198,Europe,Home & Kitchen,add_to_cart,Mobile,164.71,164,/hdfs/clickstream/region=Europe/date=2026-10-25,0.057,0
+EVT-100686,2026-10-25 10:45:44,USR-1125,SES-5140,India,Cloud Services,page_view,Mobile,0.0,222,/hdfs/clickstream/region=India/date=2026-10-25,0.244,0
+EVT-100687,2026-10-25 11:20:09,USR-1150,SES-5377,India,Electronics,add_to_cart,Mobile,986.77,20,/hdfs/clickstream/region=India/date=2026-10-25,0.189,0
+EVT-100688,2026-10-25 10:22:56,USR-1217,SES-5352,North America,Fashion,page_view,Mobile,0.0,68,/hdfs/clickstream/region=North_America/date=2026-10-25,0.315,0
+EVT-100689,2026-10-25 11:43:21,USR-1240,SES-5339,Asia-Pacific,Fashion,page_view,Mobile,0.0,236,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.088,0
+EVT-100690,2026-10-25 10:57:30,USR-1118,SES-5477,North America,Digital Goods,add_to_cart,Mobile,40.72,177,/hdfs/clickstream/region=North_America/date=2026-10-25,0.021,0
+EVT-100691,2026-10-25 10:34:33,USR-1073,SES-5297,India,Cloud Services,checkout,Desktop,407.04,130,/hdfs/clickstream/region=India/date=2026-10-25,0.024,0
+EVT-100692,2026-10-25 10:46:08,USR-1101,SES-5022,India,Fashion,checkout,Mobile,65.92,63,/hdfs/clickstream/region=India/date=2026-10-25,0.142,0
+EVT-100693,2026-10-25 10:34:39,USR-1174,SES-5215,Europe,Digital Goods,page_view,Desktop,0.0,96,/hdfs/clickstream/region=Europe/date=2026-10-25,0.156,0
+EVT-100694,2026-10-25 11:32:32,USR-1034,SES-5121,North America,Cloud Services,page_view,Mobile,0.0,54,/hdfs/clickstream/region=North_America/date=2026-10-25,0.21,0
+EVT-100695,2026-10-25 11:21:05,USR-1307,SES-5439,Asia-Pacific,Electronics,page_view,Mobile,0.0,180,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.27,0
+EVT-100696,2026-10-25 11:44:24,USR-1108,SES-5083,India,Electronics,add_to_cart,Mobile,832.17,218,/hdfs/clickstream/region=India/date=2026-10-25,0.334,0
+EVT-100697,2026-10-25 11:21:19,USR-1256,SES-5531,North America,Fashion,page_view,Mobile,0.0,136,/hdfs/clickstream/region=North_America/date=2026-10-25,0.29,0
+EVT-100698,2026-10-25 10:58:10,USR-1113,SES-5207,India,Fashion,add_to_cart,Mobile,161.58,133,/hdfs/clickstream/region=India/date=2026-10-25,0.254,0
+EVT-100699,2026-10-25 11:21:33,USR-1131,SES-5563,Asia-Pacific,Cloud Services,page_view,Desktop,0.0,39,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.226,0
+EVT-100700,2026-10-25 11:45:00,USR-1263,SES-5344,India,Electronics,page_view,Mobile,0.0,127,/hdfs/clickstream/region=India/date=2026-10-25,0.23,0
+EVT-100701,2026-10-25 10:23:22,USR-1092,SES-5452,North America,Cloud Services,page_view,Mobile,0.0,77,/hdfs/clickstream/region=North_America/date=2026-10-25,0.118,0
+EVT-100702,2026-10-25 10:58:30,USR-1171,SES-5201,India,Electronics,purchase,Mobile,787.35,190,/hdfs/clickstream/region=India/date=2026-10-25,0.063,0
+EVT-100703,2026-10-25 10:23:26,USR-1154,SES-5288,India,Electronics,checkout,Desktop,485.04,228,/hdfs/clickstream/region=India/date=2026-10-25,0.286,0
+EVT-100704,2026-10-25 10:58:40,USR-1243,SES-5239,India,Digital Goods,purchase,Desktop,143.21,150,/hdfs/clickstream/region=India/date=2026-10-25,0.332,0
+EVT-100705,2026-10-25 10:35:15,USR-1161,SES-5192,North America,Fashion,page_view,Desktop,0.0,127,/hdfs/clickstream/region=North_America/date=2026-10-25,0.143,0
+EVT-100706,2026-10-25 11:22:22,USR-1072,SES-5591,Europe,Fashion,page_view,Mobile,0.0,50,/hdfs/clickstream/region=Europe/date=2026-10-25,0.221,0
+EVT-100707,2026-10-25 10:58:55,USR-1215,SES-5435,India,Fashion,page_view,Desktop,0.0,193,/hdfs/clickstream/region=India/date=2026-10-25,0.148,0
+EVT-100708,2026-10-25 11:34:24,USR-1196,SES-5209,Europe,Home & Kitchen,add_to_cart,Mobile,92.87,118,/hdfs/clickstream/region=Europe/date=2026-10-25,0.378,0
+EVT-100709,2026-10-25 11:10:54,USR-1048,SES-5175,India,Cloud Services,page_view,Mobile,0.0,44,/hdfs/clickstream/region=India/date=2026-10-25,0.366,0
+EVT-100710,2026-10-25 11:46:30,USR-1030,SES-5377,Europe,Electronics,checkout,Desktop,155.7,150,/hdfs/clickstream/region=Europe/date=2026-10-25,0.125,0
+EVT-100711,2026-10-25 10:59:15,USR-1159,SES-5442,India,Cloud Services,purchase,Mobile,192.35,227,/hdfs/clickstream/region=India/date=2026-10-25,0.345,0
+EVT-100712,2026-10-25 10:35:36,USR-1205,SES-5252,Europe,Cloud Services,add_to_cart,Tablet,517.15,152,/hdfs/clickstream/region=Europe/date=2026-10-25,0.071,0
+EVT-100713,2026-10-25 10:35:39,USR-1148,SES-5467,India,Fashion,page_view,Mobile,0.0,106,/hdfs/clickstream/region=India/date=2026-10-25,0.034,0
+EVT-100714,2026-10-25 10:47:36,USR-1213,SES-5255,Europe,Fashion,page_view,Desktop,0.0,63,/hdfs/clickstream/region=Europe/date=2026-10-25,0.312,0
+EVT-100715,2026-10-25 10:35:45,USR-1202,SES-5044,Asia-Pacific,Fashion,page_view,Desktop,0.0,79,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.086,0
+EVT-100716,2026-10-25 10:35:48,USR-1189,SES-5078,Asia-Pacific,Electronics,purchase,Mobile,1006.65,211,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.168,0
+EVT-100717,2026-10-25 10:23:54,USR-1237,SES-5027,India,Home & Kitchen,page_view,Mobile,0.0,36,/hdfs/clickstream/region=India/date=2026-10-25,0.111,0
+EVT-100718,2026-10-25 10:59:50,USR-1204,SES-5038,North America,Fashion,page_view,Mobile,0.0,20,/hdfs/clickstream/region=North_America/date=2026-10-25,0.164,0
+EVT-100719,2026-10-25 11:47:51,USR-1035,SES-5084,India,Fashion,page_view,Desktop,0.0,158,/hdfs/clickstream/region=India/date=2026-10-25,0.187,0
+EVT-100720,2026-10-25 10:48:00,USR-1088,SES-5018,North America,Fashion,page_view,Mobile,0.0,173,/hdfs/clickstream/region=North_America/date=2026-10-25,0.12,0
+EVT-100721,2026-10-25 10:24:02,USR-1346,SES-5545,India,Electronics,add_to_cart,Mobile,223.19,73,/hdfs/clickstream/region=India/date=2026-10-25,0.098,0
+EVT-100722,2026-10-25 10:24:04,USR-1194,SES-5206,North America,Electronics,add_to_cart,Mobile,1001.18,81,/hdfs/clickstream/region=North_America/date=2026-10-25,0.235,0
+EVT-100723,2026-10-25 11:24:21,USR-1099,SES-5064,India,Electronics,page_view,Mobile,0.0,74,/hdfs/clickstream/region=India/date=2026-10-25,0.376,0
+EVT-100724,2026-10-25 11:36:32,USR-1220,SES-5123,Asia-Pacific,Electronics,checkout,Desktop,1082.94,77,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.246,0
+EVT-100725,2026-10-25 11:36:40,USR-1109,SES-5469,India,Cloud Services,page_view,Mobile,0.0,74,/hdfs/clickstream/region=India/date=2026-10-25,0.134,0
+EVT-100726,2026-10-25 10:48:24,USR-1129,SES-5097,India,Home & Kitchen,add_to_cart,Mobile,267.57,171,/hdfs/clickstream/region=India/date=2026-10-25,0.057,0
+EVT-100727,2026-10-25 10:48:28,USR-1171,SES-5179,India,Fashion,page_view,Tablet,0.0,180,/hdfs/clickstream/region=India/date=2026-10-25,0.298,0
+EVT-100728,2026-10-25 10:24:16,USR-1120,SES-5021,Europe,Fashion,purchase,Desktop,239.34,175,/hdfs/clickstream/region=Europe/date=2026-10-25,0.287,0
+EVT-100729,2026-10-25 10:36:27,USR-1031,SES-5140,Europe,Electronics,page_view,Mobile,0.0,113,/hdfs/clickstream/region=Europe/date=2026-10-25,0.108,0
+EVT-100730,2026-10-25 11:49:30,USR-1169,SES-5137,North America,Electronics,page_view,Desktop,0.0,89,/hdfs/clickstream/region=North_America/date=2026-10-25,0.106,0
+EVT-100731,2026-10-25 11:13:06,USR-1013,SES-5234,India,Home & Kitchen,page_view,Desktop,0.0,234,/hdfs/clickstream/region=India/date=2026-10-25,0.169,0
+EVT-100732,2026-10-25 11:01:00,USR-1114,SES-5390,Europe,Cloud Services,page_view,Mobile,0.0,151,/hdfs/clickstream/region=Europe/date=2026-10-25,0.35,0
+EVT-100733,2026-10-25 11:01:05,USR-1027,SES-5144,India,Cloud Services,page_view,Desktop,0.0,70,/hdfs/clickstream/region=India/date=2026-10-25,0.045,0
+EVT-100734,2026-10-25 11:37:52,USR-1091,SES-5254,India,Electronics,add_to_cart,Desktop,391.82,95,/hdfs/clickstream/region=India/date=2026-10-25,0.091,0
+EVT-100735,2026-10-25 11:38:00,USR-1080,SES-5493,India,Cloud Services,add_to_cart,Mobile,149.61,23,/hdfs/clickstream/region=India/date=2026-10-25,0.179,0
+EVT-100736,2026-10-25 10:49:04,USR-1284,SES-5179,Europe,Cloud Services,page_view,Desktop,0.0,83,/hdfs/clickstream/region=Europe/date=2026-10-25,0.128,0
+EVT-100737,2026-10-25 11:25:59,USR-1070,SES-5480,North America,Electronics,page_view,Mobile,0.0,68,/hdfs/clickstream/region=North_America/date=2026-10-25,0.193,0
+EVT-100738,2026-10-25 11:50:42,USR-1208,SES-5425,India,Electronics,page_view,Mobile,0.0,119,/hdfs/clickstream/region=India/date=2026-10-25,0.281,0
+EVT-100739,2026-10-25 11:38:32,USR-1020,SES-5127,Asia-Pacific,Cloud Services,page_view,Desktop,0.0,116,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.232,0
+EVT-100740,2026-10-25 11:38:40,USR-1218,SES-5252,Asia-Pacific,Electronics,checkout,Tablet,1145.79,80,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.153,0
+EVT-100741,2026-10-25 10:49:24,USR-1134,SES-5466,North America,Digital Goods,page_view,Desktop,0.0,192,/hdfs/clickstream/region=North_America/date=2026-10-25,0.03,0
+EVT-100742,2026-10-25 10:37:06,USR-1266,SES-5193,India,Electronics,add_to_cart,Desktop,334.7,126,/hdfs/clickstream/region=India/date=2026-10-25,0.274,0
+EVT-100743,2026-10-25 10:37:09,USR-1056,SES-5586,India,Cloud Services,add_to_cart,Mobile,851.39,216,/hdfs/clickstream/region=India/date=2026-10-25,0.353,0
+EVT-100744,2026-10-25 11:14:24,USR-1004,SES-5172,Europe,Home & Kitchen,page_view,Mobile,0.0,226,/hdfs/clickstream/region=Europe/date=2026-10-25,0.289,0
+EVT-100745,2026-10-25 10:37:15,USR-1231,SES-5580,North America,Electronics,checkout,Mobile,674.4,226,/hdfs/clickstream/region=North_America/date=2026-10-25,0.068,0
+EVT-100746,2026-10-25 10:49:44,USR-1041,SES-5300,India,Electronics,add_to_cart,Desktop,375.21,39,/hdfs/clickstream/region=India/date=2026-10-25,0.059,0
+EVT-100747,2026-10-25 10:37:21,USR-1005,SES-5062,India,Electronics,page_view,Desktop,0.0,86,/hdfs/clickstream/region=India/date=2026-10-25,0.192,0
+EVT-100748,2026-10-25 11:52:12,USR-1243,SES-5345,Europe,Electronics,add_to_cart,Tablet,248.8,172,/hdfs/clickstream/region=Europe/date=2026-10-25,0.294,0
+EVT-100749,2026-10-25 10:37:27,USR-1002,SES-5467,North America,Cloud Services,purchase,Tablet,898.66,240,/hdfs/clickstream/region=North_America/date=2026-10-25,0.148,0
+EVT-100750,2026-10-25 11:52:30,USR-1264,SES-5423,Europe,Fashion,purchase,Mobile,90.67,187,/hdfs/clickstream/region=Europe/date=2026-10-25,0.153,0
+EVT-100751,2026-10-25 11:40:08,USR-1314,SES-5083,India,Digital Goods,purchase,Desktop,55.57,107,/hdfs/clickstream/region=India/date=2026-10-25,0.18,0
+EVT-100752,2026-10-25 10:25:04,USR-1066,SES-5509,North America,Digital Goods,purchase,Tablet,37.31,221,/hdfs/clickstream/region=North_America/date=2026-10-25,0.072,0
+EVT-100753,2026-10-25 10:37:39,USR-1055,SES-5445,India,Home & Kitchen,purchase,Tablet,223.22,201,/hdfs/clickstream/region=India/date=2026-10-25,0.108,0
+EVT-100754,2026-10-25 11:15:24,USR-1341,SES-5487,India,Digital Goods,page_view,Mobile,0.0,189,/hdfs/clickstream/region=India/date=2026-10-25,0.121,0
+EVT-100755,2026-10-25 11:28:05,USR-1194,SES-5390,India,Electronics,add_to_cart,Desktop,240.29,185,/hdfs/clickstream/region=India/date=2026-10-25,0.236,0
+EVT-100756,2026-10-25 10:37:48,USR-1294,SES-5376,North America,Fashion,checkout,Desktop,45.6,50,/hdfs/clickstream/region=North_America/date=2026-10-25,0.357,0
+EVT-100757,2026-10-25 10:50:28,USR-1267,SES-5227,Europe,Digital Goods,add_to_cart,Mobile,54.75,45,/hdfs/clickstream/region=Europe/date=2026-10-25,0.151,0
+EVT-100758,2026-10-25 11:03:10,USR-1256,SES-5466,North America,Cloud Services,page_view,Mobile,0.0,55,/hdfs/clickstream/region=North_America/date=2026-10-25,0.359,0
+EVT-100759,2026-10-25 11:53:51,USR-1324,SES-5220,North America,Electronics,add_to_cart,Desktop,1054.95,144,/hdfs/clickstream/region=North_America/date=2026-10-25,0.379,0
+EVT-100760,2026-10-25 11:03:20,USR-1116,SES-5053,India,Digital Goods,page_view,Desktop,0.0,239,/hdfs/clickstream/region=India/date=2026-10-25,0.075,0
+EVT-100761,2026-10-25 11:54:09,USR-1179,SES-5400,Europe,Home & Kitchen,add_to_cart,Mobile,48.2,118,/hdfs/clickstream/region=Europe/date=2026-10-25,0.172,0
+EVT-100762,2026-10-25 11:41:36,USR-1050,SES-5134,India,Fashion,page_view,Tablet,0.0,100,/hdfs/clickstream/region=India/date=2026-10-25,0.272,0
+EVT-100763,2026-10-25 11:03:35,USR-1101,SES-5009,Europe,Fashion,checkout,Desktop,63.47,110,/hdfs/clickstream/region=Europe/date=2026-10-25,0.125,0
+EVT-100764,2026-10-25 11:54:36,USR-1092,SES-5053,Europe,Fashion,add_to_cart,Tablet,125.37,48,/hdfs/clickstream/region=Europe/date=2026-10-25,0.055,0
+EVT-100765,2026-10-25 10:51:00,USR-1335,SES-5384,Asia-Pacific,Fashion,add_to_cart,Tablet,32.99,216,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.268,0
+EVT-100766,2026-10-25 10:38:18,USR-1063,SES-5500,Europe,Home & Kitchen,add_to_cart,Desktop,288.21,182,/hdfs/clickstream/region=Europe/date=2026-10-25,0.063,0
+EVT-100767,2026-10-25 11:16:42,USR-1049,SES-5185,Europe,Cloud Services,page_view,Mobile,0.0,116,/hdfs/clickstream/region=Europe/date=2026-10-25,0.226,0
+EVT-100768,2026-10-25 10:38:24,USR-1276,SES-5189,North America,Fashion,page_view,Mobile,0.0,121,/hdfs/clickstream/region=North_America/date=2026-10-25,0.056,0
+EVT-100769,2026-10-25 10:38:27,USR-1107,SES-5120,Europe,Electronics,add_to_cart,Mobile,1200.22,64,/hdfs/clickstream/region=Europe/date=2026-10-25,0.304,0
+EVT-100770,2026-10-25 10:25:40,USR-1066,SES-5588,Asia-Pacific,Fashion,page_view,Mobile,0.0,70,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.133,0
+EVT-100771,2026-10-25 10:38:33,USR-1260,SES-5305,North America,Electronics,page_view,Desktop,0.0,111,/hdfs/clickstream/region=North_America/date=2026-10-25,0.05,0
+EVT-100772,2026-10-25 11:55:48,USR-1161,SES-5535,Asia-Pacific,Electronics,purchase,Desktop,450.29,108,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.212,0
+EVT-100773,2026-10-25 11:04:25,USR-1303,SES-5367,North America,Cloud Services,add_to_cart,Desktop,111.96,89,/hdfs/clickstream/region=North_America/date=2026-10-25,0.068,0
+EVT-100774,2026-10-25 10:51:36,USR-1205,SES-5467,India,Fashion,page_view,Mobile,0.0,39,/hdfs/clickstream/region=India/date=2026-10-25,0.157,0
+EVT-100775,2026-10-25 10:51:40,USR-1215,SES-5157,Asia-Pacific,Fashion,purchase,Mobile,88.31,98,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.277,0
+EVT-100776,2026-10-25 10:38:48,USR-1273,SES-5112,Asia-Pacific,Cloud Services,page_view,Desktop,0.0,193,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.048,0
+EVT-100777,2026-10-25 11:04:45,USR-1194,SES-5107,North America,Electronics,add_to_cart,Mobile,563.58,218,/hdfs/clickstream/region=North_America/date=2026-10-25,0.156,0
+EVT-100778,2026-10-25 10:38:54,USR-1025,SES-5174,Asia-Pacific,Electronics,add_to_cart,Mobile,1212.39,99,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.219,0
+EVT-100779,2026-10-25 11:43:52,USR-1245,SES-5130,Asia-Pacific,Cloud Services,page_view,Desktop,0.0,84,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.368,0
+EVT-100780,2026-10-25 11:18:00,USR-1028,SES-5379,India,Cloud Services,page_view,Mobile,0.0,199,/hdfs/clickstream/region=India/date=2026-10-25,0.156,0
+EVT-100781,2026-10-25 11:31:07,USR-1240,SES-5514,Europe,Fashion,page_view,Mobile,0.0,91,/hdfs/clickstream/region=Europe/date=2026-10-25,0.178,0
+EVT-100782,2026-10-25 10:39:06,USR-1040,SES-5245,India,Cloud Services,purchase,Desktop,345.51,41,/hdfs/clickstream/region=India/date=2026-10-25,0.133,0
+EVT-100783,2026-10-25 11:57:27,USR-1255,SES-5527,India,Electronics,add_to_cart,Mobile,775.49,193,/hdfs/clickstream/region=India/date=2026-10-25,0.283,0
+EVT-100784,2026-10-25 11:05:20,USR-1339,SES-5540,Asia-Pacific,Home & Kitchen,add_to_cart,Mobile,311.38,193,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.29,0
+EVT-100785,2026-10-25 11:44:40,USR-1254,SES-5388,North America,Fashion,purchase,Desktop,77.89,61,/hdfs/clickstream/region=North_America/date=2026-10-25,0.205,0
+EVT-100786,2026-10-25 11:44:48,USR-1112,SES-5312,India,Electronics,purchase,Mobile,837.03,182,/hdfs/clickstream/region=India/date=2026-10-25,0.097,0
+EVT-100787,2026-10-25 10:52:28,USR-1206,SES-5363,North America,Home & Kitchen,purchase,Desktop,214.93,20,/hdfs/clickstream/region=North_America/date=2026-10-25,0.059,0
+EVT-100788,2026-10-25 10:39:24,USR-1250,SES-5007,India,Cloud Services,page_view,Mobile,0.0,57,/hdfs/clickstream/region=India/date=2026-10-25,0.075,0
+EVT-100789,2026-10-25 10:52:36,USR-1275,SES-5275,Europe,Electronics,page_view,Mobile,0.0,45,/hdfs/clickstream/region=Europe/date=2026-10-25,0.151,0
+EVT-100790,2026-10-25 10:26:20,USR-1184,SES-5203,Asia-Pacific,Fashion,page_view,Mobile,0.0,46,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.289,0
+EVT-100791,2026-10-25 10:52:44,USR-1342,SES-5203,India,Electronics,page_view,Desktop,0.0,140,/hdfs/clickstream/region=India/date=2026-10-25,0.344,0
+EVT-100792,2026-10-25 10:52:48,USR-1167,SES-5409,Asia-Pacific,Digital Goods,page_view,Mobile,0.0,146,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.198,0
+EVT-100793,2026-10-25 10:26:26,USR-1223,SES-5491,Europe,Home & Kitchen,checkout,Mobile,818.24,358,/hdfs/clickstream/region=Europe/date=2026-10-25,0.87,1
+EVT-100794,2026-10-25 10:52:56,USR-1128,SES-5287,India,Electronics,page_view,Desktop,0.0,214,/hdfs/clickstream/region=India/date=2026-10-25,0.283,0
+EVT-100795,2026-10-25 11:06:15,USR-1303,SES-5152,India,Electronics,add_to_cart,Desktop,690.78,76,/hdfs/clickstream/region=India/date=2026-10-25,0.24,0
+EVT-100796,2026-10-25 10:26:32,USR-1316,SES-5204,India,Cloud Services,page_view,Mobile,0.0,41,/hdfs/clickstream/region=India/date=2026-10-25,0.073,0
+EVT-100797,2026-10-25 10:39:51,USR-1138,SES-5372,Asia-Pacific,Cloud Services,add_to_cart,Desktop,272.94,89,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.039,0
+EVT-100798,2026-10-25 10:26:36,USR-1027,SES-5329,Asia-Pacific,Fashion,page_view,Desktop,0.0,72,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.085,0
+EVT-100799,2026-10-25 10:53:16,USR-1170,SES-5369,India,Electronics,add_to_cart,Mobile,455.51,207,/hdfs/clickstream/region=India/date=2026-10-25,0.266,0
+EVT-100800,2026-10-25 10:40:00,USR-1022,SES-5600,Europe,Home & Kitchen,add_to_cart,Desktop,73.15,185,/hdfs/clickstream/region=Europe/date=2026-10-25,0.247,0
+EVT-100801,2026-10-25 11:33:27,USR-1155,SES-5485,Europe,Electronics,page_view,Mobile,0.0,212,/hdfs/clickstream/region=Europe/date=2026-10-25,0.359,0
+EVT-100802,2026-10-25 11:20:12,USR-1287,SES-5355,India,Fashion,page_view,Mobile,0.0,111,/hdfs/clickstream/region=India/date=2026-10-25,0.218,0
+EVT-100803,2026-10-25 10:26:46,USR-1290,SES-5062,North America,Fashion,purchase,Mobile,143.41,221,/hdfs/clickstream/region=North_America/date=2026-10-25,0.271,0
+EVT-100804,2026-10-25 11:20:24,USR-1106,SES-5188,Asia-Pacific,Electronics,checkout,Mobile,828.18,18,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.222,0
+EVT-100805,2026-10-25 11:20:30,USR-1283,SES-5121,India,Electronics,add_to_cart,Desktop,1171.56,61,/hdfs/clickstream/region=India/date=2026-10-25,0.099,0
+EVT-100806,2026-10-25 11:20:36,USR-1069,SES-5276,India,Cloud Services,page_view,Desktop,0.0,220,/hdfs/clickstream/region=India/date=2026-10-25,0.359,0
+EVT-100807,2026-10-25 11:20:42,USR-1069,SES-5418,India,Digital Goods,purchase,Mobile,55.44,174,/hdfs/clickstream/region=India/date=2026-10-25,0.361,0
+EVT-100808,2026-10-25 10:40:24,USR-1196,SES-5263,India,Digital Goods,add_to_cart,Mobile,12.19,240,/hdfs/clickstream/region=India/date=2026-10-25,0.257,0
+EVT-100809,2026-10-25 11:07:25,USR-1298,SES-5404,North America,Fashion,page_view,Mobile,0.0,57,/hdfs/clickstream/region=North_America/date=2026-10-25,0.137,0
+EVT-100810,2026-10-25 12:01:30,USR-1093,SES-5470,North America,Fashion,page_view,Mobile,0.0,65,/hdfs/clickstream/region=North_America/date=2026-10-25,0.192,0
+EVT-100811,2026-10-25 11:07:35,USR-1036,SES-5146,Europe,Electronics,add_to_cart,Tablet,359.94,36,/hdfs/clickstream/region=Europe/date=2026-10-25,0.267,0
+EVT-100812,2026-10-25 10:40:36,USR-1007,SES-5044,North America,Cloud Services,add_to_cart,Mobile,199.44,51,/hdfs/clickstream/region=North_America/date=2026-10-25,0.158,0
+EVT-100813,2026-10-25 10:27:06,USR-1055,SES-5555,India,Electronics,page_view,Desktop,0.0,206,/hdfs/clickstream/region=India/date=2026-10-25,0.025,0
+EVT-100814,2026-10-25 12:02:06,USR-1084,SES-5314,Europe,Home & Kitchen,page_view,Mobile,0.0,102,/hdfs/clickstream/region=Europe/date=2026-10-25,0.293,0
+EVT-100815,2026-10-25 11:48:40,USR-1073,SES-5001,North America,Electronics,add_to_cart,Mobile,843.01,75,/hdfs/clickstream/region=North_America/date=2026-10-25,0.339,0
+EVT-100816,2026-10-25 11:48:48,USR-1058,SES-5503,India,Cloud Services,page_view,Desktop,0.0,61,/hdfs/clickstream/region=India/date=2026-10-25,0.101,0
+EVT-100817,2026-10-25 11:48:56,USR-1272,SES-5342,Asia-Pacific,Electronics,purchase,Mobile,221.47,171,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.036,0
+EVT-100818,2026-10-25 10:40:54,USR-1002,SES-5152,India,Cloud Services,purchase,Desktop,329.69,217,/hdfs/clickstream/region=India/date=2026-10-25,0.153,0
+EVT-100819,2026-10-25 12:02:51,USR-1035,SES-5115,North America,Cloud Services,page_view,Desktop,0.0,165,/hdfs/clickstream/region=North_America/date=2026-10-25,0.303,0
+EVT-100820,2026-10-25 11:49:20,USR-1181,SES-5326,North America,Fashion,page_view,Mobile,0.0,144,/hdfs/clickstream/region=North_America/date=2026-10-25,0.066,0
+EVT-100821,2026-10-25 11:08:25,USR-1197,SES-5428,North America,Fashion,page_view,Desktop,0.0,158,/hdfs/clickstream/region=North_America/date=2026-10-25,0.14,0
+EVT-100822,2026-10-25 10:41:06,USR-1121,SES-5370,North America,Cloud Services,add_to_cart,Desktop,585.44,18,/hdfs/clickstream/region=North_America/date=2026-10-25,0.289,0
+EVT-100823,2026-10-25 10:41:09,USR-1031,SES-5357,India,Home & Kitchen,page_view,Mobile,0.0,110,/hdfs/clickstream/region=India/date=2026-10-25,0.068,0
+EVT-100824,2026-10-25 10:54:56,USR-1061,SES-5146,Europe,Home & Kitchen,checkout,Mobile,386.92,114,/hdfs/clickstream/region=Europe/date=2026-10-25,0.318,0
+EVT-100825,2026-10-25 10:41:15,USR-1245,SES-5161,Europe,Fashion,page_view,Mobile,0.0,25,/hdfs/clickstream/region=Europe/date=2026-10-25,0.058,0
+EVT-100826,2026-10-25 11:50:08,USR-1077,SES-5186,India,Electronics,page_view,Mobile,0.0,138,/hdfs/clickstream/region=India/date=2026-10-25,0.319,0
+EVT-100827,2026-10-25 10:27:34,USR-1310,SES-5177,Europe,Home & Kitchen,add_to_cart,Mobile,304.19,146,/hdfs/clickstream/region=Europe/date=2026-10-25,0.076,0
+EVT-100828,2026-10-25 11:22:48,USR-1293,SES-5513,India,Cloud Services,page_view,Tablet,0.0,96,/hdfs/clickstream/region=India/date=2026-10-25,0.184,0
+EVT-100829,2026-10-25 10:55:16,USR-1109,SES-5410,Europe,Cloud Services,page_view,Tablet,0.0,176,/hdfs/clickstream/region=Europe/date=2026-10-25,0.208,0
+EVT-100830,2026-10-25 10:27:40,USR-1191,SES-5434,India,Cloud Services,checkout,Tablet,147.17,67,/hdfs/clickstream/region=India/date=2026-10-25,0.166,0
+EVT-100831,2026-10-25 11:09:15,USR-1145,SES-5166,India,Electronics,page_view,Desktop,0.0,156,/hdfs/clickstream/region=India/date=2026-10-25,0.141,0
+EVT-100832,2026-10-25 11:09:20,USR-1327,SES-5033,India,Electronics,page_view,Desktop,0.0,79,/hdfs/clickstream/region=India/date=2026-10-25,0.088,0
+EVT-100833,2026-10-25 11:23:18,USR-1204,SES-5512,India,Digital Goods,add_to_cart,Mobile,11.19,67,/hdfs/clickstream/region=India/date=2026-10-25,0.148,0
+EVT-100834,2026-10-25 11:37:18,USR-1209,SES-5515,India,Cloud Services,page_view,Mobile,0.0,43,/hdfs/clickstream/region=India/date=2026-10-25,0.263,0
+EVT-100835,2026-10-25 10:27:50,USR-1149,SES-5165,North America,Home & Kitchen,page_view,Desktop,0.0,56,/hdfs/clickstream/region=North_America/date=2026-10-25,0.192,0
+EVT-100836,2026-10-25 11:37:32,USR-1230,SES-5134,Europe,Electronics,add_to_cart,Tablet,427.99,104,/hdfs/clickstream/region=Europe/date=2026-10-25,0.378,0
+EVT-100837,2026-10-25 12:05:33,USR-1050,SES-5015,India,Fashion,purchase,Mobile,81.19,54,/hdfs/clickstream/region=India/date=2026-10-25,0.365,0
+EVT-100838,2026-10-25 11:37:46,USR-1046,SES-5072,Europe,Electronics,checkout,Desktop,1310.53,63,/hdfs/clickstream/region=Europe/date=2026-10-25,0.045,0
+EVT-100839,2026-10-25 11:23:54,USR-1206,SES-5418,Europe,Cloud Services,purchase,Tablet,464.58,237,/hdfs/clickstream/region=Europe/date=2026-10-25,0.196,0
+EVT-100840,2026-10-25 11:38:00,USR-1192,SES-5085,North America,Fashion,page_view,Mobile,0.0,192,/hdfs/clickstream/region=North_America/date=2026-10-25,0.245,0
+EVT-100841,2026-10-25 10:42:03,USR-1149,SES-5384,North America,Cloud Services,checkout,Tablet,930.37,58,/hdfs/clickstream/region=North_America/date=2026-10-25,0.222,0
+EVT-100842,2026-10-25 11:38:14,USR-1239,SES-5479,North America,Home & Kitchen,page_view,Desktop,0.0,182,/hdfs/clickstream/region=North_America/date=2026-10-25,0.261,0
+EVT-100843,2026-10-25 11:52:24,USR-1222,SES-5204,North America,Home & Kitchen,page_view,Mobile,0.0,120,/hdfs/clickstream/region=North_America/date=2026-10-25,0.059,0
+EVT-100844,2026-10-25 11:38:28,USR-1291,SES-5032,India,Electronics,purchase,Mobile,1054.05,171,/hdfs/clickstream/region=India/date=2026-10-25,0.189,0
+EVT-100845,2026-10-25 10:56:20,USR-1043,SES-5145,Europe,Electronics,checkout,Desktop,1421.49,35,/hdfs/clickstream/region=Europe/date=2026-10-25,0.172,0
+EVT-100846,2026-10-25 11:24:36,USR-1085,SES-5203,India,Electronics,checkout,Mobile,678.23,107,/hdfs/clickstream/region=India/date=2026-10-25,0.342,0
+EVT-100847,2026-10-25 11:10:35,USR-1040,SES-5592,Asia-Pacific,Cloud Services,add_to_cart,Desktop,460.0,175,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.222,0
+EVT-100848,2026-10-25 11:53:04,USR-1135,SES-5533,India,Fashion,checkout,Desktop,28.33,202,/hdfs/clickstream/region=India/date=2026-10-25,0.2,0
+EVT-100849,2026-10-25 10:56:36,USR-1308,SES-5386,India,Cloud Services,checkout,Mobile,923.43,73,/hdfs/clickstream/region=India/date=2026-10-25,0.171,0
+EVT-100850,2026-10-25 12:07:30,USR-1212,SES-5420,India,Digital Goods,purchase,Mobile,80.29,108,/hdfs/clickstream/region=India/date=2026-10-25,0.332,0
+EVT-100851,2026-10-25 11:53:28,USR-1146,SES-5447,India,Fashion,add_to_cart,Desktop,125.67,180,/hdfs/clickstream/region=India/date=2026-10-25,0.215,0
+EVT-100852,2026-10-25 10:42:36,USR-1325,SES-5454,India,Fashion,purchase,Desktop,49.4,146,/hdfs/clickstream/region=India/date=2026-10-25,0.168,0
+EVT-100853,2026-10-25 12:07:57,USR-1283,SES-5390,North America,Electronics,page_view,Mobile,0.0,47,/hdfs/clickstream/region=North_America/date=2026-10-25,0.1,0
+EVT-100854,2026-10-25 11:53:52,USR-1331,SES-5405,India,Cloud Services,page_view,Tablet,0.0,19,/hdfs/clickstream/region=India/date=2026-10-25,0.349,0
+EVT-100855,2026-10-25 11:54:00,USR-1017,SES-5015,Asia-Pacific,Home & Kitchen,add_to_cart,Mobile,385.55,24,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.021,0
+EVT-100856,2026-10-25 11:54:08,USR-1027,SES-5591,India,Cloud Services,checkout,Desktop,371.53,127,/hdfs/clickstream/region=India/date=2026-10-25,0.37,0
+EVT-100857,2026-10-25 11:54:16,USR-1322,SES-5266,India,Fashion,purchase,Mobile,127.79,232,/hdfs/clickstream/region=India/date=2026-10-25,0.202,0
+EVT-100858,2026-10-25 10:57:12,USR-1015,SES-5556,North America,Digital Goods,page_view,Mobile,0.0,38,/hdfs/clickstream/region=North_America/date=2026-10-25,0.177,0
+EVT-100859,2026-10-25 11:11:35,USR-1194,SES-5266,North America,Electronics,add_to_cart,Tablet,963.84,186,/hdfs/clickstream/region=North_America/date=2026-10-25,0.09,0
+EVT-100860,2026-10-25 10:43:00,USR-1057,SES-5470,India,Electronics,page_view,Mobile,0.0,170,/hdfs/clickstream/region=India/date=2026-10-25,0.375,0
+EVT-100861,2026-10-25 11:40:27,USR-1107,SES-5400,India,Electronics,page_view,Mobile,0.0,43,/hdfs/clickstream/region=India/date=2026-10-25,0.048,0
+EVT-100862,2026-10-25 11:54:56,USR-1193,SES-5321,North America,Electronics,page_view,Tablet,0.0,180,/hdfs/clickstream/region=North_America/date=2026-10-25,0.047,0
+EVT-100863,2026-10-25 10:28:46,USR-1061,SES-5351,Asia-Pacific,Home & Kitchen,page_view,Mobile,0.0,106,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.084,0
+EVT-100864,2026-10-25 10:57:36,USR-1111,SES-5373,North America,Fashion,add_to_cart,Mobile,70.32,47,/hdfs/clickstream/region=North_America/date=2026-10-25,0.204,0
+EVT-100865,2026-10-25 10:57:40,USR-1138,SES-5280,Asia-Pacific,Electronics,page_view,Mobile,0.0,141,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.269,0
+EVT-100866,2026-10-25 11:12:10,USR-1144,SES-5402,India,Electronics,add_to_cart,Desktop,741.17,44,/hdfs/clickstream/region=India/date=2026-10-25,0.11,0
+EVT-100867,2026-10-25 12:10:03,USR-1222,SES-5456,North America,Home & Kitchen,page_view,Desktop,0.0,126,/hdfs/clickstream/region=North_America/date=2026-10-25,0.363,0
+EVT-100868,2026-10-25 11:12:20,USR-1291,SES-5361,North America,Electronics,page_view,Mobile,0.0,113,/hdfs/clickstream/region=North_America/date=2026-10-25,0.158,0
+EVT-100869,2026-10-25 11:26:54,USR-1301,SES-5419,Asia-Pacific,Home & Kitchen,page_view,Desktop,0.0,93,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.365,0
+EVT-100870,2026-10-25 11:41:30,USR-1191,SES-5148,North America,Home & Kitchen,purchase,Mobile,203.17,217,/hdfs/clickstream/region=North_America/date=2026-10-25,0.108,0
+EVT-100871,2026-10-25 11:12:35,USR-1270,SES-5222,India,Electronics,add_to_cart,Desktop,404.32,44,/hdfs/clickstream/region=India/date=2026-10-25,0.122,0
+EVT-100872,2026-10-25 10:29:04,USR-1253,SES-5510,North America,Fashion,purchase,Desktop,176.87,29,/hdfs/clickstream/region=North_America/date=2026-10-25,0.313,0
+EVT-100873,2026-10-25 11:56:24,USR-1122,SES-5590,Asia-Pacific,Cloud Services,page_view,Mobile,0.0,23,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.138,0
+EVT-100874,2026-10-25 10:43:42,USR-1213,SES-5308,India,Fashion,checkout,Tablet,968.55,350,/hdfs/clickstream/region=India/date=2026-10-25,0.795,1
+EVT-100875,2026-10-25 10:29:10,USR-1202,SES-5305,India,Cloud Services,page_view,Desktop,0.0,196,/hdfs/clickstream/region=India/date=2026-10-25,0.198,0
+EVT-100876,2026-10-25 11:42:12,USR-1224,SES-5231,Asia-Pacific,Cloud Services,add_to_cart,Desktop,895.8,61,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.07,0
+EVT-100877,2026-10-25 11:56:56,USR-1139,SES-5174,India,Fashion,checkout,Desktop,659.24,280,/hdfs/clickstream/region=India/date=2026-10-25,0.835,1
+EVT-100878,2026-10-25 11:57:04,USR-1327,SES-5457,North America,Electronics,page_view,Mobile,0.0,189,/hdfs/clickstream/region=North_America/date=2026-10-25,0.23,0
+EVT-100879,2026-10-25 10:43:57,USR-1181,SES-5571,India,Cloud Services,add_to_cart,Desktop,360.06,231,/hdfs/clickstream/region=India/date=2026-10-25,0.127,0
+EVT-100880,2026-10-25 11:13:20,USR-1250,SES-5107,Asia-Pacific,Fashion,add_to_cart,Mobile,39.16,105,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.315,0
+EVT-100881,2026-10-25 11:13:25,USR-1187,SES-5394,India,Fashion,add_to_cart,Desktop,131.7,133,/hdfs/clickstream/region=India/date=2026-10-25,0.349,0
+EVT-100882,2026-10-25 10:44:06,USR-1124,SES-5016,Asia-Pacific,Cloud Services,checkout,Mobile,222.85,135,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.073,0
+EVT-100883,2026-10-25 11:43:01,USR-1028,SES-5451,India,Electronics,add_to_cart,Mobile,473.22,87,/hdfs/clickstream/region=India/date=2026-10-25,0.201,0
+EVT-100884,2026-10-25 11:13:40,USR-1207,SES-5180,India,Electronics,page_view,Tablet,0.0,170,/hdfs/clickstream/region=India/date=2026-10-25,0.09,0
+EVT-100885,2026-10-25 11:13:45,USR-1034,SES-5544,India,Fashion,add_to_cart,Mobile,51.1,43,/hdfs/clickstream/region=India/date=2026-10-25,0.227,0
+EVT-100886,2026-10-25 11:13:50,USR-1178,SES-5294,India,Home & Kitchen,add_to_cart,Mobile,302.84,198,/hdfs/clickstream/region=India/date=2026-10-25,0.082,0
+EVT-100887,2026-10-25 12:13:03,USR-1157,SES-5244,North America,Fashion,page_view,Mobile,0.0,61,/hdfs/clickstream/region=North_America/date=2026-10-25,0.272,0
+EVT-100888,2026-10-25 10:29:36,USR-1342,SES-5485,India,Electronics,page_view,Desktop,0.0,127,/hdfs/clickstream/region=India/date=2026-10-25,0.071,0
+EVT-100889,2026-10-25 10:29:38,USR-1305,SES-5360,India,Electronics,page_view,Mobile,0.0,139,/hdfs/clickstream/region=India/date=2026-10-25,0.265,0
+EVT-100890,2026-10-25 11:29:00,USR-1117,SES-5537,North America,Cloud Services,page_view,Mobile,0.0,146,/hdfs/clickstream/region=North_America/date=2026-10-25,0.315,0
+EVT-100891,2026-10-25 12:13:39,USR-1252,SES-5359,India,Electronics,page_view,Mobile,0.0,157,/hdfs/clickstream/region=India/date=2026-10-25,0.285,0
+EVT-100892,2026-10-25 11:44:04,USR-1266,SES-5495,India,Cloud Services,page_view,Mobile,0.0,46,/hdfs/clickstream/region=India/date=2026-10-25,0.147,0
+EVT-100893,2026-10-25 11:59:04,USR-1185,SES-5211,India,Cloud Services,add_to_cart,Mobile,271.62,208,/hdfs/clickstream/region=India/date=2026-10-25,0.228,0
+EVT-100894,2026-10-25 12:14:06,USR-1270,SES-5179,India,Digital Goods,page_view,Mobile,0.0,85,/hdfs/clickstream/region=India/date=2026-10-25,0.119,0
+EVT-100895,2026-10-25 11:29:30,USR-1159,SES-5195,Asia-Pacific,Cloud Services,page_view,Desktop,0.0,28,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.36,0
+EVT-100896,2026-10-25 10:59:44,USR-1239,SES-5153,North America,Fashion,checkout,Mobile,211.24,151,/hdfs/clickstream/region=North_America/date=2026-10-25,0.023,0
+EVT-100897,2026-10-25 10:29:54,USR-1251,SES-5313,Asia-Pacific,Fashion,add_to_cart,Mobile,28.66,19,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.234,0
+EVT-100898,2026-10-25 11:29:48,USR-1258,SES-5574,North America,Fashion,page_view,Mobile,0.0,57,/hdfs/clickstream/region=North_America/date=2026-10-25,0.146,0
+EVT-100899,2026-10-25 10:44:57,USR-1149,SES-5224,Asia-Pacific,Fashion,page_view,Desktop,0.0,26,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.176,0
+EVT-100900,2026-10-25 11:45:00,USR-1297,SES-5142,North America,Cloud Services,checkout,Desktop,921.21,192,/hdfs/clickstream/region=North_America/date=2026-10-25,0.132,0
+EVT-100901,2026-10-25 11:30:06,USR-1291,SES-5472,Europe,Electronics,page_view,Mobile,0.0,157,/hdfs/clickstream/region=Europe/date=2026-10-25,0.13,0
+EVT-100902,2026-10-25 12:00:16,USR-1237,SES-5028,India,Home & Kitchen,checkout,Mobile,300.36,161,/hdfs/clickstream/region=India/date=2026-10-25,0.148,0
+EVT-100903,2026-10-25 11:15:15,USR-1298,SES-5524,India,Home & Kitchen,page_view,Mobile,0.0,113,/hdfs/clickstream/region=India/date=2026-10-25,0.346,0
+EVT-100904,2026-10-25 12:15:36,USR-1028,SES-5086,India,Fashion,add_to_cart,Mobile,119.69,32,/hdfs/clickstream/region=India/date=2026-10-25,0.335,0
+EVT-100905,2026-10-25 12:15:45,USR-1170,SES-5062,India,Digital Goods,page_view,Desktop,0.0,49,/hdfs/clickstream/region=India/date=2026-10-25,0.316,0
+EVT-100906,2026-10-25 11:00:24,USR-1155,SES-5318,Europe,Fashion,add_to_cart,Mobile,199.0,202,/hdfs/clickstream/region=Europe/date=2026-10-25,0.263,0
+EVT-100907,2026-10-25 10:30:14,USR-1079,SES-5123,Asia-Pacific,Electronics,page_view,Desktop,0.0,151,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.061,0
+EVT-100908,2026-10-25 10:30:16,USR-1063,SES-5307,India,Electronics,page_view,Desktop,0.0,121,/hdfs/clickstream/region=India/date=2026-10-25,0.18,0
+EVT-100909,2026-10-25 12:16:21,USR-1337,SES-5126,North America,Electronics,page_view,Desktop,0.0,128,/hdfs/clickstream/region=North_America/date=2026-10-25,0.114,0
+EVT-100910,2026-10-25 11:15:50,USR-1244,SES-5491,India,Electronics,page_view,Desktop,0.0,92,/hdfs/clickstream/region=India/date=2026-10-25,0.107,0
+EVT-100911,2026-10-25 11:31:06,USR-1235,SES-5123,India,Electronics,add_to_cart,Mobile,485.99,162,/hdfs/clickstream/region=India/date=2026-10-25,0.073,0
+EVT-100912,2026-10-25 12:16:48,USR-1022,SES-5363,North America,Fashion,page_view,Desktop,0.0,53,/hdfs/clickstream/region=North_America/date=2026-10-25,0.257,0
+EVT-100913,2026-10-25 11:16:05,USR-1179,SES-5537,North America,Fashion,page_view,Tablet,0.0,117,/hdfs/clickstream/region=North_America/date=2026-10-25,0.149,0
+EVT-100914,2026-10-25 12:17:06,USR-1072,SES-5285,North America,Electronics,page_view,Desktop,0.0,218,/hdfs/clickstream/region=North_America/date=2026-10-25,0.223,0
+EVT-100915,2026-10-25 12:02:00,USR-1242,SES-5184,Europe,Electronics,page_view,Desktop,0.0,165,/hdfs/clickstream/region=Europe/date=2026-10-25,0.252,0
+EVT-100916,2026-10-25 10:30:32,USR-1082,SES-5237,Europe,Cloud Services,add_to_cart,Mobile,592.3,42,/hdfs/clickstream/region=Europe/date=2026-10-25,0.044,0
+EVT-100917,2026-10-25 12:02:16,USR-1216,SES-5065,Europe,Cloud Services,add_to_cart,Mobile,751.42,33,/hdfs/clickstream/region=Europe/date=2026-10-25,0.337,0
+EVT-100918,2026-10-25 11:16:30,USR-1101,SES-5258,North America,Electronics,checkout,Mobile,1135.26,143,/hdfs/clickstream/region=North_America/date=2026-10-25,0.272,0
+EVT-100919,2026-10-25 11:16:35,USR-1045,SES-5596,North America,Electronics,page_view,Mobile,0.0,24,/hdfs/clickstream/region=North_America/date=2026-10-25,0.313,0
+EVT-100920,2026-10-25 11:47:20,USR-1209,SES-5581,North America,Fashion,page_view,Desktop,0.0,157,/hdfs/clickstream/region=North_America/date=2026-10-25,0.342,0
+EVT-100921,2026-10-25 11:47:27,USR-1317,SES-5572,Asia-Pacific,Cloud Services,add_to_cart,Tablet,539.49,236,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.2,0
+EVT-100922,2026-10-25 10:46:06,USR-1066,SES-5529,India,Electronics,page_view,Mobile,0.0,94,/hdfs/clickstream/region=India/date=2026-10-25,0.046,0
+EVT-100923,2026-10-25 11:32:18,USR-1129,SES-5399,India,Cloud Services,page_view,Mobile,0.0,198,/hdfs/clickstream/region=India/date=2026-10-25,0.028,0
+EVT-100924,2026-10-25 11:17:00,USR-1266,SES-5512,India,Home & Kitchen,page_view,Mobile,0.0,97,/hdfs/clickstream/region=India/date=2026-10-25,0.212,0
+EVT-100925,2026-10-25 11:47:55,USR-1031,SES-5142,North America,Electronics,add_to_cart,Mobile,746.4,70,/hdfs/clickstream/region=North_America/date=2026-10-25,0.114,0
+EVT-100926,2026-10-25 10:30:52,USR-1178,SES-5072,North America,Fashion,purchase,Desktop,42.13,124,/hdfs/clickstream/region=North_America/date=2026-10-25,0.273,0
+EVT-100927,2026-10-25 11:32:42,USR-1022,SES-5106,North America,Fashion,page_view,Mobile,0.0,27,/hdfs/clickstream/region=North_America/date=2026-10-25,0.361,0
+EVT-100928,2026-10-25 11:17:20,USR-1011,SES-5056,North America,Electronics,page_view,Mobile,0.0,24,/hdfs/clickstream/region=North_America/date=2026-10-25,0.301,0
+EVT-100929,2026-10-25 12:03:52,USR-1219,SES-5562,Europe,Home & Kitchen,add_to_cart,Desktop,59.81,53,/hdfs/clickstream/region=Europe/date=2026-10-25,0.27,0
+EVT-100930,2026-10-25 12:04:00,USR-1275,SES-5581,India,Electronics,add_to_cart,Desktop,587.88,29,/hdfs/clickstream/region=India/date=2026-10-25,0.024,0
+EVT-100931,2026-10-25 11:17:35,USR-1150,SES-5132,Asia-Pacific,Electronics,add_to_cart,Desktop,221.89,173,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.256,0
+EVT-100932,2026-10-25 12:19:48,USR-1155,SES-5375,North America,Fashion,add_to_cart,Mobile,190.73,217,/hdfs/clickstream/region=North_America/date=2026-10-25,0.329,0
+EVT-100933,2026-10-25 10:46:39,USR-1028,SES-5354,North America,Home & Kitchen,page_view,Desktop,0.0,123,/hdfs/clickstream/region=North_America/date=2026-10-25,0.135,0
+EVT-100934,2026-10-25 11:17:50,USR-1157,SES-5566,Europe,Fashion,page_view,Mobile,0.0,71,/hdfs/clickstream/region=Europe/date=2026-10-25,0.069,0
+EVT-100935,2026-10-25 12:04:40,USR-1154,SES-5086,India,Fashion,checkout,Mobile,204.59,33,/hdfs/clickstream/region=India/date=2026-10-25,0.321,0
+EVT-100936,2026-10-25 10:31:12,USR-1115,SES-5210,India,Fashion,page_view,Desktop,0.0,115,/hdfs/clickstream/region=India/date=2026-10-25,0.158,0
+EVT-100937,2026-10-25 11:49:19,USR-1014,SES-5344,India,Cloud Services,page_view,Mobile,0.0,230,/hdfs/clickstream/region=India/date=2026-10-25,0.215,0
+EVT-100938,2026-10-25 10:31:16,USR-1056,SES-5566,Asia-Pacific,Home & Kitchen,add_to_cart,Desktop,202.47,117,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.285,0
+EVT-100939,2026-10-25 12:05:12,USR-1294,SES-5581,Asia-Pacific,Digital Goods,page_view,Tablet,0.0,214,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.213,0
+EVT-100940,2026-10-25 11:02:40,USR-1008,SES-5287,North America,Electronics,page_view,Desktop,0.0,222,/hdfs/clickstream/region=North_America/date=2026-10-25,0.353,0
+EVT-100941,2026-10-25 10:31:22,USR-1064,SES-5314,Europe,Electronics,purchase,Desktop,513.45,163,/hdfs/clickstream/region=Europe/date=2026-10-25,0.11,0
+EVT-100942,2026-10-25 10:47:06,USR-1142,SES-5564,Europe,Home & Kitchen,checkout,Mobile,176.31,98,/hdfs/clickstream/region=Europe/date=2026-10-25,0.22,0
+EVT-100943,2026-10-25 12:21:27,USR-1066,SES-5232,Asia-Pacific,Cloud Services,page_view,Desktop,0.0,179,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.113,0
+EVT-100944,2026-10-25 11:18:40,USR-1032,SES-5265,India,Home & Kitchen,add_to_cart,Mobile,207.32,83,/hdfs/clickstream/region=India/date=2026-10-25,0.219,0
+EVT-100945,2026-10-25 11:50:15,USR-1349,SES-5425,India,Home & Kitchen,checkout,Mobile,232.64,36,/hdfs/clickstream/region=India/date=2026-10-25,0.048,0
+EVT-100946,2026-10-25 11:50:22,USR-1209,SES-5383,North America,Home & Kitchen,page_view,Mobile,0.0,138,/hdfs/clickstream/region=North_America/date=2026-10-25,0.304,0
+EVT-100947,2026-10-25 11:03:08,USR-1303,SES-5026,Asia-Pacific,Electronics,page_view,Mobile,0.0,45,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.125,0
+EVT-100948,2026-10-25 11:03:12,USR-1196,SES-5080,North America,Home & Kitchen,add_to_cart,Desktop,121.65,37,/hdfs/clickstream/region=North_America/date=2026-10-25,0.032,0
+EVT-100949,2026-10-25 12:22:21,USR-1338,SES-5537,Asia-Pacific,Digital Goods,add_to_cart,Tablet,132.99,151,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.307,0
+EVT-100950,2026-10-25 11:19:10,USR-1228,SES-5419,North America,Electronics,checkout,Mobile,444.56,110,/hdfs/clickstream/region=North_America/date=2026-10-25,0.289,0
+EVT-100951,2026-10-25 11:19:15,USR-1230,SES-5428,India,Fashion,page_view,Mobile,0.0,76,/hdfs/clickstream/region=India/date=2026-10-25,0.194,0
+EVT-100952,2026-10-25 12:06:56,USR-1346,SES-5598,North America,Home & Kitchen,page_view,Mobile,0.0,188,/hdfs/clickstream/region=North_America/date=2026-10-25,0.3,0
+EVT-100953,2026-10-25 12:07:04,USR-1259,SES-5151,India,Electronics,page_view,Mobile,0.0,165,/hdfs/clickstream/region=India/date=2026-10-25,0.049,0
+EVT-100954,2026-10-25 11:03:36,USR-1062,SES-5428,North America,Home & Kitchen,page_view,Mobile,0.0,85,/hdfs/clickstream/region=North_America/date=2026-10-25,0.183,0
+EVT-100955,2026-10-25 12:07:20,USR-1013,SES-5170,Europe,Fashion,page_view,Mobile,0.0,36,/hdfs/clickstream/region=Europe/date=2026-10-25,0.333,0
+EVT-100956,2026-10-25 10:47:48,USR-1024,SES-5075,India,Home & Kitchen,purchase,Desktop,310.55,207,/hdfs/clickstream/region=India/date=2026-10-25,0.343,0
+EVT-100957,2026-10-25 10:47:51,USR-1078,SES-5007,Asia-Pacific,Digital Goods,purchase,Desktop,112.68,169,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.281,0
+EVT-100958,2026-10-25 11:35:48,USR-1050,SES-5237,North America,Fashion,page_view,Mobile,0.0,94,/hdfs/clickstream/region=North_America/date=2026-10-25,0.084,0
+EVT-100959,2026-10-25 10:31:58,USR-1108,SES-5440,North America,Electronics,add_to_cart,Mobile,795.94,150,/hdfs/clickstream/region=North_America/date=2026-10-25,0.363,0
+EVT-100960,2026-10-25 11:36:00,USR-1141,SES-5498,India,Home & Kitchen,page_view,Mobile,0.0,130,/hdfs/clickstream/region=India/date=2026-10-25,0.08,0
+EVT-100961,2026-10-25 11:04:04,USR-1015,SES-5040,India,Electronics,purchase,Mobile,926.21,156,/hdfs/clickstream/region=India/date=2026-10-25,0.219,0
+EVT-100962,2026-10-25 11:36:12,USR-1293,SES-5436,North America,Electronics,page_view,Desktop,0.0,205,/hdfs/clickstream/region=North_America/date=2026-10-25,0.153,0
+EVT-100963,2026-10-25 10:48:09,USR-1228,SES-5442,North America,Electronics,page_view,Desktop,0.0,144,/hdfs/clickstream/region=North_America/date=2026-10-25,0.278,0
+EVT-100964,2026-10-25 11:36:24,USR-1233,SES-5525,India,Home & Kitchen,purchase,Desktop,341.46,190,/hdfs/clickstream/region=India/date=2026-10-25,0.138,0
+EVT-100965,2026-10-25 11:52:35,USR-1098,SES-5571,Europe,Fashion,page_view,Tablet,0.0,187,/hdfs/clickstream/region=Europe/date=2026-10-25,0.176,0
+EVT-100966,2026-10-25 11:04:24,USR-1255,SES-5289,Europe,Fashion,purchase,Desktop,229.95,51,/hdfs/clickstream/region=Europe/date=2026-10-25,0.189,0
+EVT-100967,2026-10-25 11:36:42,USR-1315,SES-5389,India,Home & Kitchen,purchase,Desktop,251.94,179,/hdfs/clickstream/region=India/date=2026-10-25,0.084,0
+EVT-100968,2026-10-25 11:36:48,USR-1119,SES-5299,North America,Fashion,page_view,Desktop,0.0,189,/hdfs/clickstream/region=North_America/date=2026-10-25,0.085,0
+EVT-100969,2026-10-25 10:48:27,USR-1113,SES-5115,North America,Home & Kitchen,page_view,Mobile,0.0,211,/hdfs/clickstream/region=North_America/date=2026-10-25,0.193,0
+EVT-100970,2026-10-25 11:04:40,USR-1238,SES-5326,Europe,Cloud Services,page_view,Mobile,0.0,187,/hdfs/clickstream/region=Europe/date=2026-10-25,0.173,0
+EVT-100971,2026-10-25 11:20:55,USR-1210,SES-5062,India,Fashion,add_to_cart,Desktop,139.96,161,/hdfs/clickstream/region=India/date=2026-10-25,0.125,0
+EVT-100972,2026-10-25 12:09:36,USR-1134,SES-5055,Europe,Electronics,page_view,Mobile,0.0,86,/hdfs/clickstream/region=Europe/date=2026-10-25,0.179,0
+EVT-100973,2026-10-25 11:53:31,USR-1067,SES-5552,North America,Electronics,add_to_cart,Mobile,715.36,23,/hdfs/clickstream/region=North_America/date=2026-10-25,0.06,0
+EVT-100974,2026-10-25 11:53:38,USR-1284,SES-5064,Asia-Pacific,Electronics,page_view,Desktop,0.0,185,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.14,0
+EVT-100975,2026-10-25 12:10:00,USR-1111,SES-5566,India,Electronics,add_to_cart,Tablet,1234.74,205,/hdfs/clickstream/region=India/date=2026-10-25,0.155,0
+EVT-100976,2026-10-25 11:21:20,USR-1018,SES-5278,India,Electronics,checkout,Desktop,820.32,209,/hdfs/clickstream/region=India/date=2026-10-25,0.029,0
+EVT-100977,2026-10-25 12:10:16,USR-1011,SES-5015,India,Home & Kitchen,add_to_cart,Mobile,68.08,208,/hdfs/clickstream/region=India/date=2026-10-25,0.294,0
+EVT-100978,2026-10-25 11:21:30,USR-1311,SES-5319,Europe,Fashion,page_view,Desktop,0.0,218,/hdfs/clickstream/region=Europe/date=2026-10-25,0.305,0
+EVT-100979,2026-10-25 11:37:54,USR-1336,SES-5590,India,Cloud Services,page_view,Mobile,0.0,138,/hdfs/clickstream/region=India/date=2026-10-25,0.093,0
+EVT-100980,2026-10-25 11:38:00,USR-1274,SES-5518,India,Cloud Services,page_view,Mobile,0.0,80,/hdfs/clickstream/region=India/date=2026-10-25,0.12,0
+EVT-100981,2026-10-25 12:27:09,USR-1190,SES-5488,North America,Digital Goods,add_to_cart,Tablet,13.48,162,/hdfs/clickstream/region=North_America/date=2026-10-25,0.298,0
+EVT-100982,2026-10-25 11:05:28,USR-1107,SES-5501,India,Electronics,page_view,Desktop,0.0,169,/hdfs/clickstream/region=India/date=2026-10-25,0.05,0
+EVT-100983,2026-10-25 11:54:41,USR-1078,SES-5037,India,Electronics,add_to_cart,Mobile,1081.63,100,/hdfs/clickstream/region=India/date=2026-10-25,0.132,0
+EVT-100984,2026-10-25 12:27:36,USR-1264,SES-5568,Europe,Fashion,checkout,Mobile,139.85,237,/hdfs/clickstream/region=Europe/date=2026-10-25,0.105,0
+EVT-100985,2026-10-25 10:49:15,USR-1020,SES-5434,Europe,Fashion,purchase,Mobile,28.2,144,/hdfs/clickstream/region=Europe/date=2026-10-25,0.091,0
+EVT-100986,2026-10-25 12:11:28,USR-1005,SES-5303,India,Home & Kitchen,page_view,Desktop,0.0,48,/hdfs/clickstream/region=India/date=2026-10-25,0.217,0
+EVT-100987,2026-10-25 11:55:09,USR-1266,SES-5257,North America,Electronics,purchase,Desktop,814.9,138,/hdfs/clickstream/region=North_America/date=2026-10-25,0.208,0
+EVT-100988,2026-10-25 10:49:24,USR-1003,SES-5319,North America,Digital Goods,purchase,Desktop,11.37,197,/hdfs/clickstream/region=North_America/date=2026-10-25,0.17,0
+EVT-100989,2026-10-25 10:32:58,USR-1099,SES-5281,India,Fashion,add_to_cart,Mobile,61.77,90,/hdfs/clickstream/region=India/date=2026-10-25,0.101,0
+EVT-100990,2026-10-25 11:06:00,USR-1053,SES-5221,Europe,Home & Kitchen,add_to_cart,Mobile,245.59,89,/hdfs/clickstream/region=Europe/date=2026-10-25,0.048,0
+EVT-100991,2026-10-25 12:12:08,USR-1170,SES-5589,India,Fashion,page_view,Mobile,0.0,215,/hdfs/clickstream/region=India/date=2026-10-25,0.252,0
+EVT-100992,2026-10-25 11:06:08,USR-1074,SES-5168,Europe,Fashion,purchase,Desktop,74.19,139,/hdfs/clickstream/region=Europe/date=2026-10-25,0.098,0
+EVT-100993,2026-10-25 12:12:24,USR-1198,SES-5485,Asia-Pacific,Cloud Services,purchase,Mobile,462.53,108,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.062,0
+EVT-100994,2026-10-25 12:29:06,USR-1251,SES-5256,India,Cloud Services,add_to_cart,Desktop,911.16,193,/hdfs/clickstream/region=India/date=2026-10-25,0.322,0
+EVT-100995,2026-10-25 11:22:55,USR-1196,SES-5383,India,Home & Kitchen,add_to_cart,Mobile,171.48,63,/hdfs/clickstream/region=India/date=2026-10-25,0.242,0
+EVT-100996,2026-10-25 11:39:36,USR-1169,SES-5096,Asia-Pacific,Digital Goods,page_view,Mobile,0.0,112,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.09,0
+EVT-100997,2026-10-25 12:29:33,USR-1204,SES-5044,Asia-Pacific,Cloud Services,page_view,Mobile,0.0,196,/hdfs/clickstream/region=Asia-Pacific/date=2026-10-25,0.253,0
+EVT-100998,2026-10-25 12:29:42,USR-1312,SES-5465,Europe,Electronics,page_view,Mobile,0.0,143,/hdfs/clickstream/region=Europe/date=2026-10-25,0.031,0
+EVT-100999,2026-10-25 11:06:36,USR-1043,SES-5429,India,Home & Kitchen,add_to_cart,Mobile,311.06,231,/hdfs/clickstream/region=India/date=2026-10-25,0.084,0
+EVT-101000,2026-10-25 11:56:40,USR-1087,SES-5600,Europe,Electronics,add_to_cart,Mobile,249.64,202,/hdfs/clickstream/region=Europe/date=2026-10-25,0.026,0
